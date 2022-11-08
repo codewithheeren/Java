@@ -27,7 +27,7 @@ public static void main(String[] args) {
 	String string = "Hello";
 	Stream<Character> stream = string.chars().mapToObj(s->(char)s);
 	stream.filter(c->(c != 'e')||(c != 'o')).forEach(System.out::println);
-			//collect(Collectors.joining());
+	//collect(Collectors.joining());
 	//System.out.println(s);
 	
 //4
@@ -70,7 +70,7 @@ public static void main(String[] args) {
 			.forEach(System.out::println);
 	
 	
-//intermediate methods
+//intermediate operations
 //	count
 //	max
 //	min
@@ -79,3 +79,4 @@ public static void main(String[] args) {
 }
 }
 ```
+---
