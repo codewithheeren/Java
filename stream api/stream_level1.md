@@ -57,17 +57,11 @@ public static void main(String[] args) {
 	String s2 = Stream.of(1,2,3,4,5).map(String::valueOf).collect(Collectors.joining());
 //	System.out.println(s2);
 	
-	//convert into map
+	//convert employee id as key and employee object as value into map
 	Arrays.asList(new Employee(1, "A", 15000), new Employee(2, "A", 20000), new Employee(3, "B", 30000),
 	new Employee(4, "B", 40000), new Employee(5, "C", 50000), new Employee(6, "C", 60000)).stream().
 	collect(Collectors.toMap(Employee::getId, Function.identity())).entrySet()
 	.forEach(System.out::println);
-	
-	//convert into map
-	Arrays.asList(new Employee(1, "A", 15000), new Employee(2, "A", 20000), new Employee(3, "B", 30000),
-			new Employee(7, "B", 40000), new Employee(5, "C", 50000), new Employee(6, "C", 60000)).stream().
-			collect(Collectors.toMap(e->e.getId(), Function.identity())).entrySet()
-			.forEach(System.out::println);
 	
 	
 //intermediate operations
