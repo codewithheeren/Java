@@ -18,18 +18,18 @@ import java.util.stream.Stream;
 
 public class StreamBasics1 {
 public static void main(String[] args) {
-//1	
+	//1	
 	Arrays.asList(2,3,1,4,5,3).stream();
-//2
+	//2
 	int[] array = {1,2,3,4,5,6};
 	Arrays.stream(array);        
-//3
+	//3
 	String string = "Hello";
 	Stream<Character> stream = string.chars().mapToObj(s->(char)s);
 	//removing vovels from string
 //	stream.filter(c->(c != 'e')&&(c != 'o')).forEach(System.out::println);
 	
-//4
+	//4
 	Stream.of(1,2,3,4,5,6,7);
 	
 	//Terminal Operations
@@ -89,7 +89,7 @@ public static void main(String[] args) {
 	Integer[] arrayunique = Stream.of(1,2,3,4,5,3,1,6,2,7).distinct().toArray(Integer[]::new);
 	//System.out.println(Arrays.toString(arrayunique));	
 	
-//intermediate methods
+//  intermediate methods
 //	max
 //	min
 }
