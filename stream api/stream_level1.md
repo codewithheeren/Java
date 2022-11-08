@@ -18,68 +18,81 @@ import java.util.stream.Stream;
 
 public class StreamBasics1 {
 public static void main(String[] args) {
-//1.remove vovel from string - Hello and print.
-	//part 2 //get String as an output
-	/*
-	String s="Hello";
-	Stream<Character> stream = s.chars().mapToObj(c->(char)c);
-	stream.filter(c -> c != 'e').filter(c -> c != 'o').forEach(System.out::print);
+//1	
+	Arrays.asList(2,3,1,4,5,3).stream();
+//2
+	int[] array = {1,2,3,4,5,6};
+	Arrays.stream(array);        
+//3
+	String string = "Hello";
+	Stream<Character> stream = string.chars().mapToObj(s->(char)s);
+	//removing vovels from string
+//	stream.filter(c->(c != 'e')&&(c != 'o')).forEach(System.out::println);
+	
+//4
+	Stream.of(1,2,3,4,5,6,7);
+	
+	//Terminal Operations
+	//1
+	List<Integer> list = Stream.of(1,2,3,4,5,6,7).collect(Collectors.toList());
+//	System.out.println(list);
+//	stream.forEach(System.out::println);
+	
 	//2
-	s=s.chars().mapToObj(c->(char)c)
-	.filter(c->(!(c=='a'||c=='e'||c=='i'||c =='o'))).
-	map(String::valueOf).collect(Collectors.joining());
+	Set<Integer> set = Stream.of(8,1,2,3,4,5,3,6,7).collect(Collectors.toSet());
+//	System.out.println(set);
 	
-	*/
+	//3
+	ArrayList<Integer> arrayList = Stream.of(1,2,3,4,5,3,6,7).collect(Collectors.toCollection(ArrayList::new));
+//	System.out.println(arrayList);
 	
-	//2.Filter all values greater than 2 in an array,then multiply each value by 3,then sum the values
-	//part 2 //do that without using sum method.
+	//4
+	Integer[] a = Stream.of(1,2,3,4,5,3,6,7).toArray(Integer[]::new);
+//	System.out.println(Arrays.toString(a));
+	
+	//5
+	String s1 = Stream.of("Hello","Hi","Bye").collect(Collectors.joining());
+//	System.out.println(s1);
+	
+	//6
+	//convert employee id as key and employee object as value into map
 	/*
-	 int x = Arrays.stream(new int[]{1,2,3,4,5,6,7,8,9}).filter(i->i>2).map(i->i*3).sum();
-	 System.out.println(x);
-	 //2
-	 int x = Arrays.stream(new int[] {2,3,4,5,6,7}).filter(a -> a>2).reduce(0,((c,v)-> c+v));
-	 System.out.println(x);	
+	Arrays.asList(new Employee(1, "A", 15000), new Employee(2, "A", 20000), new Employee(3, "B", 30000),
+	new Employee(4, "B", 40000), new Employee(5, "C", 50000), new Employee(6, "C", 60000)).stream().
+	collect(Collectors.toMap(Employee::getId, Function.identity())).entrySet()
+	.forEach(System.out::println);
 	*/
 	
-	//3.convert all strings with length greater than 3 into uppercase strings,then sort alphabetically
-	//part 2 // get String[] as output.
-	/*
-	Arrays.stream(new String[] {"Bus", "car", "bicycle", "train"}).filter(s->s.length()>3)
-	.map(String::toUpperCase).sorted().forEach(System.out::println);
+	//Intermediate operations
+	//1
+	//removing vovels from string
+	String string1 = "Hello";
+	Stream<Character> charstream = string1.chars().mapToObj(s->(char)s);
+//	charstream.filter(c->(c != 'e')&&(c != 'o')).forEach(System.out::println);
 	
-	//	String[] array =Arrays.asList("Hello","hi","bye","will meet tomorrow").stream().
-	 	 filter(s->s.length()>3).map(String::toUpperCase).sorted().toArray(String[]::new);
-		System.out.println(Arrays.toString(array));
+	//2
+	//converting intger values into one string
+	String s2 = Stream.of(1,2,3,4,5).map(String::valueOf).collect(Collectors.joining());
+//	System.out.println(s2);
 	
-	*/
+	//3
+	//count no of elements
+	long count = Stream.of(1,2,6,7).count();
+//	System.out.println(count);
 	
-	//4.filter only the first 3 strings in {"Bus", "car", "bicycle", "train"}
-	/*
-	Stream.of("Bus", "car", "bicycle", "train").limit(3).forEach(System.out::println);
-	*/
+	//4
+	//retrieve only first two even numbers.
+//	Stream.of(1,3,2,12,6,7).filter(i->i%2==0).limit(2).forEach(System.out::println);
 	
-	//5.Remove all duplicate values in a list of numbers  without converting into a set 
+	//5
+	//remove duplicate elements from collection
+	Integer[] arrayunique = Stream.of(1,2,3,4,5,3,1,6,2,7).distinct().toArray(Integer[]::new);
+	//System.out.println(Arrays.toString(arrayunique));	
 	
-	/*
-	Arrays.stream(new int[]{1,2,3,4,4,4,3,2,8,9}).distinct().forEach(System.out::println);
-	*/
-	
-	//6.{"Bus", "car", "bicycle", "train"}
-	//Stream.of("Hello").map(s->new StringBuilder(s).reverse()).forEach(System.out::println);
-	
-	//reverse array using stream
-	
-	//convert array in to reverse order.
-	Integer[] array = Arrays.stream(new Integer[]{1,2,3,4,5,6}).sorted((Comparator<Integer>)(x,y) -> -1)
-	.toArray(Integer[] :: new);
-	//System.out.println(Arrays.toString(array));
-	
-	
-	//remove all the spaces from string
-	String s = "hello hi bye how are you";
-	s = Stream.of(s).map(a -> a.replaceAll(" ", "")).collect(Collectors.joining());
-	//System.out.println(s);
-	}
+//intermediate methods
+//	max
+//	min
+}
 }
 ```
 ---
