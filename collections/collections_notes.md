@@ -34,8 +34,8 @@
 4. removeAll(collection obj)
 5. contains(obj)
 6. containsAll(collection obj)
-7. clear
-8. size
-9. toArray
+7. clear()
+8. size()
+9. toArray()
 10. iterator()
-11. isEmpty
+11. isEmpty()
