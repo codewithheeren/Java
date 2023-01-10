@@ -52,5 +52,10 @@ p
 ### MainClass.java
 ```java
 
+class MainClass{
+----code need to write------
+}
+
+
 ```
 ---
