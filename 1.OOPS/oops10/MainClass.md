@@ -9,6 +9,7 @@
  * @version 1.0
  */
 package com.java.oops10;
+
 class Base{
 	int x = 10;
 }

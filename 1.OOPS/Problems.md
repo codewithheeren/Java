@@ -2,9 +2,8 @@
 
 ```java
 /**
- * This class implements data hiding.
+ * java OOPS based Coding problems
  * @author Heeren
- * @version 1.0
  */
 Task 1: Develop a Java class to represent a library, with a static data member to store the total number of books in the library and an instance data member to store the book's title. Implement a static method to update the total count when a new book is added.
 
