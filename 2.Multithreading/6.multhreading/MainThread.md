@@ -1,4 +1,4 @@
-## Multithreading - executor framework
+## Multithreading - Executor Framework
 
 ### MainThread.java
 

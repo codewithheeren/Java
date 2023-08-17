@@ -1,4 +1,4 @@
-## Multithreading - synchronization
+## Multithreading - Synchronization
 
 ### TestSynchronization1.java
 

@@ -1,4 +1,4 @@
-## Multithreading - synchronization
+## Multithreading - Synchronization
 
 ### MyThread1.java
 

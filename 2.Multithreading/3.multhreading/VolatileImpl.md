@@ -1,4 +1,4 @@
-## Multithreading - volatile
+## Multithreading - Volatile
 
 ### VolatileImpl.java
 

@@ -1,4 +1,4 @@
-## Multithreading - ExecutorService implementation
+## Multithreading - ExecutorService Implementation
 
 ### TaskExecutor.java
 

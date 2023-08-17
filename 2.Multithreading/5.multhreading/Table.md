@@ -1,4 +1,4 @@
-## Multithreading - synchronization
+## Multithreading - Synchronization
 
 ### Table.java
 

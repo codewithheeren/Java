@@ -1,4 +1,4 @@
-## Multithreading - synchronization
+## Multithreading - Synchronization
 
 ### ThreadB.java
 
