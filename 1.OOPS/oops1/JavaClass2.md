@@ -1,3 +1,8 @@
+## OOPS - Instance Variable
+
+### JavaClass2.java
+
+```java
 /**
  * This class implements Instance Variable.
  * @author Heeren
@@ -19,4 +24,5 @@ public class JavaClass2 {
 		System.out.println("Object3 x = "+object3.x);
 	}
 }
-
+```
+---
