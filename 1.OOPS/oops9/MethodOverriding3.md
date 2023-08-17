@@ -1,11 +1,14 @@
+## OOPS - Method Overriding
+
+### MethodOverriding3.java
+
+```java
 /**
- * Implementation of static and instance data members
- * @author Heeren
+ * Implementation of method overriding by changing access modifiers.
  * @version 1.0
  */
 package com.java.oops9;
 
-//method overriding by changing access modifiers. 
 //Default -> protected -> public 
 class Base2 {
 	protected void method() {
@@ -25,3 +28,5 @@ public class MethodOverriding3 {
 		child.method();
 	}
 }
+```
+---

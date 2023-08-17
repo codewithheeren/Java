@@ -1,10 +1,14 @@
+## OOPS - Method Overloading
+
+### MethodOverloading2.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of method overloading by changing data types of parameters.
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops6;
-// method overloading by changing data types of parameters.
 public class MethodOverloading2 {
 
     public int add(int a, int b) {
@@ -27,3 +31,5 @@ public class MethodOverloading2 {
         System.out.println("Sum of int and double: " + example.add(8, 4.2));
     }
 }
+```
+---

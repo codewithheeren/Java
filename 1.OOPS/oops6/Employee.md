@@ -1,10 +1,14 @@
+## OOPS - Method Overloading
+
+### Employee.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of method overlaoding by chaning no of para. and data types of para.
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops6;
-// method overlaoding by chaning no of para. and data types of para.
 public class Employee {
 	
 	private String ename;
@@ -37,4 +41,5 @@ public class Employee {
 		employee.displayData();
 	}
 }
-
+```
+---

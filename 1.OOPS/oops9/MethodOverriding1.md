@@ -1,11 +1,15 @@
+## OOPS - Method Overriding
+
+### MethodOverriding1.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of method overriding
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops9;
 
-//method overriding 
 class Base {
 	public void method() {
 		System.out.println("Base Class : method()");
@@ -24,3 +28,5 @@ public class MethodOverriding1 {
 		child.method();
 	}
 }
+```
+---

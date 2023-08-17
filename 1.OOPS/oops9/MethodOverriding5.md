@@ -1,11 +1,15 @@
+## OOPS - Method Overriding
+
+### MethodOverriding5.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of method Hiding
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops9;
 
-//method Hiding
 class Base4{
 	static void method() {
 	   System.out.println("Base Class : method()");
@@ -23,3 +27,5 @@ public class MethodOverriding5 {
 		Child4.method();
 	}
 }
+```
+---

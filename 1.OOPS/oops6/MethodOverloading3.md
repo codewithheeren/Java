@@ -1,10 +1,14 @@
+## OOPS - Type permotion
+
+### MethodOverloading3.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of Type permotion
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops6;
-//Type permotion
 public class MethodOverloading3 {
 	
 	public void display(byte num) {
@@ -33,3 +37,5 @@ public class MethodOverloading3 {
     	example.display(10.5);
     }
 }
+```
+---

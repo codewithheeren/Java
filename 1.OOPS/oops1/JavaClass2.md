@@ -11,7 +11,7 @@
 package com.java.oops1;
 public class JavaClass2 {
 //	instance properties are different for each object.
-    int x;
+       int x;
 	public static void main(String[] args) {
 		JavaClass2 object1 = new JavaClass2();
 		JavaClass2 object2 = new JavaClass2();

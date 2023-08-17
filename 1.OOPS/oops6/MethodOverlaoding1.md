@@ -1,10 +1,14 @@
+## OOPS - Method Overloading
+
+### MethodOverlaoding1.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of method overloading by changing no of parameters
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops6;
-// method overloading by changing no of parameters
 public class MethodOverlaoding1 {
 	
 	public void display(int num) {
@@ -27,3 +31,5 @@ public class MethodOverlaoding1 {
     }
 
 }
+```
+---

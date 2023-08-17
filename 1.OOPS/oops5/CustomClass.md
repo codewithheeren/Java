@@ -1,5 +1,10 @@
+## OOPS - Local variable and Data shadowing
+
+### CustomClass.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of local variable and Data shadowing
  * @author Heeren
  * @version 1.0
  */
@@ -19,3 +24,5 @@ class CustomClass {
 		customClass.display();
 	}
 }
+```
+---

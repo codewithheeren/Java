@@ -1,10 +1,14 @@
+## OOPS - Static Method
+
+### Employee.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Static method implementation
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops3;
-//Static method implementation 
 public class Employee {
 	static String cname;
 	String ename;
@@ -30,5 +34,5 @@ public class Employee {
 	System.out.println("employee2 comapany name : "+employee2.cname);
 	}
 }
-
-
+```
+---

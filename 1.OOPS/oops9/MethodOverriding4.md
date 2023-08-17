@@ -1,11 +1,15 @@
+## OOPS - Method Overriding
+
+### MethodOverriding4.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of method overriding by changing return type (covariant type) 
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops9;
 
-//method overriding by changing return type (covariant type) 
 class A {
 }
 
@@ -32,3 +36,5 @@ public class MethodOverriding4 {
 		child.method();
 	}
 }
+```
+---

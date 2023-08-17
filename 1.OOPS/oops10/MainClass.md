@@ -1,5 +1,10 @@
+## OOPS - Data hiding 
+
+### MainClass.java
+
+```java
 /**
- * This class implements Static Variable.
+ * This class implements data hiding.
  * @author Heeren
  * @version 1.0
  */
@@ -24,3 +29,5 @@ public class MainClass {
 		child.method();
 	}
 }
+```
+---

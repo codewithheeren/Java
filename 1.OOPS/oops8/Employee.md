@@ -1,10 +1,14 @@
+## OOPS - Association
+
+### Employee.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of Association
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops8;
-// Association 
 class Department{
     String DepartmentName;
 	public void setDepartmentName(String DepartmentName) {
@@ -19,3 +23,5 @@ public class Employee {
 	System.out.println(department.DepartmentName);
 	}
 }
+```
+---

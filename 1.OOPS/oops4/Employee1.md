@@ -1,10 +1,14 @@
+## OOPS - Instance method 
+
+### Employee.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of Instance method 
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops4;
-//Instance method implementation 
 public class Employee1 {
 	static String cname;
 	String ename;
@@ -36,3 +40,5 @@ public class Employee1 {
 
 	}
 }
+```
+---

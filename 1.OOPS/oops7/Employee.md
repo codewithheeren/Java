@@ -1,10 +1,14 @@
+## OOPS - Inheritance
+
+### Employee.java
+
+```java
 /**
- * Implementation of static and instance data members
+ * Implementation of Single inheritance
  * @author Heeren
  * @version 1.0
  */
 package com.java.oops7;
-//Single inheritance
 class Department{
     String DepartmentName;
 	public void setDepartmentName(String DepartmentName) {
@@ -36,4 +40,5 @@ public class Employee extends Department{
 		employee.displayData();
 	}
 }
-
+```
+---
