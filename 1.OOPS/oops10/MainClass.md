@@ -1,4 +1,4 @@
-## OOPS - Data hiding 
+## OOPS - Data Hiding 
 
 ### MainClass.java
 
