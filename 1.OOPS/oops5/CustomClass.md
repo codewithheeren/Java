@@ -9,7 +9,6 @@
  * @version 1.0
  */
 package com.java.oops5;
-// local variable and Data shadowing
 class CustomClass {
 	int x = 10;
 

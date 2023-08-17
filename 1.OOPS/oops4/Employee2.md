@@ -1,6 +1,6 @@
 ## OOPS - Instance Method 
 
-### Employee.java
+### Employee2.java
 
 ```java
 /**
@@ -21,8 +21,8 @@ public class Employee2 {
 	
 	void change(String en,int sal)
 	{
-	ename = en;
-	esalary = sal;
+		ename = en;
+		esalary = sal;
 	}
     
 	void displayResult() {
@@ -32,14 +32,13 @@ public class Employee2 {
 	}
 	public static void main(String[] args) {
 	
-	Employee2.changeCname("Epam Systems");
-	Employee2 employee1 = new Employee2();
-	employee1.change("Tim", 50000);
-	Employee2 employee2 = new Employee2();
-	employee2.change("Jimmy", 90000);
-	
-	employee1.displayResult();
-	employee2.displayResult();
+		Employee2.changeCname("Epam Systems");
+		Employee2 employee1 = new Employee2();
+		employee1.change("Tim", 50000);
+		Employee2 employee2 = new Employee2();
+		employee2.change("Jimmy", 90000);
+		employee1.displayResult();
+		employee2.displayResult();
 	}
 }
 ```

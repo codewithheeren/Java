@@ -20,10 +20,8 @@ public class Employee {
 	}
 
 	public static void main(String[] args) {
-
 	Employee.cname="HCL";
 	System.out.println("Company Name : "+Employee.cname);
-	
 	System.out.println("Access directly Company Name : "+cname);
 	
 	Employee employee1 = new Employee();

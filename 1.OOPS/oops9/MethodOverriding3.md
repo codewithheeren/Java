@@ -16,7 +16,7 @@ class Base2 {
 	}
 }
 
-class Child2 extends Base1 {
+class Child2 extends Base2 {
 	public void method() {
 		System.out.println("Child Class : method()");
 	}

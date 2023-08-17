@@ -1,6 +1,6 @@
 ## OOPS - Instance method 
 
-### Employee.java
+### Employee1.java
 
 ```java
 /**
@@ -26,8 +26,7 @@ public class Employee1 {
 	}
 
 	public static void main(String[] args) {
-
-		Employee1.cname="HCL";
+	Employee1.cname="HCL";
 	System.out.println("Company name : "+Employee1.cname);
 	
 	Employee1 emp1 = new Employee1();

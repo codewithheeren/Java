@@ -1,4 +1,4 @@
-## OOPS - Method Overriding
+## OOPS - Method Hiding
 
 ### MethodOverriding5.java
 
