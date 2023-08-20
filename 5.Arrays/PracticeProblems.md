@@ -15,7 +15,71 @@
 		System.out.println(Arrays.toString(array3));
 ```
 ---		
-		
+### Arrays Utility Class Useful Methods
+```java
+int[] array = {1, 2, 3, 4, 5};
+String arrayAsString = Arrays.toString(array);
+output arrayAsString: "[1, 2, 3, 4, 5]"
+asList - Convert array to list collection.
+```
+---	
+ ```java
+Integer[] array = {10, 20, 30, 40, 50};
+List<Integer> list = Arrays.asList(array);
+output list: [10, 20, 30, 40, 50]
+stream().forEach
+```
+---	
+```java
+List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+list.stream().forEach(System.out::println);
+Output:
+1
+2
+3
+4
+5
+
+```
+---	
+```java
+int[] array = {5, 3, 1, 4, 2};
+Arrays.sort(array);
+output array: [1, 2, 3, 4, 5]
+```
+---	
+```java
+int[] array = {1, 2, 3, 4, 5};
+int index = Arrays.binarySearch(array, 3);
+output index: 2
+```
+---	
+```java
+int[] array = new int[5];
+Arrays.fill(array, 10);
+output array: [10, 10, 10, 10, 10]
+```
+---	
+```java
+int[] originalArray = {1, 2, 3};
+int[] newArray = Arrays.copyOf(originalArray, 5);
+output newArray: [1, 2, 3, 0, 0]
+```
+---	
+```java
+int[] array1 = {1, 2, 3};
+int[] array2 = {1, 2, 3};
+boolean areEqual = Arrays.equals(array1, array2);
+output areEqual: true
+```
+---	
+```java
+int[] array = new int[5];
+Arrays.fill(array, 10);
+output array: [10, 10, 10, 10, 10]
+```
+---	
+
 ## Array Manipulation Problems
 
 ### Problem 1: Java Program to Find the Frequency of Each Element in an Array
