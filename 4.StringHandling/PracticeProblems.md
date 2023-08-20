@@ -1,4 +1,20 @@
 ## String Manipulation Problems
+###Useful  method of string - 
+    equals
+	equalIgnoreCase
+	valueOf
+	toCharArray
+	concat
+	toUpperCase
+	toLowerCase
+	charAt   
+	length
+	indexOf
+	subString
+	replaceAll
+	split(" ")
+	trim
+	isEmpty
 
 ### Problem 1: Reverse a String
 Write a function that takes a string as input and returns the reverse of that string.
