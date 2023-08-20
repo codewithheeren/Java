@@ -1,20 +1,21 @@
-## String Manipulation Problems
-###Useful  method of string - 
-    equals
-	equalIgnoreCase
-	valueOf
-	toCharArray
-	concat
-	toUpperCase
-	toLowerCase
-	charAt   
-	length
-	indexOf
-	subString
-	replaceAll
-	split(" ")
-	trim
-	isEmpty
+# String Manipulation Problems
+
+### Useful String Methods
+- equals
+- equalIgnoreCase
+- valueOf
+- toCharArray
+- concat
+- toUpperCase
+- toLowerCase
+- charAt   
+- length
+- indexOf
+- subString
+- replaceAll
+- split(" ")
+- trim
+- isEmpty
 
 ### Problem 1: Reverse a String
 Write a function that takes a string as input and returns the reverse of that string.
@@ -26,16 +27,16 @@ Write a function that takes a string as input and returns the reverse of that st
 Write a function that takes a string and returns the number of occurrences of each character in the string.
 
 **Input:** "hello"
-**Output:** h - 1 times,e - 1 times,l - 2 times, o - 1 times
+**Output:** h - 1 times, e - 1 times, l - 2 times, o - 1 times
 
 ### Problem 3: Check if a String is a Palindrome
-Write a function that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), and otherwise return False.
+Write a function that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), and otherwise returns False.
 
 **Input:** "radar"
-**Output:** Entered string is palindrome. 
+**Output:** Entered string is palindrome.
 
 **Input:** "hello"
-**Output:** Entered string is palindrome. 
+**Output:** Entered string is not a palindrome.
 
 ### Problem 4: Remove Duplicates from a String
 Write a function that takes a string as input and removes all the duplicate characters, returning the modified string.
@@ -53,16 +54,16 @@ Write a function that takes a sentence as input and capitalizes the first letter
 Write a function that takes a string and a character as input and returns the number of occurrences of that character in the string.
 
 **Input:** "hello world" and a character (e.g., "o")
-**Output:** 'o' occurred 2 times in entered string.
+**Output:** 'o' occurred 2 times in the entered string.
 
 ### Problem 7: Check if Two Strings are Anagrams
 Write a function that takes two strings as input and returns True if they are anagrams of each other, and False otherwise.
 
 **Input:** "listen" and "silent"
-**Output:** entered strings are anagrams
+**Output:** Entered strings are anagrams.
 
-**Input:** Two strings, e.g., "hello" and "world"
-**Output:** entered strings are not anagrams
+**Input:** "hello" and "world"
+**Output:** Entered strings are not anagrams.
 
 ### Problem 8: Remove All Whitespace Characters from a String
 Write a function that takes a string as input and removes all the whitespace characters, returning the modified string.
@@ -74,7 +75,7 @@ Write a function that takes a string as input and removes all the whitespace cha
 Write a function that takes a list of strings as input and returns the longest common prefix among them.
 
 **Input:** ["apple", "appetite", "apprehend"]
-**Output:** The longest common prefix- "app"
+**Output:** The longest common prefix - "app"
 
 ### Problem 10: Convert a String to Uppercase or Lowercase
 Write a function that takes a string and a flag indicating uppercase or lowercase conversion, and returns the modified string.
@@ -113,7 +114,7 @@ Write a function that takes a string as input and prints the first non-repeated 
 Write a function that takes a string as input and prints all the duplicate characters present in the string.
 
 **Input:** "programming"
-**Output:** r,g,m
+**Output:** r, g, m
 
 ### Problem 16: Print the Largest Word in a String Sentence
 Write a function that takes a sentence as input and prints the largest word in the sentence.
