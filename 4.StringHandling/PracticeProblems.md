@@ -1,79 +1,112 @@
-# String Manipulation Problems
+## String Manipulation Problems
 
-## Problem 1: Reverse a String
+### Problem 1: Reverse a String
 Write a function that takes a string as input and returns the reverse of that string.
 
-**Input:** A string, e.g., "hello"
-**Output:** The reversed string, e.g., "olleh"
+**Input:** "hello"
+**Output:** "olleh"
 
-## Problem 2: Count the Occurrences of a Character
-Write a function that takes a string and a character as input and returns the number of occurrences of that character in the string.
+### Problem 2: Count the Occurrences of a Character
+Write a function that takes a string and returns the number of occurrences of each character in the string.
 
-**Input:** A string (e.g., "hello world") and a character (e.g., "o")
-**Output:** The count of occurrences of the character in the string (e.g., 2)
+**Input:** "hello"
+**Output:** h - 1 times,e - 1 times,l - 2 times, o - 1 times
 
-## Problem 3: Check if a String is a Palindrome
-Write a function that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), and False otherwise.
+### Problem 3: Check if a String is a Palindrome
+Write a function that takes a string as input and returns True if it is a palindrome (reads the same forwards and backwards), and otherwise return False.
 
-**Input:** A string, e.g., "radar"
-**Output:** True (since "radar" is a palindrome)
+**Input:** "radar"
+**Output:** Entered string is palindrome. 
 
-**Input:** A string, e.g., "hello"
-**Output:** False (since "hello" is not a palindrome)
+**Input:** "hello"
+**Output:** Entered string is palindrome. 
 
-## Problem 4: Remove Duplicates from a String
+### Problem 4: Remove Duplicates from a String
 Write a function that takes a string as input and removes all the duplicate characters, returning the modified string.
 
-**Input:** A string, e.g., "programming"
-**Output:** Modified string with duplicates removed, e.g., "progamin"
+**Input:** "aabbcdd"
+**Output:** "abcd"
 
-**Input:** A string, e.g., "aabbcdd"
-**Output:** Modified string with duplicates removed, e.g., "abcd"
+### Problem 5: Capitalize the First Letter of Each Word in a Sentence
+Write a function that takes a sentence as input and capitalizes the first letter of each word.
 
-## Problem 5: Check if a String is a Palindrome
-Write a function that takes a string as input and returns True if it is a palindrome, and False otherwise.
+**Input:** "this is a sample sentence"
+**Output:** "This Is A Sample Sentence"
 
-**Input:** A string, e.g., "radar"
-**Output:** True (since "radar" is a palindrome)
-
-**Input:** A string, e.g., "hello"
-**Output:** False (since "hello" is not a palindrome)
-
-## Problem 6: Count the Occurrences of a Specific Character in a String
+### Problem 6: Count the Occurrences of a Specific Character in a String
 Write a function that takes a string and a character as input and returns the number of occurrences of that character in the string.
 
-**Input:** A string (e.g., "hello world") and a character (e.g., "o")
-**Output:** The count of occurrences of the character in the string (e.g., 2)
+**Input:** "hello world" and a character (e.g., "o")
+**Output:** 'o' occurred 2 times in entered string.
 
-## Problem 7: Check if Two Strings are Anagrams
+### Problem 7: Check if Two Strings are Anagrams
 Write a function that takes two strings as input and returns True if they are anagrams of each other, and False otherwise.
 
-**Input:** Two strings, e.g., "listen" and "silent"
-**Output:** True (since "listen" and "silent" are anagrams)
+**Input:** "listen" and "silent"
+**Output:** entered strings are anagrams
 
 **Input:** Two strings, e.g., "hello" and "world"
-**Output:** False (since "hello" and "world" are not anagrams)
+**Output:** entered strings are not anagrams
 
-## Problem 8: Remove All Whitespace Characters from a String
+### Problem 8: Remove All Whitespace Characters from a String
 Write a function that takes a string as input and removes all the whitespace characters, returning the modified string.
 
-**Input:** A string, e.g., "hello world"
-**Output:** Modified string with whitespace removed, e.g., "helloworld"
+**Input:** "hello world"
+**Output:** "helloworld"
 
-## Problem 9: Find the Longest Common Prefix Among a Group of Strings
+### Problem 9: Find the Longest Common Prefix Among a Group of Strings
 Write a function that takes a list of strings as input and returns the longest common prefix among them.
 
-**Input:** A list of strings, e.g., ["apple", "appetite", "apprehend"]
-**Output:** The longest common prefix, e.g., "app"
+**Input:** ["apple", "appetite", "apprehend"]
+**Output:** The longest common prefix- "app"
 
-## Problem 10: Convert a String to Uppercase or Lowercase
+### Problem 10: Convert a String to Uppercase or Lowercase
 Write a function that takes a string and a flag indicating uppercase or lowercase conversion, and returns the modified string.
 
 **Input:** A string, e.g., "Hello", and a flag indicating lowercase
 **Output:** Modified string in lowercase, e.g., "hello"
 
-## Problem 11: Swapping Two Strings Without Using a Third Variable
+### Problem 11: Swapping Two Strings Without Using a Third Variable
 Write a function that takes two strings as input and swaps their values without using a third variable.
 
-**Input:** Two strings, e.g., "hello" and "world"
-**Output:** Strings swapped, so the first string becomes "world" and the second string becomes "hello"
+**Input:** "hello" and "world"
+**Output:** Strings swapped, so the first string becomes "world" and the second string becomes "hello".
+
+### Problem 12: Check if a String is a Rotation of Another String
+Write a function that takes two strings as input and returns True if one string is a rotation of the other string, and False otherwise.
+
+**Input:** "apple" and "leapp"
+**Output:** True (since "leapp" is a rotation of "apple")
+
+**Input:** "hello" and "world"
+**Output:** False (since "world" is not a rotation of "hello")
+
+### Problem 13: Reverse Each Word of a String in a Sentence
+Write a function that takes a sentence as input and reverses each word in the sentence.
+
+**Input:** "hello world"
+**Output:** "olleh dlrow"
+
+### Problem 14: Print the First Non-Repeated Character in a String
+Write a function that takes a string as input and prints the first non-repeated character in the string.
+
+**Input:** A string, e.g., "hello"
+**Output:** The first non-repeated character, e.g., "h"
+
+### Problem 15: Print All Duplicate Characters in a String
+Write a function that takes a string as input and prints all the duplicate characters present in the string.
+
+**Input:** "programming"
+**Output:** r,g,m
+
+### Problem 16: Print the Largest Word in a String Sentence
+Write a function that takes a sentence as input and prints the largest word in the sentence.
+
+**Input:** "This is a sample sentence"
+**Output:** The largest word - "sentence"
+
+### Problem 17: Reverse a String Without Using a Third Variable
+Write a function that takes a string as input and returns the reverse of that string without using a third variable.
+
+**Input:** "hello"
+**Output:** "olleh"
