@@ -1,3 +1,21 @@
+##Array Basics - 
+
+###Declaration of arrays- 
+```java
+		int[] array1 = new int[5];
+		array1[0] = 10;
+		array1[1] = 20;
+		array1[2] = 30;
+		System.out.println(Arrays.toString(array1));
+
+		int[] array2 = { 100, 200, 300, 400 };
+		System.out.println(Arrays.toString(array2));
+
+		int[] array3 = new int[] { 100, 200, 300, 400 };
+		System.out.println(Arrays.toString(array3));
+```
+---		
+		
 ## Array Manipulation Problems
 
 ### Problem 1: Java Program to Find the Frequency of Each Element in an Array
