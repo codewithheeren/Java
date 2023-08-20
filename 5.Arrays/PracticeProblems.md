@@ -1,6 +1,6 @@
-##Array Basics - 
+## Array Basics - 
 
-###Declaration of arrays- 
+### Declaration of arrays - 
 ```java
 		int[] array1 = new int[5];
 		array1[0] = 10;
