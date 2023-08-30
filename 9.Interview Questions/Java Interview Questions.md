@@ -83,6 +83,7 @@
 82.	Explain Java compilation and execution architecture.
 83.	What is Heap and stack memory.
 84.	Describe what happens when an object is created in Java.
+
 **String Handling**
 85.	What is String in Java? Is String a data type?
 86.	Different ways to create a String object.
@@ -94,6 +95,7 @@
 92.	Why Char array is preferred over String for storing passwords?
 93.	What is the String Pool?
 94.	What does the String intern() method do?
+
 **Exception Handling**
 95.	what is an Exception and its classification?
 96.	what is an Error?
@@ -114,6 +116,7 @@
 111.	What is the use of printStackTrace() ?
 112.	What is difference between final , finaly and finalize ?
 113.	Can we use finally block without catch block ?
+
 **Multithreading**
 114.	What is process and what is thread and their differences?
 115.	What is multithreading?
