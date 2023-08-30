@@ -85,6 +85,7 @@
 84.	Describe what happens when an object is created in Java.
 
 **String Handling**
+
 85.	What is String in Java? Is String a data type?
 86.	Different ways to create a String object.
 87.	How to make a String upper case or lower case?
@@ -118,6 +119,7 @@
 113.	Can we use finally block without catch block ?
 
 **Multithreading**
+
 114.	What is process and what is thread and their differences?
 115.	What is multithreading?
 116.	What is the advantage of multithreading?
