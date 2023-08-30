@@ -98,6 +98,7 @@
 94.	What does the String intern() method do?
 
 **Exception Handling**
+
 95.	what is an Exception and its classification?
 96.	what is an Error?
 97.	Explain hierarchy of Exception classes ?
