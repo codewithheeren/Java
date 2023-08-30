@@ -196,4 +196,5 @@
 183.	What is the advantage of using Concurrent collection?
 184.	How concurrent hash map internally works ? How it is differ with hash map ?
 185.	How copy on write array list works ? what is the disadvatge of using it ?
-
+186.    What is the contract between equals and hashcode method ?
+187.    What is the difference between fail-fast and fail-safe Iterators?
