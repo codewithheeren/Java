@@ -1,3 +1,4 @@
+**OOPS**
 1.	What are Java features?
 2.	What is JDK and JRE?
 3.	What are different types of class loaders in Java?
@@ -75,13 +76,14 @@
 75.	Upcasting and downcasting.
 76.	What is ClassCastException? How can the instanceof operator help?
 77.	Explain the Object Class and Cloning.
-78.	hashcode() and equals() methods.
+78.	Expliain Object class methods - hashcode(), equals(), toString().
 79.	What is a Marker interface.
 80.	What is Shallow cloning.
 81.	What is Deep cloning.
 82.	Explain Java compilation and execution architecture.
 83.	What is Heap and stack memory.
 84.	Describe what happens when an object is created in Java.
+**String Handling**
 85.	What is String in Java? Is String a data type?
 86.	Different ways to create a String object.
 87.	How to make a String upper case or lower case?
@@ -92,6 +94,7 @@
 92.	Why Char array is preferred over String for storing passwords?
 93.	What is the String Pool?
 94.	What does the String intern() method do?
+**Exception Handling**
 95.	what is an Exception and its classification?
 96.	what is an Error?
 97.	Explain hierarchy of Exception classes ?
@@ -111,6 +114,7 @@
 111.	What is the use of printStackTrace() ?
 112.	What is difference between final , finaly and finalize ?
 113.	Can we use finally block without catch block ?
+**Multithreading**
 114.	What is process and what is thread and their differences?
 115.	What is multithreading?
 116.	What is the advantage of multithreading?
@@ -150,20 +154,17 @@
 150.	How can we make sure main() is the last thread to finish in Java Program?
 151.	Why Thread sleep() and yield() methods are static?
 152.	How can we achieve thread safety in Java?
-153.	Object Level vs class level lock
-154.	What do you understand by Inter Thread communication.
-155.	Use cases of notify() and notifyAll();
-156.	what is Deadlock and how we can prevent it.
-157.	What is Thread Pooling drawback of ThreadPool.
-158.	Executor framework and implementations
-159.	Thread life cycle ?
-160.	Different ways to create thread ?
+153.	Object Level vs class level lock ?
+154.	What do you understand by Inter Thread communication?
+155.	Use cases of notify() and notifyAll()?
+156.	what is Deadlock and how we can prevent it?
+157.	What is Thread Pool?
+158.	What is Executor framework and its implementations?
+159.	What is Thread life cycle ?
+160.	How can we create a daemon thread in Java?
 161.	How does thread communicate with each other?
-162.	How does thread communication methods wait(), notify(), and notifyAll() are in Object class?
-163.	Why wait(), notify(), and notifyAll() methods have to be called from synchronized method or block?
-164.	How can we create a daemon thread in Java?
-165.	What is Volatile keyword?
-166.	What are the SingleThread and ScheduledThread?
-167.	What are CachedThread and Thread Pooling, and how do we create a thread pool?
-168.	What is the difference between notify() and notifyAll()?
+162.	How does thread communication methods wait(), notify(), and notifyAll() are in Object class?	
+163.	What is Volatile keyword?
+164.	What are the SingleThread and ScheduledThread?
+
 
