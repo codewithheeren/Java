@@ -166,11 +166,34 @@
 156.	what is Deadlock and how we can prevent it?
 157.	What is Thread Pool?
 158.	What is Executor framework and its implementations?
-159.	What is Thread life cycle ?
+159.	What is Volatile keyword?
 160.	How can we create a daemon thread in Java?
 161.	How does thread communicate with each other?
 162.	How does thread communication methods wait(), notify(), and notifyAll() are in Object class?	
-163.	What is Volatile keyword?
-164.	What are the SingleThread and ScheduledThread?
+163.	What are the SingleThread and ScheduledThread?
 
+**Collection**
+
+164.	What is the use of Java Collections Framework?
+165.	What is the hierarchy of Java Collections Framework?
+166.	What is the difference between arrays and collection framework ?
+167.	What is the difference between Collection and Collections?
+168.	What is the root interface in the collection hierarchy?
+169.	What are the primary interfaces in the Java Collections Framework?
+170.	Which are the collection classes that are synchronized or thread-safe?
+171.	what is the Difference between ArrayList and Vector ?
+172.	What is the primary difference between List and Set?
+173.	Which are the classes that implement List and Set interface?
+174.	What is an Iterator in the Java Collections Framework?
+175.	What is the best way to reverse a List in Collections?
+176.	What is the difference between the Iterator and ListIterator?
+177.	difference between arraylist and linkedlist ?
+178.	difference between hashset and tree set ?
+179.	difference between hashset and linked hash set ?
+180.	difference between comparable and comparator ?
+181.	Explain internal working of Hashmap ?
+182.	Difference between Hash map and hash table ?
+183.	What is the advantage of using Concurrent collection?
+184.	How concurrent hash map internally works ? How it is differ with hash map ?
+185.	How copy on write array list works ? what is the disadvatge of using it ?
 
