@@ -1,7 +1,5 @@
 ### Stream API Problems - 
 ```
----	
-
 ### Problem 1: Find the sum of all odd numbers in an array
 **Input:** int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
 **Output:** 1 + 3 + 5 + 7 + 9 = 25
