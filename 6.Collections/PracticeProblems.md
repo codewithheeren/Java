@@ -28,3 +28,8 @@ Collections.reverseOrder()
 **Input:** An array, e.g., [3, 7, 1, 9, 5]
 **Output:** The largest element is 9
 
+### Problem 5:  Remove all duplicates from the list collection ?
+
+**Input:** An array input: [2, 4, 3, 2, 6, 4, 8, 10, 3]
+**Output:** Expected Output: [2, 4, 3, 6, 8, 10]
+
