@@ -33,3 +33,18 @@ Collections.reverseOrder()
 **Input:** An array input: [2, 4, 3, 2, 6, 4, 8, 10, 3]
 **Output:** Expected Output: [2, 4, 3, 6, 8, 10]
 
+### Problem 6: 
+1. **Create an `Employee` class with attributes:**
+    - `int employeeId`: A unique employee ID for each employee.
+    - `String name`: The name of the employee.
+    - `String department`: The department in which the employee works.
+    - `double salary`: The salary of the employee.
+
+2. **Override the `equals()` and `hashCode()` methods in the `Employee` class to ensure that employee objects are considered equal if their `employeeId` attributes are the same.
+
+3. **Implement a `Main` class with a `main()` method where you:**
+    - Instantiate a `HashSet` of `Employee` objects.
+    - Create several `Employee` instances and add them to the `HashSet`.
+    - Demonstrate the use of the `HashSet` by finding, removing, and checking for the existence of employees.
+    - Display the number of employees in the `HashSet.
+
