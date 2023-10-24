@@ -25,8 +25,8 @@ Collections.reverseOrder()
 
 ### Problem 4: How to short map basis on values ?
 
-**Input:** An array, e.g., [3, 7, 1, 9, 5]
-**Output:** The largest element is 9
+**Input:** { "apple" => 3, "banana" => 7, "cherry" => 1, "date" => 9, "fig" => 5 }
+**Output:** { "cherry" => 1, "apple" => 3, "fig" => 5, "banana" => 7, "date" => 9 }
 
 ### Problem 5:  Remove all duplicates from the list collection ?
 
