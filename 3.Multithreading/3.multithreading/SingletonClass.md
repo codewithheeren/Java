@@ -115,3 +115,28 @@ public class Singleton {
 
 ```
 ---
+### Approach 5
+
+```java
+/**
+ * 
+ * @author Heeren
+ * @version 1.0
+ */
+package com.codewithheeren.singleton;
+public class BillPughSingleton {
+    private BillPughSingleton() {
+        // Private constructor to prevent instantiation from other classes.
+    }
+
+    private static class SingletonHelper {
+        private static final BillPughSingleton INSTANCE = new BillPughSingleton();
+    }
+
+    public static BillPughSingleton getInstance() {
+        return SingletonHelper.INSTANCE;
+    }
+}
+
+```
+---
