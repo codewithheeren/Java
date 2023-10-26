@@ -37,3 +37,17 @@ public class SingletonAccess {
 		System.out.println("instance2.hashCode():- " + instance2.hashCode());
 	}
 }
+```
+---
+
+### Overcome reflection issue as following 
+
+```java
+package com.codewithheeren.singleton;
+
+public enum Singleton {
+    INSTANCE;
+}
+
+```
+---
