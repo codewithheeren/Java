@@ -21,8 +21,8 @@ public class ConsumerExample {
 		Consumer<String> namePrinter = (name) -> {
 			System.out.println("Hello, " + name);
 		};
-
-		names.forEach(namePrinter);
+		namePrinter.accept("Heeren");
+		// names.forEach(namePrinter);
 	}
 }
 
