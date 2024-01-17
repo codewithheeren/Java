@@ -17,11 +17,17 @@ class Department{
 }
 
 public class Employee {
+	private String name;
+	private int salary;
 	public static void main(String[] args) {
-	Department department = new Department();
-	department.setDepartmentName("Production Department");
-	System.out.println(department.DepartmentName);
+		Department department = new Department();
+		department.setDepartmentName("Production Department");
+		Employee employee = new Employee();
+		employee.name = "Heeren";
+		employee.salary = 5000;
+		System.out.println("Employee information: \nName:"+employee.name+"\nSalary:"+employee.salary+"\nDepartment:"+department.DepartmentName );
 	}
 }
+
 ```
 ---
