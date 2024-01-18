@@ -16,19 +16,39 @@
  */
 package com.java.oops21;
 
-public class Main1 {
-	public static void main(String[] args) {
-		Person person = new Person("John", "D.", 30);
+package com.java.oops21;
 
-		System.out.println("First Name: " + person.getFirstName());
-		System.out.println("Last Name: " + person.getLastName());
-		System.out.println("Age: " + person.getAge());
+public final class Person {
+    private final String firstName;
+    private final String lastName;
+    private final int age;
 
-		// Attempting to modify the person object (which is not possible)
-//		 person.setAge(31); // This will not compile
+    public Person(String firstName, String lastName, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
 
-		System.out.println(person);
-	}
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
 
 ```
