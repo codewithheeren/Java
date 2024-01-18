@@ -16,8 +16,6 @@
  */
 package com.java.oops21;
 
-package com.java.oops21;
-
 public final class Person {
     private final String firstName;
     private final String lastName;
