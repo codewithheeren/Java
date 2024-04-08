@@ -51,6 +51,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 ---
 
 **Variables and DataTypes**
+
 ![image](https://github.com/codewithheeren/Java/assets/87074236/759457a2-bd58-4fa3-9fe4-09d68f969826)
 
 ---
