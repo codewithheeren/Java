@@ -1,0 +1,90 @@
+## OOPS Day 1
+
+ @author Heeren
+ 
+**Features of Java**
+
+- Platform independent language
+- Secure language
+- Robust language
+- Multithreaded language
+- Object oriented language
+- Open source language
+
+---
+
+**C Language**
+
+C Program ->** turboc compiler** -> Machine Code
+
+---
+
+**Java Program**
+
+Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
+
+---
+
+**JDK Vestions and Components**
+- Java SE 7 (July 28, 2011)
+- Java SE 8 (March 18, 2014)
+- Java SE 9 (September 21, 2017)
+- Java SE 10 (March 20, 2018)
+- Java SE 11 (September 25, 2018)
+- Java SE 12 (March 19, 2019)
+- Java SE 13 (September 17, 2019)
+- Java SE 14 (March 17, 2020)
+- Java SE 15 (September 15, 2020)
+- Java SE 16 (March 16, 2021)
+- Java SE 17 (September 14, 2021)
+
+**JDK -> JDK + JRE**
+
+---
+
+**Types of Class Loaders**
+
+1. Bootstrap class loader - loads all the JAR files (placed inside **rt.jar**)
+2. Extension class loader
+3. Application class loader
+
+---
+
+**Variables and DataTypes**
+
+**Charactersticks of Variables**
+- Must not start from a number.
+- No two variables with the same name are allowed in the same function.
+- Variable cannot be declared before its first use.
+- Variable names must not be a keyword.
+- Space is not allowed.
+- Same type variables can be declared using a comma.
+- Variable name must be meaningful and must not contain any operator.
+---
+**Classification of Data Types**
+
+---
+**Hello World Java Program - Conventions **
+- Class Name Convention: First letter capital (camel case for variables and methods, capitals for final variables)
+
+- File Should Contain One Class Only
+
+**File Name: DemoOfJava.java**
+
+class DemoOfJava {
+    public static void main(String[] args) {
+        System.out.println("Hello Java.");
+    }
+}
+---
+**OOPS (Object Oriented Programming)**
+- Object
+- Class
+- Class Members
+- Methods
+- Variables / Class Data Members
+- Classification of Data Members and Methods
+- Static and Instance
+- Static Variables
+- Instance Variables
+---
