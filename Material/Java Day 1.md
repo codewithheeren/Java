@@ -52,8 +52,8 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 
 ---
 
-**Variables and DataTypes**
-**Charactersticks of Variables**
+**Variables and DataTypes**   
+**characteristics of Variables**
 - Must not start from a number.
 - No two variables with the same name are allowed in the same function.
 - Variable cannot be declared before its first use.
