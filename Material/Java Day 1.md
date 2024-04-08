@@ -74,13 +74,13 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 - File Should Contain One Class Only
 
 **File Name: DemoOfJava.java**
-
+```java
 class DemoOfJava {
     public static void main(String[] args) {
         System.out.println("Hello Java.");
     }
 }
-
+```
 ---
 
 **OOPS (Object Oriented Programming)**
