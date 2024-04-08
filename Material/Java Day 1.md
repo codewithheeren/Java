@@ -51,6 +51,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 ---
 
 **Variables and DataTypes**
+![image](https://github.com/codewithheeren/Java/assets/87074236/759457a2-bd58-4fa3-9fe4-09d68f969826)
 
 **Charactersticks of Variables**
 - Must not start from a number.
@@ -62,8 +63,10 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 - Variable name must be meaningful and must not contain any operator.
 ---
 **Classification of Data Types**
+![image](https://github.com/codewithheeren/Java/assets/87074236/36f43577-4fcc-400a-b6f2-1e9d7d8957f7)
 
 ---
+
 **Hello World Java Program - Conventions **
 - Class Name Convention: First letter capital (camel case for variables and methods, capitals for final variables)
 
@@ -76,7 +79,9 @@ class DemoOfJava {
         System.out.println("Hello Java.");
     }
 }
+
 ---
+
 **OOPS (Object Oriented Programming)**
 - Object
 - Class
