@@ -48,14 +48,11 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 2. Extension class loader
 3. Application class loader
 
----
-
-**Variables and DataTypes**
-
 ![image](https://github.com/codewithheeren/Java/assets/87074236/759457a2-bd58-4fa3-9fe4-09d68f969826)
 
 ---
 
+**Variables and DataTypes**
 **Charactersticks of Variables**
 - Must not start from a number.
 - No two variables with the same name are allowed in the same function.
