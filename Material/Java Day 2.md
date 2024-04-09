@@ -33,6 +33,10 @@ Polymorphism
 -   Runtime Polymorphism
 
     -   Method Overriding
+   
+**Type Permotion**
+       
+ ![permotion](https://github.com/codewithheeren/Java/assets/87074236/6d408c52-9d14-4bc6-8a55-c95889cd504d)
 
 **Inheritance**
 
