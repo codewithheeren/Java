@@ -1,7 +1,28 @@
 ## OOPS Day 1
 
  @author Heeren
- 
+
+ **Topics Covered**
+--------------
+-   Features of Java
+-   Compilation and Execution Architecture of Java Program
+-   Types of Class Loaders
+-   Variables and Data Types
+-   Classification of Data Types
+-   Naming Conventions of Variables
+-   OOPs (Object-Oriented Programming)
+    -   Object
+    -   Class
+    -   Static Variable
+    -   Instance Variable
+    -   Static Method
+    -   Instance Method
+    -   Local Variable
+    -   Data Shadowing
+    -   **this** Keyword
+    
+--------------
+
 **Features of Java**
 
 - Platform independent language
