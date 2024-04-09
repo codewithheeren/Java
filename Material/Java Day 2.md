@@ -50,6 +50,8 @@ Polymorphism
 ---
 ![Inheritance in Java](https://github.com/codewithheeren/Java/assets/87074236/3a7e2996-eb79-4ecd-b929-1867c3d25926)
 
+![hybrid](https://github.com/codewithheeren/Java/assets/87074236/d00fe305-309a-4933-8237-75ae6d9a56b6)
+
 ---
 
 
