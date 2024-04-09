@@ -17,6 +17,8 @@ Polymorphism
 -   Multilevel Inheritance
 -   Hybrid Inheritance
 -   Hierarchical Inheritance
+-   Association
+-   Access Modifiers
     
 --------------
 
@@ -53,6 +55,8 @@ Polymorphism
 ![hybrid](https://github.com/codewithheeren/Java/assets/87074236/d00fe305-309a-4933-8237-75ae6d9a56b6)
 
 ---
+**Association**  
+
 **Access Modifiers**  
 
 ![accessmodifiers](https://github.com/codewithheeren/Java/assets/87074236/e7495e6f-b387-4c23-8b5a-c17fbe29bc8b)
