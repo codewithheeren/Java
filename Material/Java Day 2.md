@@ -4,22 +4,19 @@
 
  **Topics Covered**
 --------------
--   Features of Java
--   Compilation and Execution Architecture of Java Program
--   Types of Class Loaders
--   Variables and Data Types
--   Classification of Data Types
--   Naming Conventions of Variables
--   OOPs (Object-Oriented Programming)
-    -   Object
-    -   Class
-    -   Static Variable
-    -   Instance Variable
-    -   Static Method
-    -   Instance Method
-    -   Local Variable
-    -   Data Shadowing
-    -   **this** Keyword
+Polymorphism
+---
+
+-   Compile-time Polymorphism / Static Binding
+    -   Method Overloading
+    -   Type Promotion
+-   Runtime Polymorphism / Dynamic Binding
+    -   Method Overriding
+-   Inheritance
+-   Single Inheritance
+-   Multilevel Inheritance
+-   Hybrid Inheritance
+-   Hierarchical Inheritance
     
 --------------
 
@@ -47,3 +44,8 @@
 -   Hybrid Inheritance
 -   Hierarchical Inheritance
 ---
+![Inheritance in Java](https://github.com/codewithheeren/Java/assets/87074236/3a7e2996-eb79-4ecd-b929-1867c3d25926)
+
+---
+
+
