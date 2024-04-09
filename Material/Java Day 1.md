@@ -115,5 +115,6 @@ class DemoOfJava {
 - Static and Instance
 - Static Variables
 - Instance Variables
+
 **Data Shadowing and Data Hiding**
 ---
