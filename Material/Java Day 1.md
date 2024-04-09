@@ -20,6 +20,7 @@
     -   Local Variable
     -   Data Shadowing
     -   **this** Keyword
+    -   Data Hiding **Super** keyword
     
 --------------
 
@@ -114,4 +115,5 @@ class DemoOfJava {
 - Static and Instance
 - Static Variables
 - Instance Variables
+**Data Shadowing and Data Hiding**
 ---
