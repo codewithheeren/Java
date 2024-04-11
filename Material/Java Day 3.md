@@ -15,6 +15,8 @@
 -   Constructor chaining
     -   Constructor chaining in same class
     -   Constructor chaining in parent class
+-   Constructor never become the part of inheritance
+-   Annonymous object 
 -   Static block 
 -   final keyword
 -   Call by value and call by reference 
