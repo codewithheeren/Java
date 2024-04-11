@@ -31,13 +31,17 @@ The new keyword in Java is used to create an instance of a class. When **new** i
 -   **new** invokes the class constructor to initialize the newly created object.
 
 **Constructor**
+
 ---
 Constructor is a special memeber function of the class.
 -   Having same name as class name.
 -   We do not define return type for constructor.
 -   Constructor can not explicitly call.
+-   
 **Type of Constructors**
+
 ---
+
 **Parameterized Constructor**
 
 A constructor that accepts parameters to initialize the object.
