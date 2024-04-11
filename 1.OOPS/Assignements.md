@@ -46,7 +46,9 @@ Task 2: Define a class Message with a final method sendMessage(). Implement a su
 
 Task 3: Implement both types of association , one real time example of aggregation and one example of composition.Also make understanding with their diffeerences ?
 
-Task 4: Access one class static property and functionality into another class using static import. 
+Task 4: Access one class static property and functionality into another class using static import.
+
+Task 5: Create a class Employee with attributes employeeId and salary. Implement a constructor that validates input parameters (e.g., positive salary) and throws an exception for invalid values.
  
 ```
 ---
