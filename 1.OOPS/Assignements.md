@@ -38,3 +38,15 @@ Task 8: Define classes for Contact, AddressBook, and Group. Use association to m
 
 ```
 ---
+```java
+**Java Day 3**
+Task 1: Develop a class Transaction with final attributes transactionId and amount. Implement multiple constructors for initializing transactions with different parameters (e.g., ID and amount, or just amount). Ensure that transactionId is set only once and print the transaction details for different transaction objects.
+
+Task 2: Define a class Message with a final method sendMessage(). Implement a subclass EmailMessage that attempts to override sendMessage(). check the impact of the final keyword on method overriding. and similarly make class final and try to inherit that and also check the impact of final keyword on making class as final.
+
+Task 3: Implement both types of association , one real time example of aggregation and one example of composition.Also make understanding with their diffeerences ?
+
+Task 4: Access one class static property and functionality into another class using static import. 
+ 
+```
+---
