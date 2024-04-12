@@ -85,8 +85,9 @@ The `final` keyword in Java can be used on variables, classes, or methods:
 -   A `final` method cannot be overridden.
 -   A `final` variable's value cannot be changed once assigned.
 
-**Blank Final Static**    
-A blank final static variable is a final variable that is not initialized during declaration. Values must be assigned in the constructor.
+**Blank Final DataMember**    
+A blank final variable is a final variable that is not initialized during declaration. If it is instance data memeber then values must be assigned in the constructor and for blank
+final static datamemeber value must be assign using static block.
 
 ---    
 **Package**    
