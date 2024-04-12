@@ -4,13 +4,34 @@
 
  **Topics Covered**
 --------------
- 
+ ### Mock Topics
+
+- Abstraction
+- Interface
+- Abstract class
+- Abstract class vs interface
+- Marker Interface
+- Encapsulation
+- Type Casting
+  - Upcasting and DownCasting
+  - Boxing , UnBoxing and AutoBoxing
+  - Implicit and Explicit Typecasting
+- Object class
+  - Tostring
+  - Equals
+  - Clone
+- Cloning
+  - Shallow cloning 
+  - Deep cloning 
+- Immutable class
+
 --------------
-## Abstraction
+## Abstraction  
 
 Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.
 
-### Interface
+### Interface      
+![interface](https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525)   
 
 - Blueprint of a class.
 
@@ -126,7 +147,7 @@ Type casting refers to assigning one data type to another type. Java supports wi
 
 ### Wrapper Classes
 
-Wrapper classes in Java are used to convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing). They provide a way to use primitives as objects.
+Wrapper classes are datatype supported classes, use to represent values in form of objects, when we convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing).
 
 ### Upcasting and Downcasting
 
