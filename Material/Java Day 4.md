@@ -149,14 +149,45 @@ Type casting refers to assigning one data type to another type. Java supports wi
 
 Wrapper classes are datatype supported classes, use to represent values in form of objects, when we convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing).
 
+**Usecase 1.**   
+int x = 10;
+Integer integer = new Integer(x); //Boxing    
+**Usecase 2.**  
+Integer integer = 10; //AutoBoxing
+Integer integer = x;  //AutoBoxing   
+**Usecase 3.**   
+Integer integer = new Integer(10);
+int x=integer; //unboxing    
+**Usecase 4.**   
+if(x<integer) {  //unboxing 
+
+}
+
+
 ### Upcasting and Downcasting
 
 - **Upcasting**: Storing a child object in a parent type reference variable.
 
-- **Downcasting**: Storing a parent object in a child type reference variable, which requires explicit casting.
+- **Downcasting**: Storing a parent object in a child type reference variable, which requires explicit casting.   
+**Usecase 1.**
+Parent parent = new Child(); //upcasting
+Parent parent = new Child();
+parent.setAge(10);
+Child child = (Child) parent; //downcasting   
+**Usecase 2.**
+Parent parent = new Parent();
+Child child = (Child) parent; // class cast exception    
+**Usecase 3.**
+Abc abc = new Xyz(); // doesn’t have any relation then class cast exception
 
 ---
 
 ## instanceof Operator
 
 The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.
+Child child = new Child();
+sysout(child instance of Child) ->   true   
+   
+Parent parent = new Child();   
+sysout(parent instance of Child) ->   true
+
