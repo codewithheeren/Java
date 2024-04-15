@@ -9,6 +9,9 @@
   - Shallow cloning 
   - Deep cloning 
 - Immutable class
+  - Custom Immutable
+  - Scenerio where immutablity of class can break
+  - Protecting immutability of immutable class
 - Nested Class
     - Static nested
     - Instance nested class
