@@ -28,10 +28,6 @@
   - Notify
   - Notifyall
   - Finalize
-- Cloning
-  - Shallow cloning 
-  - Deep cloning 
-- Immutable class
 
 ## Abstraction  
 
@@ -181,12 +177,4 @@ Child child = (Child) parent; // class cast exception
 **Usecase 3.**
 Abc abc = new Xyz(); // doesn’t have any relation then class cast exception
 
-## instanceof Operator
-
-The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.
-Child child = new Child();
-sysout(child instance of Child) ->   true   
-   
-Parent parent = new Child();   
-sysout(parent instance of Child) ->   true
 
