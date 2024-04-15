@@ -177,4 +177,20 @@ Child child = (Child) parent; // class cast exception
 **Usecase 3.**
 Abc abc = new Xyz(); // doesn’t have any relation then class cast exception
 
+**ToString method**
+```java
+class Abc{
+int property=10 ;
+
+public static void main(String[] a){
+Abc abc = new Abc();
+Sysout(abc.toString());
+}
+}
+
+Abc abc = new Abc(); //1000 →   2000  → reference id
+
+Abc@hashcode
+```
+
 
