@@ -80,7 +80,7 @@ class Address implements Cloneable {
 	}
 }
 
-public class Main3 {
+public class Main4 {
 	public static void main(String arg[]) throws CloneNotSupportedException {
 		Address address = new Address();
 		address.setCity("Random-city-name");
