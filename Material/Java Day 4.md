@@ -16,10 +16,18 @@
   - Upcasting and DownCasting
   - Boxing , UnBoxing and AutoBoxing
   - Implicit and Explicit Typecasting
+-  Equality vs equals method 
 - Object class
   - Tostring
   - Equals
+  - Hashcode
   - Clone
+  - Tostring
+  - getClass
+  - Wait
+  - Notify
+  - Notifyall
+  - Finalize
 - Cloning
   - Shallow cloning 
   - Deep cloning 
