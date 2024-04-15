@@ -60,7 +60,7 @@ When a program containing a local inner class is compiled, the compiler generate
 - Outer.class
 - Outer$1Inner.class
 
-**Anonymous Inner Class**
+### Anonymous Inner Class
 
 - An anonymous inner class is a class without a name, known as an anonymous class. 
 - It is always represented by its parent (class or interface) name. 
