@@ -25,7 +25,6 @@
   - Deep cloning 
 - Immutable class
 
---------------
 ## Abstraction  
 
 Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.
@@ -97,9 +96,8 @@ Abstraction is the process of showing functionality while hiding the implementat
 
 - Java 8 allows defining default and static methods in interfaces.
 
----
-
 ### Keywords in Different Cases of Inheritance
+---
 
 - `interface` to `interface`: `extends`
 
@@ -125,8 +123,6 @@ Abstraction is the process of showing functionality while hiding the implementat
 
 - If declared in another interface, it must be `static` and `public`.
 
----
-
 ## Encapsulation
 
 Encapsulation is the process of wrapping code and data together into a single unit. It provides control over data by restricting direct access to some of its components, allowing only setter or getter methods.
@@ -138,8 +134,6 @@ Aggregation represents a weak association between classes where one class has an
 ## Composition (HAS-A Relationship)
 
 Composition is a strong association where one class is a part of another class. It represents a "part-of" relationship and involves creating objects of one class inside another class.
-
----
 
 ## Type Casting
 
@@ -163,7 +157,6 @@ if(x<integer) {  //unboxing
 
 }
 
-
 ### Upcasting and Downcasting
 
 - **Upcasting**: Storing a child object in a parent type reference variable.
@@ -179,8 +172,6 @@ Parent parent = new Parent();
 Child child = (Child) parent; // class cast exception    
 **Usecase 3.**
 Abc abc = new Xyz(); // doesn’t have any relation then class cast exception
-
----
 
 ## instanceof Operator
 
