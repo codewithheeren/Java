@@ -4,158 +4,109 @@
 
  **Topics Covered**
 --------------
-- Abstraction
-- Interface
-- Abstract class
-- Abstract class vs interface
-- Dynamic Binding
-- Marker Interface
-- Encapsulation
-- Type Casting
-   - Upcasting , Downcasting
-   - Boxing , Unboxing , Autoboxing
-   - Implicit and Explicit type casting
-- Tostring
-- Equals
-- Clone
-- Shallow cloning 
-- Deep cloning 
-- Immutable class
-
+-   Covariant type method overriding
+-   Method Hiding
+-   New keyword
+-   Constructor
+    -   Default Constructor
+    -   Non Parameterize Constructor
+    -   Parameterize Constructor
+-   Types of Constructor
+-   Instance block 
+-   Constructor chaining
+    -   Constructor chaining in same class
+    -   Constructor chaining in parent class
+-   Constructor never become the part of inheritance
+-   Annonymous object 
+-   Static block 
+-   final keyword
+-   Call by value and call by reference 
+-   Packages , default package ,import and package keyword 
+-   static Import  
 --------------
-## Abstraction
+**New Keyword**
 
-Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.
-
-### Interface  
-
-![interface](https://github.com/codewithheeren/Java/assets/87074236/ebc5aade-947b-467f-a45d-18f248a5260f)   
-
-- Blueprint of a class.
-
-- Methods defined in interfaces are by default public and abstract.
-
-- Interface data members are by default public, static, and final.
-
-- Objects cannot be created from an interface.
-
-- No constructor can be defined in an interface.
-
-- When a class implements an interface, it needs to override all methods.
-
-- Java supports multiple inheritance through interfaces (a class can implement multiple interfaces).
-
-### Abstract Method
-
-- Method without a body.
-
-- Defined using the `abstract` keyword.
-
-- Cannot be defined inside a concrete or normal class.
-
-- Used in interfaces and abstract classes.
-
-### Abstract Class
-
-- Class with the `abstract` keyword.
-
-- Contains at least one abstract method.
-
-- Cannot be instantiated (objects cannot be created).
-
-- May contain non-abstract methods.
-
-- Can have static and non-static variables.
-
-### Abstract Class vs Interface
-
-**Abstract Class:**
-
-- Can have both abstract and non-abstract methods.
-
-- Provides partial implementation of abstraction.
-
-- Can have constructors.
-
-- Can have static and non-static variables.
-
-- Can implement interfaces.
-
-**Interface:**
-
-- Contains only abstract methods.
-
-- Provides 100% implementation of abstraction.
-
-- Cannot have constructors.
-
-- Can only have static and final variables.
-
-- Cannot implement abstract classes.
-
-- Java 8 allows defining default and static methods in interfaces.
+The new keyword in Java is used to create an instance of a class. When **new** is used:
+-   It allocates memory at runtime in the heap area.
+-   **new** invokes the class constructor to initialize the newly created object.
 
 ---
+**Constructor**   
+Constructor is a special memeber function of the class.
+-   Having same name as class name.
+-   We do not define return type for constructor.
+-   Constructor can not explicitly call.
+  
+**Type of Constructors**   
 
-### Keywords in Different Cases of Inheritance
+**Parameterized Constructor**
 
-- `interface` to `interface`: `extends`
+A constructor that accepts parameters to initialize the object.
 
-- `interface` to `class`: `implements`
+**Non-Parameterized Constructor**
 
-- `Class` to `Class`: `extends`
+A constructor without any parameters.
 
-- `Class` to `Interface`: Not possible
+**Default Constructor**
 
-- `Abstract Class` to `Class`: `extends`
+A constructor with no arguments provided explicitly.
 
-**Notes:**
+**Constructor Overloading**   
 
-- A class can extend another class and implement interfaces simultaneously.
+Constructor overloading refers to having multiple constructors within a class, each with a different set of parameters.
 
-- When implementing multiple interfaces, extend the class before implementing the interfaces.
-
-### Inner Interface
-
-- Declaration of an inner interface occurs in the body of another interface or class.
-
-- If declared in another class, it must be `static` but can have any access modifier.
-
-- If declared in another interface, it must be `static` and `public`.
-
----
-
-## Encapsulation
-
-Encapsulation is the process of wrapping code and data together into a single unit. It provides control over data by restricting direct access to some of its components, allowing only setter or getter methods.
-
-## Aggregation
-
-Aggregation represents a weak association between classes where one class has an entity reference to another class. It is a "has-a" relationship and supports code reuse without maintaining an "is-a" relationship throughout the object's lifetime.
-
-## Composition (HAS-A Relationship)
-
-Composition is a strong association where one class is a part of another class. It represents a "part-of" relationship and involves creating objects of one class inside another class.
+-   Default Constructor (No-Arg Constructor)
+-   Parameterized Constructor
 
 ---
+**Instance Block / Init Block**   
+Instance blocks are name-less block in Java that possess common logic for all constructors .
 
-## Type Casting
-
-Type casting refers to assigning one data type to another type. Java supports widening and narrowing casting, as well as auto boxing and unboxing through wrapper classes.
-
-### Wrapper Classes
-
-Wrapper classes in Java are used to convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing). They provide a way to use primitives as objects.
-
-### Upcasting and Downcasting
-
-- **Upcasting**: Storing a child object in a parent type reference variable.
-
-- **Downcasting**: Storing a parent object in a child type reference variable, which requires explicit casting.
+---   
+**Constructor Chaining**    
+Constructor chaining refers to one constructor calling another constructor within the same class or in a superclass.   
 
 ---
+**Static Block**   
+A static block in Java is used to initialize static data members dynamically:
+-   Static blocks are executed just after class loading by the JVM.
+-   They are executed just before the execution of the `main` method.
+-   Static blocks are used for static initialization tasks.
+  
+---
+**Anonymous Object**   
+An anonymous object in Java refers to an object without a name that is created and used only once.
 
-## instanceof Operator
+---   
+**Final Keyword**    
+The `final` keyword in Java can be used on variables, classes, or methods:
 
-The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.
+-   A `final` class cannot be inherited.
+-   A `final` method cannot be overridden.
+-   A `final` variable's value cannot be changed once assigned.
+
+**Blank Final DataMember**    
+A blank final variable is a final variable that is not initialized during declaration. If it is instance data memeber then values must be assigned in the constructor and for blank
+final static datamemeber value must be assign using static block.
+
+---    
+**Package**    
+A package is a group of similar types of classes, interfaces, and sub-packages. In Java, packages can be categorized into two forms: built-in packages and user-defined packages.
+
+**How to Access a Package from Another Package?**   
+**Using packagename.**     
+import package.*;   
+**Using packagename.classname**     
+import package.classname;   
+**Using fully qualified name**   
+packagename.classname obj = new packagename.classname();
+
+**Default Package**  
+The `java.lang` package is a default package in Java.
+
+**Static Import**  
+The static import feature introduced in Java 5 allows Java programmers to access any static member of a class directly without qualifying it with the class name.
+
+**Advantage of Static Import**  
+-   Requires less coding if you frequently access static members of a class.
 
