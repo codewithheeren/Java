@@ -1,4 +1,4 @@
-## OOPS - Achiving 100% immutablity by creating clon2 in constructor as well.
+## OOPS - Achiving 100% immutablity by creating clone in constructor as well.
 
 ### Main4.java
 
