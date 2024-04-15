@@ -10,7 +10,7 @@
  * @version 1.0
  */
 package com.java.oops21;
-```java
+
 final class ImmutableStudent {
 	private final int id;
 	private final String name;
