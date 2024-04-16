@@ -109,11 +109,39 @@
 
 - Ensures that only one instance of a class is created.
 
-**Synchronized Method**
+**Synchronization**
 
-- Allows only one thread to access the method at a time.
-- Ensures data consistency but may lead to performance overhead.
+- `Synchronized` keyword is used to define a method or block as synchronized.
+- A synchronized method or block allows only one thread to operate on the given object at a time.
+- It prevents data inconsistency problems.
+- JVM manages acquiring and releasing locks automatically.
+- Lock is acquired when a synchronized method or block starts executing and released when it completes its execution.
+- Multiple synchronized methods cannot execute concurrently if they are called for the same object lock.
 
+**Method Synchronization**
+
+- **Object Level Lock**:
+  - Every object in Java has a unique lock.
+  - When using `synchronized` keyword, the lock concept comes into play.
+  - If a thread wants to execute a synchronized method on a given object, it first needs to acquire the lock of that object.
+  - Once the thread acquires the lock, it can execute any synchronized method on that object.
+  - Lock is released automatically after method execution completes.
+
+- **Static Synchronization (Class Level Lock)**:
+  - Every class in Java has a unique lock (class level lock).
+  - If a thread wants to execute a static synchronized method, it requires the class level lock of that class.
+  - Thread acquiring the class level lock cannot execute any other static synchronized method of that class until it releases the lock after method execution.
+
+**Synchronized Block vs Method**
+- **Synchronized Method**
+ - Allows only one thread to access the method at a time.
+ - Ensures data consistency but may lead to performance overhead.
+
+- **Synchronized block** provides better performance and reduces waiting time for other threads.
+  - Syntax:
+     - `synchronized(this)` (locks on the current instance of the class)
+     - `synchronized(any reference variable)` (locks on the specified object referenced by `any reference variable`)
+    
 **Wait() Method**
 
 - Releases the lock of the current thread.
@@ -121,6 +149,5 @@
 
 **Sleep()**
 can be used to pause the execution of current thread for specified time in milliseconds.
-
 
 --------------
