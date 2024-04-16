@@ -45,6 +45,12 @@
 
 ### String Vs String Buffer     
 
+![stringvsstringbuffer](https://github.com/codewithheeren/Java/assets/87074236/ce48dc6d-df4d-4d90-a222-6e6e93201495)
+
+### String Buffer Vs String Builder   
+
+![stringbuffervsstringbuilder](https://github.com/codewithheeren/Java/assets/87074236/f5f68d42-1271-418a-acdd-a2677ffd1ca4)
+
 
 
 
