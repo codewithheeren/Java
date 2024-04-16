@@ -84,3 +84,42 @@ public class ExceptionHandling12 {
 }
 ```
 ---
+```java
+/**
+ * UseCase 3 parent method in throwing any unchecked exception and child is throwing any unchecked exception , irrespective of their relationsship it will work. 
+ * @author Heeren
+ * @version 1.0
+ */
+package com.codewithheeren.exception;
+
+class Superclass {
+    public void readFile() throws  ArithmeticException{
+        System.out.println("Reading file in superclass");
+        throw new ArithmeticException("IO Exception occurred");
+    }
+}
+
+class Subclass extends Superclass {
+    @Override
+    public void readFile() throws RuntimeException {
+        try {
+            System.out.println("Reading file in subclass");
+            super.readFile();
+        } catch (RuntimeException e) {
+            System.out.println("Handled IOException in subclass: " + e.getMessage());
+        }
+    }
+}
+
+public class ExceptionHandling12 {
+    public static void main(String[] args) {
+        Superclass obj = new Subclass();
+        try {
+            obj.readFile();
+        } catch (RuntimeException e) {
+            System.out.println("Caught IOException in main method: " + e.getMessage());
+        }
+    }
+}
+```
+---
