@@ -133,4 +133,3 @@
 
 - When an attempt is made to divide two numbers and the number in the denominator is zero
 
-### Normal Termination
