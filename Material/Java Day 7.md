@@ -34,14 +34,14 @@
 - trim
 - isEmpty
 ### StringBuffer class methods
-	- append()
-	- reverse()
-	- insert()
-	- charAt()
-	- substring()
-	- length()
+- append()
+- reverse()
+- insert()
+- charAt()
+- substring()
+- length()
 
-**Note - Do the implementation on all above methods for better under standing**
+**Note - Do the implementation on all above methods for better understanding**
 
 ### String Vs String Buffer     
 
