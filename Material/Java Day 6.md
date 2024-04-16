@@ -41,7 +41,8 @@
 
 - Abnormal condition which we cannot handle and program gets abnormally terminates that abnormal condition become error.
 
-**Exception Hierarchy**
+### Exception Hierarchy   
+
 ![exceptions](https://github.com/codewithheeren/Java/assets/87074236/c76209f0-8896-4e2a-939b-ce2e66e206e8)  
 
 ### Classification of Exception
