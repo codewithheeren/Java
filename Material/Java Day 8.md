@@ -40,30 +40,45 @@
 
 - Thread priority determines the order in which threads are scheduled for execution by the thread scheduler.
 
-**Thread Priorities:**
+**What is Thread Priority?**
 
-- `MAX_PRIORITY`: Highest priority.
-- `NORM_PRIORITY`: Normal priority (default).
-- `MIN_PRIORITY`: Lowest priority.
+- Thread scheduler schedules the threads according to their priority.
+- We have 3 priorities:
+  - `MAX_PRIORITY`: Highest priority (value of 10).
+  - `NORM_PRIORITY`: Normal priority (default, value of 5).
+  - `MIN_PRIORITY`: Lowest priority (value of 1).
+- `setPriority()` method is used to set the priority for a thread (e.g., `thread.setPriority(10)`).
+- Priority values range from 1 to 10.
+- By default, every thread has normal priority.
+- Priority must be set before calling the `start()` method.
+- The main thread also has a default normal priority.
 
 **What is Thread Life Cycle?**
 
 - The thread life cycle represents various states a thread can be in, including new, runnable, blocked, waiting, timed waiting, and terminated.
   
-- ![lifecycle](https://github.com/codewithheeren/Java/assets/87074236/2e296a71-1cc2-4d7b-8b61-6e3671dd36e7)
+  ![lifecycle](https://github.com/codewithheeren/Java/assets/87074236/2e296a71-1cc2-4d7b-8b61-6e3671dd36e7)
+
+1. **New**: Thread is created.
+2. **Runnable**: Thread is ready to run but not yet scheduled.
+3. **Running**: Thread is executing (`run()` method is executing).
+4. **Waiting (Block State)**: Thread is waiting state for another thread (using sleep() or wait() method).
+6. **Terminated**: Thread completes its execution.
 
 
 **What is the Use of Join Method?**
 
-  - When `join()` is called on a thread, the current thread(main thread) will wait until the specified thread completes its execution.
+- The `join()` method is used to wait for a thread to complete its execution before proceeding with the current thread.
+- The current thread pauses and waits for the specified thread to finish.
 
 **What is the Use of Yield Method?**
 
-- The `yield()` method causes the currently executing thread to pause temporarily and allow other threads to execute.
+- The `yield()` method allows the currently executing thread to pause temporarily and give a chance to other waiting threads of the same priority to execute.
+- If no waiting threads or all waiting threads have lower priority, the same thread continues execution.
 
 **What is Deadlock?**
 
-- Deadlock occurs when two or more threads are blocked forever, waiting for each other to release the resources they need.
+- Deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by some other process, resulting in a circular waiting condition.
 
 **What is Thread Scheduler in Java?**
 
@@ -90,62 +105,22 @@
 
 - Calling `run()` method explicitly will execute the `run()` method synchronously in the current thread, without starting a new thread.
 
-**What is Thread Priority?**
+**SINGLETON DESIGN PATTERN**
 
-- Thread scheduler schedules the threads according to their priority.
-- We have 3 priorities:
-  - `MAX_PRIORITY`: Highest priority (value of 10).
-  - `NORM_PRIORITY`: Normal priority (default, value of 5).
-  - `MIN_PRIORITY`: Lowest priority (value of 1).
-- `setPriority()` method is used to set the priority for a thread (e.g., `thread.setPriority(10)`).
-- Priority values range from 1 to 10.
-- By default, every thread has normal priority.
-- Priority must be set before calling the `start()` method.
-- The main thread also has a default normal priority.
+- Ensures that only one instance of a class is created.
 
-**What is Thread Life Cycle?**
+**Synchronized Method**
 
-1. **New**: Thread is created.
-2. **Runnable**: Thread is ready to run but not yet scheduled.
-3. **Running**: Thread is executing (`run()` method is executing).
-4. **Waiting (Block State)**: Thread is waiting for another thread (e.g., waiting on `sleep()` or waiting for I/O).
-5. **Timed Waiting**: Thread waits for a specific period to avoid starvation.
-6. **Terminated**: Thread completes its execution.
+- Allows only one thread to access the method at a time.
+- Ensures data consistency but may lead to performance overhead.
 
-**What is the Use of Join Method?**
+**Wait() Method**
 
-- The `join()` method is used to wait for a thread to complete its execution before proceeding with the current thread.
-- The current thread pauses and waits for the specified thread to finish.
+- Releases the lock of the current thread.
+- When a thread calls `wait()`, it goes into a waiting state and remains there until the same object is notified or `notifyAll()` is called, after which the thread can resume execution.
 
-**What is the Use of Yield Method?**
-
-- The `yield()` method allows the currently executing thread to pause temporarily and give a chance to other waiting threads of the same priority to execute.
-- If no waiting threads or all waiting threads have lower priority, the same thread continues execution.
-
-**What is Deadlock?**
-
-- Deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by some other process, resulting in a circular waiting condition.
-
-**What is Thread Scheduler in Java?**
-
-- The thread scheduler in Java is responsible for determining which threads should run or wait based on their priority and state.
-
-**What is the Difference Between `start()` and `run()` Method Call?**
-
-- `start()`: Creates a new thread and executes the `run()` method on the new thread.
-- `run()`: Executes the `run()` method on the current thread itself without creating a new thread.
-
-**Can We Overload `run()` Method?**
-
-- Yes, the `run()` method can be overloaded, but the original `run()` method of the `Thread` class must be overridden to provide custom behavior.
-
-**What Will Happen if We Don’t Override the `Thread` Class `run()` Method?**
-
-- If the `run()` method is not overridden, the default `run()` method of the `Thread` class does nothing (no execution logic).
-
-**What Happens When We Call `run()` Method Explicitly?**
-
-- Calling the `run()` method explicitly treats it like a normal method call without creating a new thread. The `run()` method runs on the calling thread (usually the main thread).
+**Sleep()**
+can be used to pause the execution of current thread for specified time in milliseconds.
 
 
 --------------
