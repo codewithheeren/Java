@@ -1,0 +1,50 @@
+## OOPS Day 7
+
+ @author Heeren
+
+ **Topics Covered**
+--------------
+### String Handling
+- String
+- String literal and string object
+- Immutability of String 
+- String buffer 
+- String builder
+- Difference between string and string buffer
+- Difference between string buffer and string builder
+- Methods of string 
+- String comparison 
+- Plus Operator and concat method
+- Why string not prefer to store secure information like password
+--------------
+### Useful String Methods
+- equals
+- equalIgnoreCase
+- valueOf
+- toCharArray
+- concat
+- toUpperCase
+- toLowerCase
+- charAt   
+- length
+- indexOf
+- subString
+- replaceAll
+- split(" ")
+- trim
+- isEmpty
+### StringBuffer class methods
+	- append()
+	- reverse()
+	- insert()
+	- charAt()
+	- substring()
+	- length()
+
+**Note - Do the implementation on all above methods for better under standing**
+
+### String Vs String Buffer     
+
+
+
+
