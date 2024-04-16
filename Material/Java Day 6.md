@@ -5,17 +5,17 @@
  **Topics Covered**
 --------------
 ### Exception Handling
-- When an Exception Occurs
+- What is Exception
 - Exception Handling
 - Error
-- Exception Hierarchy
 - Classification of Exception
 	- Checked Exception  
 	- Unchecked Exception
+- Exception Hierarchy
 - Try with Multiple Catch
 - Nested Try-Catch
 - Finally Block
-- Some Usefule ExceptionClasses - NullPointerException, NumberFormatException, NumberFormatException, ArrayiIndexOutOfBoundsException, ArithmeticException
+- Some Usefule Exception Classes - NullPointerException, NumberFormatException, NumberFormatException, ArrayiIndexOutOfBoundsException, ArithmeticException
 - Method overriding in case of exceptions
 - Exception Propagation
 - Difference between throws and throw keyword
@@ -33,40 +33,29 @@
 - Exception is an abnormal condition
 - If a program gets abnormally terminated due to some abnormal condition, then that abnormal condition is known as an exception
 
-### When an Exception Occurs?
-
-- Occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
-
 ### Exception Handling
 
 - A mechanism uses to handle exceptions using which we define an alternative path for our program execution so that in case an exception occurs, then the program will not abnormally terminate.
 
 ### Error
 
-- Abnormal condition in which we cannot handle
-- Program cannot recover from error
+- Abnormal condition which we cannot handle and program gets abnormally terminates that abnormal condition become error.
 
 **Exception Hierarchy**
 ![exceptions](https://github.com/codewithheeren/Java/assets/87074236/c76209f0-8896-4e2a-939b-ce2e66e206e8)  
 
 ### Classification of Exception
 
-### Checked Exception
+### Checked Exception / Compile Time Exception
 
 - Known as compile time exception
-- Child directly under Exception except Runtime Exception
 - Any exception that occurs due to access to some resource outside of JRE environment or outside resource can’t be accessed or not available, then it is a checked exception
+- Checked exception needs to be handled using try-catch block
 
-#### Compile Time Exception
-
-- Compile will check when you access outside resources, that codes must be in a try block.
-- Checked exception needs to be handled is throw or try-catch
-- Or declare
-
-### Unchecked Exception
+### Unchecked Exception / Runtime Exception
 
 - Known as runtime exception
-- Childs of runtime exception
+- Childs of RuntimeException class
 - Code fail, not compatible, not complete or break in the programs, then it is an unchecked exception
 
 ### Try Block
@@ -108,7 +97,7 @@
 - Is there any condition when the finally block not get executed?
   - Yes, when abnormal program termination or a call from the system such as the use of System.exit();
 
-## System.exit();
+**System.exit();**
 
 - When use this code System.exit(); then program termination
 
@@ -116,18 +105,6 @@
 
 - No method can contain multiple return statements
 - Return statement must be the last statement of the method
-
-## Can We Override Static Methods in Java?
-
-- We can declare static methods with the same signature in the subclass, but it is not considered overriding as there won’t be any run-time polymorphism. Hence the answer is ‘No’.
-
-### Method Overriding Covariant Type
-
-- The method must have the same name as in the parent class
-- The method must have the same parameter as in the parent class.
-- There must be an IS-A relationship (inheritance).
-- Both methods must be non-primitive type
-- We can achieve method overriding by changing the return type.
 
 ### Exception Handling with Method Overriding
 
