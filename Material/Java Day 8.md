@@ -178,32 +178,31 @@
   - Syntax:
      - `synchronized(this)` (locks on the current instance of the class)
      - `synchronized(any reference variable)` (locks on the specified object referenced by `any reference variable`)   
-  - Examples:
-    ```java
-    Synchronized(this)  //current class object lock
-     {
-    ----
-     }
-
-   Temp temp = new Temp();
-   Synchronized(temp) 
-   {
-     —---------
-   }
-
-   Synchronized(Temp.class) 
-   {
-   —---------
-   }
-
-   int x= 10;
-   Synchronized(x)  //will not work with primitive types 
-   {
-    —---------
-    —-------------
-   }
-
-    ```
+  - Examples: 
+    
+ USECASE 1  
+    Synchronized(this)  //current class object lock   
+    {   
+     ----   
+    }   
+  USECASE 2    
+   Temp temp = new Temp();   
+   Synchronized(temp)    
+   {   
+     —---------   
+   }    
+  USECASE 3    
+   Synchronized(Temp.class)    
+   {   
+   —---------   
+   }   
+  USECASE 4   
+   int x= 10;   
+   Synchronized(x)  //will not work with primitive types    
+   {   
+    —---------   
+    —-------------    
+   }    
       
 - **Limitations of `synchronized`**:
   - `synchronized(x)`: Cannot use primitive types (`x` must be an object reference).
@@ -279,7 +278,8 @@ can be used to pause the execution of current thread for specified time in milli
 - `InterruptedException` is thrown when a thread is waiting, sleeping, or doing I/O operations and gets interrupted by another thread.
 
 **Runnable Vs Callable**
+- The run() method is used for implementing the Runnable, whereas the call() method is used for implementing the Callable. 
+- The run() method doesn't return anything, whereas the call() method returns a result of completion.
+- The call() method can throw an exception, whereas the run() method cannot.
 
-The run() method is used for implementing the Runnable, whereas the call() method is used for implementing the Callable. The run() method doesn't return anything, whereas the call() method returns a result of completion.
-The call() method can throw an exception, whereas the run() method cannot.
 --------------
