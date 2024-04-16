@@ -2,9 +2,9 @@
 
 ### ExceptionHandling11.1.java
 
+**Exception propagation in case of unChecked Exceptions , those are automatically forward in calling chain.**
 ```java
 /**
- * Exception propagation in case of unChecked Exceptions , those are automatically forward in calling chain.
  * @author Heeren
  * @version 1.0
  */
@@ -42,6 +42,7 @@ public class ExceptionPropagation {
 **Exception propagation in case of Checked Exceptions , Those have to either handle or forcfully forward in calling chain using throws keyword.**
 ### ExceptionHandling11.2.java
 ```java
+package com.codewithheeren.exception;
 import java.io.IOException;
 
 public class ExceptionPropagation {
