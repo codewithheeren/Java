@@ -102,11 +102,6 @@
 
 - When use this code System.exit(); then program termination
 
-## Return Statement
-
-- No method can contain multiple return statements
-- Return statement must be the last statement of the method
-
 ### Exception Handling with Method Overriding
 
 - There should be a parent to child relationship for exception hierarchy 
