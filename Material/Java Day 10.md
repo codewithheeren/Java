@@ -114,6 +114,8 @@
 - Create LinkedList using:
   - Empty constructor
   - Collection constructor
+    
+![image](https://github.com/codewithheeren/Java/assets/87074236/3901cd51-0649-4f71-acb1-9d07f9e69683)
 
 **Stack**
 - LIFO (Last In, First Out).
