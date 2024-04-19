@@ -7,10 +7,14 @@
 - Map
 - Hashmap ,linked hashmap, hashtable,treemap
 - Properties
-- hashmap internal working
+- Hashmap internal working
+- Hashmap vs Hashtable
+- Properties Collection
+- Hashmap vs TreeMap
 - Contract between equals and hashcode method
 - Collection vs concurrent collection
 - Concurrent hashmap
+- Fail-Fast Iterator vs Fail-Safe Iterator
 - Copy on write array list ,copy on write arrayset
 - Difference between concurrent hashmap and hashmap
 ---
@@ -98,8 +102,8 @@ properties.remove("keyToRemove");
 int size = properties.size();
 
 properties.clear();
+
 ```
-markdownCopy code
 
 `## Map
 
