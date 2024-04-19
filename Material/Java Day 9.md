@@ -4,8 +4,6 @@
 
  **Topics Covered**
 --------------
-- Singleton Design Pattern
-    - Breaking and preventing Singleton pattern
 - Reflection
 - Serialization
   - Serialization and Deserialization
@@ -18,6 +16,11 @@
   - Externalizable 
 - Enum
 - Internal working of Enum
+- Design Patterns
+	- Singleton Design Pattern  
+    	- Breaking and preventing Singleton pattern
+    	- Builder design pattern
+        - Factory design Pattern
 ---
 ### Reflection 
 Reflection API is use to get metadata, examine and change the run time behavior of a class.
@@ -107,3 +110,16 @@ Day day = Day.sun;
 Enum can also define inside the class and that is known as nested enum.
 
 ---
+
+### Design Patterns   
+**classification**
+- creational Design pattern
+- Structural Design Pattern
+- Behavioral Design Pattern
+  
+**creational Design pattern**  
+- Singleton Design Pattern         
+	- Breaking and preventing Singleton pattern    
+- Builder design pattern    
+- Factory design Pattern
+- Strategy Pattern   (Behavioral Design Pattern)
