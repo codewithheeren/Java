@@ -145,32 +145,20 @@ while(itr.hasNext()){
     String str = itr.next();
 }
 
-Iterator vs ListIterator    
-----
+**Iterator vs ListIterator**    
 
--   Iterator: Used to traverse elements in forward direction only.
--   ListIterator: Extends Iterator to allow bidirectional traversal of elements.
 
-Set   
+-   **Iterator**: Used to traverse elements in forward direction only.
+-   Supports basic iteration and removal of elements.
+  
+-   **ListIterator**: Extends Iterator to allow bidirectional traversal of elements.
+-   Supports adding elements, replacing elements and bidirectional iteration.
+
+**Set**   
 ---
 
--   Interface used to represent a group of elements.
--   Used when duplicate values should not be added to the collection.
+-   Used when duplicate values need not to add to the collection.
 -   Also used when sorting is needed in the collection.
-
-**SortedSet**   
-
--   Child interface of Collection for sorted sets.
-
-**TreeSet **  
-
--   Implements a balanced tree data structure.
--   Used for natural or custom sorting (ascending/descending).
--   Default sorting order is ascending.
--   Requires implementation of Comparator for custom sorting.
--   Allows only homogeneous elements.
--   Does not allow null elements.
--   Contains unique elements without duplicates.
 
 **HashSet**  
 
@@ -187,6 +175,20 @@ Set
 -   Child of HashSet.
 -   Preserves the order of insertion.
 -   Other characteristics are the same as HashSet.
+
+**SortedSet**   
+
+-   Immediate child interface of set interface.
+
+**TreeSet**  
+
+-   Implements a balanced tree data structure.
+-   Used for natural or custom sorting (ascending/descending).
+-   Default sorting order is ascending.
+-   Requires implementation of Comparator for custom sorting.
+-   Allows only homogeneous elements.
+-   Does not allow null elements.
+-   Contains unique elements without duplicates.
 
 **Comparable vs Comparator**
 
