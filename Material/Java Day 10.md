@@ -10,25 +10,18 @@
 - Arraylist
 - Linked list
 - Vector
+- Vector vs ArrayList
 - Stack
+- Diffence between arraylist and list
+- Cursor
+  - iterator
+  - List iterator
 - Set
 - Hashset
 - linkedhashset
 - Sortedset
 - Treeset
-- iterator
-- List iterator
 - Comparable vs comparator
-- Map
-- Hashmap ,linked hashmap, hashtable,treemap
-- Properties
-- hashmap internal working
-- Contract between equals and hashcode method
-- collection vs concurrent collection
-- Concurrent hashmap
-- copy on write array list ,copy on write arrayset
-- difference between concurrent hashmap and hashmap
-- diffence between arraylist and list 
 ---
 **Collection Framework**
 
@@ -50,8 +43,6 @@
 
 **Hierarchy of Collection**   
 ![Picture2](https://user-images.githubusercontent.com/87074236/193452827-ad034782-5467-4a8b-9449-faecc5cd4016.png)
-
-![Picture1](https://user-images.githubusercontent.com/87074236/193452840-96d05ebf-ff3b-471c-aa16-e48514b20a91.png)
 
 - **Collection**
   - A framework that provides an architecture to store and manipulate the group of objects.
@@ -146,7 +137,6 @@ while(itr.hasNext()){
 }
 
 **Iterator vs ListIterator**    
-
 
 -   **Iterator**: Used to traverse elements in forward direction only.
 -   Supports basic iteration and removal of elements.
