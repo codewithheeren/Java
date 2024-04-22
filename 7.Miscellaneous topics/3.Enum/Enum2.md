@@ -12,7 +12,7 @@ public enum Day {
 }
 
 package com.codewithheeren.enum;
-public class AccessEnum {      
+public class Enum2 {      
     public static void main(String args[])    
     {    
       Day[] DayNow = Day.values();    
