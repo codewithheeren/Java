@@ -7,7 +7,7 @@
  * @version 1.0
  */
 package com.codewithheeren.enum;
-class EnumImpl {
+public class Enum4 {
 	enum Season{   
 		WINTER, SPRING, SUMMER, FALL;   
 	}
