@@ -16,7 +16,7 @@ enum Season {
 }
 
 package com.codewithheeren.enum;
-class EnumExample4 {
+public class Enum5 {
 	public static void main(String args[]) {
 	Season[] seasons = Season.values();
 	for (Season season :seasons){
