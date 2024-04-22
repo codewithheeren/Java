@@ -15,7 +15,7 @@ public enum Color {
 ```java
 import java.util.Arrays;
 
-public class AccessEnum {
+public class Enum1 {
 	public static void main(String[] args) {
 		System.out.println(Color.black);
 		Color color = Color.white;
