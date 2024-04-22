@@ -13,6 +13,7 @@ public enum Color {
 ```
 ---
 ```java
+package com.codewithheeren.enum;
 import java.util.Arrays;
 
 public class Enum1 {
