@@ -8,7 +8,7 @@
 2.Functional Interface  
 3.Default Method   
 4.Static methods   
-5.Consumer and supplier
+5.Consumer and supplier   
 6.Predicates   
 7.Functions   
 8.Date time api   
@@ -119,7 +119,7 @@ void method();
 Consumer takes an input, performs some action on it, and does not return any value. It is used for operations that consume data or perform side effects.   
 Supplier does not take any input, produces a result when called, and returns a value. It is used for operations that provide or supply data.    
    
-**Predicates**
+**Predicates**    
     -   It is a functional interface which represents a predicate (boolean-valued function) of one argument.   
     -   It is defined in the java.util.function package and contains test() a functional method.   
     -   Boolean check that you can write in one line   
@@ -137,8 +137,8 @@ Supplier does not take any input, produces a result when called, and returns a v
          And(), or(), negate()
  ```   
 **Function**
-    - It represents a function which takes one argument and produces a result. 
-  **Syntax and Example** 
+    - It represents a function which takes one argument and produces a result.    
+  **Syntax and Example**     
   ```java
         interface Function<T,R>{
             R apply(T t);
