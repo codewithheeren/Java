@@ -211,8 +211,8 @@ SELECT * FROM STUDENT WHERE marks = (SELECT MAX(marks) FROM STUDENT);
 SELECT * FROM STUDENT WHERE marks < (SELECT MAX(marks) FROM STUDENT) ORDER BY marks DESC LIMIT 1;
 
 -- Joins (LEFT, RIGHT, FULL OUTER JOIN)
-Left Outer Join
 
+-- Left Outer Join
 SELECT student.id, student.name, major_subject.name FROM STUDENT 
 LEFT OUTER JOIN major_subject ON student.subject_id = major_subject.id;
 
