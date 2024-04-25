@@ -20,6 +20,8 @@
   - Primary Key
   - Unique Key
   - Not Null
+  - Default value
+  - Auto increment
 - Difference between Primary Key and Unique Key
 - Use of >, <, <=, >=, =, != in conditions
 - Keywords use in WHERE Clause
