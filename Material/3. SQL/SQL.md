@@ -2,11 +2,40 @@
 
  @author Heeren
 
- ### Topics Covered
- 
+ ### Topics Covered 
 ---
-  
-
+- Databases
+- Query Language Classification
+  - Data Definition Language (DDL)
+  - Data Manipulation Language (DML)
+- Datatypes in databases
+- Database Operations
+- Table Operations
+  - CREATE Queries
+  - INSERT Queries
+  - UPDATE Queries
+  - DELETE Queries
+- Alter Table
+- Constraints
+  - Primary Key
+  - Unique Key
+  - Not Null
+- Difference between Primary Key and Unique Key
+- Use of >, <, <=, >=, =, != in conditions
+- Keywords use in WHERE Clause
+  - IN
+  - BETWEEN
+  - LIKE
+  - ORDER BY
+- Aliasing
+- Joins
+- LEFT, RIGHT, Inner Join, FULL OUTER JOIN
+- Useful SQL Queries
+- Getting Top 3 Candidates based on Highest Marks
+- Getting Maximum Marks from Student table
+- Details of Candidates with Maximum Marks
+- Record of Candidate with Second Highest Marks
+- Group By
 --- 
 
 **Databases**
