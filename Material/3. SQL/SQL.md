@@ -25,9 +25,11 @@
 
 ### Datatypes
 
-- `int`
-- `varchar(20)`
-- `char`
+- INTEGER, BIGINT, SMALLINT
+- FLOAT
+- varchar(20)
+- char
+- BOOLEAN
 
 ### All Queries
 
@@ -63,8 +65,8 @@ DESC STUDENT;
 SELECT COUNT(*) FROM EMP;
  
 -- Insert Data - 
-INSERT INTO STUDENT VALUES(1, "HEERENDRA", "Chandigarh");
-INSERT INTO STUDENT (NAME, ADDRESS) VALUES("VINEET", "BANGLORE");
+INSERT INTO STUDENT VALUES(1, "John", "Warsaw");
+INSERT INTO STUDENT (NAME, ADDRESS) VALUES("John", "Warsaw");
 
 -- Insert multiple records - 
 INSERT INTO STUDENT VALUES
@@ -77,6 +79,7 @@ SELECT * FROM STUDENT;
 
 -- Delete Data -
 DELETE FROM STUDENT WHERE ID = 3;
+
 -- Update Data -
 UPDATE STUDENT SET LNAME = "sharma" WHERE ID = 3;
 UPDATE STUDENT SET FNAME = "AMIT", LNAME = "SHARMA" WHERE ID = 5;
@@ -115,7 +118,7 @@ SELECT * FROM STUDENT WHERE id = 12 OR id = 33;
 SELECT * FROM STUDENT WHERE id >= 12 AND id <= 33;
 SELECT * FROM STUDENT WHERE id != 12;
 ```
-**Keywords in WHERE Clause**
+**Keywords use in WHERE Clause**
 ```sql
 -- IN
 UPDATE STUDENT SET GENDER = 'male' WHERE id IN (18, 23, 56, 88);
@@ -133,7 +136,7 @@ SELECT * FROM STUDENT WHERE name LIKE '__e%'; -- All names have 'e' as the third
 SELECT * FROM STUDENT WHERE name LIKE '%A%'; -- All names that contain 'A' anywhere in the string
 
 -- ORDER BY
-Arrange elements in ascending or descending order.
+-- Arrange elements in ascending or descending order.
 
 SELECT * FROM STUDENT ORDER BY name ASC; -- Ascending order
 SELECT * FROM STUDENT ORDER BY name; -- Default is ascending
@@ -157,18 +160,19 @@ SELECT stud.id AS student_id, stud.name AS student_name FROM STUDENT AS stud;
 SELECT stud.id AS student_ID, stud.name AS student_name, sub.name AS subject_name 
 FROM STUDENT AS stud, major_subject AS sub 
 WHERE stud.subject_id = sub.id;
-
+--OR
 SELECT stud.id AS student_ID, stud.name AS student_name, sub.name AS subject_name 
 FROM STUDENT AS stud 
 INNER JOIN major_subject AS sub 
 ON stud.subject_id = sub.id;
-Getting Top Candidates based on Highest Marks
 
-SELECT * FROM STUDENT ORDER BY marks DESC LIMIT 3;
 ```
-**Aggregation Functions**
+**USEFUL SQL QUERIES**
 ```sql
--- Maximum Marks
+-- Getting Top 3 Candidates based on Highest Marks
+SELECT * FROM STUDENT ORDER BY marks DESC LIMIT 3;
+
+-- Getting Maximum Marks from Student table
 SELECT MAX(marks) FROM STUDENT;
 
 -- Details of Candidates with Maximum Marks
