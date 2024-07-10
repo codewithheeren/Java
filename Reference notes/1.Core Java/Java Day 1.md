@@ -35,9 +35,11 @@
 
 ---
 
-**C Language**
+**C Program**
 
-C Program ->** turboc compiler** -> Machine Code
+
+![c prgram](https://github.com/codewithheeren/Java/assets/87074236/450da9f3-99c5-4cd6-bf8c-dab36ad42986)      
+
 
 ---
 
@@ -116,5 +118,16 @@ class DemoOfJava {
 - Static Variables
 - Instance Variables
 
-**Data Shadowing and Data Hiding**
+---
+
+**Local Variable**     
+A local variable in Java is a variable declared inside a method, constructor, or block. It is only accessible within that scope and is created when the method, constructor, or block is executed, and destroyed once it finishes. Local variables are stored in the stack memory.
+
+---
+
+**Data Shadowing and Data Hiding**    
+If method's local variable and class level variable having same name then inside the method local priority will goes to method's local variable. That is known as data shadowing.In this case 'this' Keyword is use to access class level variable.    
+    
+In case of Inheritance if parent class data member and child class data memeber having same name then from child class priority will goes to child class data member, that is known as data hiding.  In this case 'super' keyword is use to access parent class variable.
+
 ---
