@@ -78,7 +78,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 **characteristics of Variables**
 - Must not start from a number.
 - No two variables with the same name are allowed in the same function.
-- Variable cannot be declared before its first use.
+- Variable must be declared before its first use.
 - Variable names must not be a keyword.
 - Space is not allowed.
 - Same type variables can be declared using a comma.
