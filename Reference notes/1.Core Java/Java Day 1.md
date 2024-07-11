@@ -4,13 +4,13 @@
 
  **Topics Covered**
 --------------
--   Features of Java
--   Compilation and Execution Architecture of Java Program
--   Types of Class Loaders
--   Variables and Data Types
--   Classification of Data Types
--   Naming Conventions of Variables
--   OOPs (Object-Oriented Programming)
+1.1   Features of Java
+1.2   Compilation and Execution Architecture of Java Program
+1.3   Types of Class Loaders
+1.4   Variables and Data Types
+1.5   Classification of Data Types
+1.6   Naming Conventions of Variables
+1.7   OOPs (Object-Oriented Programming)
     -   Object
     -   Class
     -   Static Variable
