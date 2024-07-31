@@ -1,6 +1,6 @@
 ## Stream API Implementation
 
-### StreamAPIl2.java
+### StreamAPIl3.java
 
 ```java
 /**
