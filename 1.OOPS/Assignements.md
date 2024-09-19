@@ -54,12 +54,22 @@ Task 5: Create a class Employee with attributes employeeId and salary. Implement
 ---
 ```java
 **4**
-Task 1: Write a program that takes user input for name and age for user registration using the console only. Create a custom exception called InvalidAgeException which should be thrown if a user tries to register with an age less than 18.
-Name Validation:
+Task 1: Write a program that takes user input for name and age for user registration using the console only.   
+Create a custom exception called InvalidAgeException which should be thrown if a user tries to register with an age less than 18.
+ 
+Name Validation:    
 Ensure that the name is not empty and does not contain any digits or special characters. If invalid, throw a custom exception called InvalidNameException.
-Retry Mechanism:
+Retry Mechanism: 
 If the user provides invalid input (either invalid name or age), prompt the user to try again until valid input is provided.
-Exit Option:
+Exit Option:  
 If user dont want to continue, ask to user to press 'E' or 'e' to exit.
+
+Task 2: Create a Java program that reads from a file and handles exceptions related to file I/O, such as FileNotFoundException and IOException.   
+Additionally, use an anonymous class to filter files with a specific extension (e.g., ".txt").    
+
+Requirements:    
+Implement file reading with appropriate exception handling.    
+Use an anonymous class to implement the FilenameFilter interface.    
+Display the contents of the filtered files.    
 ```
 ---
