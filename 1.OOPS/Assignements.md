@@ -5,7 +5,7 @@
  * java OOPS based Coding problems
  * @author Heeren
  */
-**Java Day 1**
+**1**
 Task 1: Implement a class with a static variable to count the number of instances and then Create multiple instances of this class and print the count.
 
 Task 2: Develop a Java class to represent a library, with a static data member to store the total number of books in the library and an instance data member to store the book's title. Implement a static method to update the total count when a new book is added.
@@ -17,7 +17,7 @@ Task 4: Develop a Java program to process a list of employees. Use instance meth
 ```
 ---
 ```java
-**Java Day 2**
+**2**
 Task 1: Implement different real time examples of following inheritances types Multilevel , hybrid , hierarchical.
 
 Task 2: Do all use case of access modifiers with variables, methods and class.access them within same class , outside the class , within same package and outside the package using inheritance and association.
@@ -39,7 +39,7 @@ Task 8: Define classes for Contact, AddressBook, and Group. Use association to m
 ```
 ---
 ```java
-**Java Day 3**
+**3**
 Task 1: Develop a class Transaction with final attributes transactionId and amount. Implement multiple constructors for initializing transactions with different parameters (e.g., ID and amount, or just amount). Ensure that transactionId is set only once and print the transaction details for different transaction objects.
 
 Task 2: Define a class Message with a final method sendMessage(). Implement a subclass EmailMessage that attempts to override sendMessage(). check the impact of the final keyword on method overriding. and similarly make class final and try to inherit that and also check the impact of final keyword on making class as final.
@@ -50,5 +50,16 @@ Task 4: Access one class static property and functionality into another class us
 
 Task 5: Create a class Employee with attributes employeeId and salary. Implement a constructor that validates input parameters (e.g., positive salary) and throws an exception for invalid values.
  
+```
+---
+```java
+**4**
+Task 1: Write a program that takes user input for name and age for user registration using the console only. Create a custom exception called InvalidAgeException which should be thrown if a user tries to register with an age less than 18.
+Name Validation:
+Ensure that the name is not empty and does not contain any digits or special characters. If invalid, throw a custom exception called InvalidNameException.
+Retry Mechanism:
+If the user provides invalid input (either invalid name or age), prompt the user to try again until valid input is provided.
+Exit Option:
+If user dont want to continue, ask to user to press 'E' or 'e' to exit.
 ```
 ---
