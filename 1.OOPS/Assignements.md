@@ -65,10 +65,7 @@ Exit Option:
 If user dont want to continue, ask to user to press 'E' or 'e' to exit.
 
 Task 2: Create a Java program that reads from a file and handles exceptions related to file I/O, such as FileNotFoundException and IOException.   
-Additionally, use an anonymous class to filter files with a specific extension (e.g.,Only ".txt" file should be read other wise some customexception "FileNotAccepted" will throw).    
-
-Requirements:    
-Use an anonymous class to implement the FilenameFilter interface.    
-Display the contents of the filtered files.    
+Additionally, use an anonymous class to filter files with a specific extension (e.g.,Only ".txt" file should be read other wise some customexception "FileNotAccepted" will throw).       
+also display the contents of the filtered files.      
 ```
 ---
