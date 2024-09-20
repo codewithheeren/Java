@@ -45,7 +45,7 @@ public class ExceptionHandling12 {
 ---
 ```java
 /**
- * UseCase 2 parent method in throwing checked exception and child is throwing different checked exception which is child class exception of parent thown exception class. 
+ * UseCase 2 parent method in throwing checked exception and child is throwing checked exception which is child class exception of parent thown exception class. 
  * @author Heeren
  * @version 1.0
  */
