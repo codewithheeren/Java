@@ -1,4 +1,4 @@
-## Multithreading - Executor Framework
+## Multithreading - Interthread communication using wait,notify methods
 
 ### MainThread.java
 
