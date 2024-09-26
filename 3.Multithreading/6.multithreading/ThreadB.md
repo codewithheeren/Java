@@ -1,4 +1,4 @@
-## Multithreading - Synchronization
+## Multithreading - Interthread communication using wait,notify methods
 
 ### ThreadB.java
 
