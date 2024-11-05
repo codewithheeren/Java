@@ -47,6 +47,9 @@
 
 Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 
+![image](https://github.com/user-attachments/assets/989499d5-d72a-4c95-9e4e-7d0c1e611218)
+
+
 ---
 
 **JDK Vestions and Components**
