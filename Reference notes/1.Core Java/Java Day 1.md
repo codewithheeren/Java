@@ -26,12 +26,12 @@
 
 **1.1 Features of Java**
 
-A. Platform independent language
-B. Secure language
-C. Robust language
-D. Multithreaded language
-E. Object oriented language
-F. Open source language
+A. Platform independent language   
+B. Secure language    
+C. Robust language    
+D. Multithreaded language    
+E. Object oriented language    
+F. Open source language    
 
 ---
 
