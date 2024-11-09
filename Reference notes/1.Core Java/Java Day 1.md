@@ -1,5 +1,5 @@
 ## OOPS Day 1
-
+<span style="color:blue">some *blue* text</span>.
  @author Heeren
 
  **Topics Covered**
@@ -24,7 +24,7 @@
     
 --------------
 
-## 1.1 Features of Java
+ ## 1.1 Features of Java 
 
 A. Platform independent language   
 B. Secure language    
