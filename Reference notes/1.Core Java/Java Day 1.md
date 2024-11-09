@@ -4,7 +4,7 @@
 
  **Topics Covered**
 --------------
-1.1   Features of Java   
+1. [Features of Java](#11-features-of-java)  
       Compilation and Execution Architecture of Java Program   
 1.2   Java Developement Kit (JDK) and Types of Class Loaders   
 1.3   Variables and Data Types   
@@ -24,7 +24,7 @@
     
 --------------
 
-**1.1 Features of Java**
+## 1.1 Features of Java
 
 A. Platform independent language   
 B. Secure language    
