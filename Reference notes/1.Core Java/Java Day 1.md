@@ -51,8 +51,9 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 
 
 ---
-<span style="color: blue;">**1.2 Java Development Kit (JDK) and Types of Class Loaders**</span>
-
+```diff
+- 1.2 Java Development Kit (JDK) and Types of Class Loaders 
+```
 **JDK Vestions and Components**
 - Java SE 7 (July 28, 2011)
 - Java SE 8 (March 18, 2014)
