@@ -51,6 +51,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 
 
 ---
+<span style="color: blue;">**1.2 Java Development Kit (JDK) and Types of Class Loaders**</span>
 
 **JDK Vestions and Components**
 - Java SE 7 (July 28, 2011)
@@ -66,8 +67,6 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 - Java SE 17 (September 14, 2021)
 
 **JDK -> JDK + JRE**
-
----
 
 **Types of Class Loaders**
 
