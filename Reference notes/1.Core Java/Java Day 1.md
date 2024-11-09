@@ -4,23 +4,23 @@
 
  **Topics Covered**
 --------------
-1. [Features of Java](#11-features-of-java)  
-      Compilation and Execution Architecture of Java Program   
-1.2   Java Developement Kit (JDK) and Types of Class Loaders   
-1.3   Variables and Data Types   
-1.4   Classification of Data Types   
-1.5   Naming Conventions of Variables   
-1.6   OOPs (Object-Oriented Programming)    
-    -   Object   
-    -   Class   
-    -   Static Variable   
-    -   Instance Variable   
-    -   Static Method   
-    -   Instance Method    
-    -   Local Variable    
-    -   Data Shadowing    
-    -   **this** Keyword   
-    -   Data Hiding **Super** keyword    
+1. [Features of Java](#11-features-of-java)    
+   [Compilation and Execution Architecture of Java Program](#compilation-and-execution-architecture-of-java-program)   
+2.1 [Java Development Kit (JDK) and Types of Class Loaders](#12-java-development-kit-jdk-and-types-of-class-loaders)    
+2.2 [Variables and Data Types](#13-variables-and-data-types)    
+4. [Classification of Data Types](#14-classification-of-data-types)    
+5. [Naming Conventions of Variables](#15-naming-conventions-of-variables)    
+6. [OOPs (Object-Oriented Programming)](#16-oops-object-oriented-programming)    
+    - [Object](#object)    
+    - [Class](#class)    
+    - [Static Variable](#static-variable)    
+    - [Instance Variable](#instance-variable)    
+    - [Static Method](#static-method)    
+    - [Instance Method](#instance-method)   
+    - [Local Variable](#local-variable)    
+    - [Data Shadowing](#data-shadowing)    
+    - [**this** Keyword](#this-keyword)    
+    - [Data Hiding **Super** keyword](#data-hiding-super-keyword)    
     
 --------------
 
