@@ -6,7 +6,7 @@
 --------------
 1.1   Features of Java   
       Compilation and Execution Architecture of Java Program   
-1.2   Types of Class Loaders   
+1.2   Java Developement Kit (JDK) and Types of Class Loaders   
 1.3   Variables and Data Types   
 1.4   Classification of Data Types   
 1.5   Naming Conventions of Variables   
