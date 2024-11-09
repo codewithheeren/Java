@@ -24,7 +24,7 @@
     
 --------------
 
-## 1.1 Features of Java
+<h2 id="11-features-of-java" style="color: blue;">1.1 Features of Java</h2>
 
 A. Platform independent language   
 B. Secure language    
