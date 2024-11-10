@@ -4,10 +4,9 @@
 
  **Topics Covered**
 --------------
-1. [Features of Java](#11-features-of-java)    
-   [Compilation and Execution Architecture of Java Program](#compilation-and-execution-architecture-of-java-program)   
-2.1 [Java Development Kit (JDK) and Types of Class Loaders](#12-java-development-kit-jdk-and-types-of-class-loaders)    
-2.2 [Variables and Data Types](#13-variables-and-data-types)    
+1. [Java Features and Compilation, Execution Architecture of Java Program](#1-Java-Features-and-Compilation,-Execution-Architecture-of-Java-Program)           
+2. [Java Development Kit (JDK) and Types of Class Loaders](#12-java-development-kit-jdk-and-types-of-class-loaders)      
+3. [Variables and Data Types](#13-variables-and-data-types)    
 4. [Classification of Data Types](#14-classification-of-data-types)    
 5. [Naming Conventions of Variables](#15-naming-conventions-of-variables)    
 6. [OOPs (Object-Oriented Programming)](#16-oops-object-oriented-programming)    
@@ -24,24 +23,45 @@
     
 --------------
 
- ## 1.1 Features of Java 
+ ## 1 Java Features and Compilation, Execution Architecture of Java Program  
 <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1" style="text-decoration: none;">
+        <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <td style="vertical-align: middle;">A. Platform independent language</td>
+        <td>1.1 Platform independent language</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <td>1.2 Secure language</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <td>1.3 Robust language</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <td>1.4 Multithreaded language</td>
+    </tr>
+   <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <td>1.4 Object oriented language</td>
+    </tr>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <td>1.5 Open source language</td>
     </tr>
 </table>
-
-<a href="https://www.youtube.com/watch?v=example1">
-    <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20" style="margin-top: 50px">
-</a>    A. Platform independent language   
-B. Secure language    
-C. Robust language    
-D. Multithreaded language    
-E. Object oriented language    
-F. Open source language    
 
 ---
 
