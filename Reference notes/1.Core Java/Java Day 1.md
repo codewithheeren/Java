@@ -4,7 +4,7 @@
  **Topics Covered**
 --------------
 1. [Java Features and Compilation, Execution Architecture of Java Program](#1-java-features-and-compilation-execution-architecture-of-java-program)       
-2. [Types of Class Loaders and Java Development Kit Installation(JDK)](#types-of-class-loaders-and-java-development-kit-jdk-installation)         
+2. [Types of Class Loaders and Java Development Kit Installation(JDK)](#types-of-class-loaders-and-java-development-kit-installationjdk)       
 3. [Variables and Data Types](#13-variables-and-data-types)    
 4. [Classification of Data Types](#14-classification-of-data-types)    
 5. [Naming Conventions of Variables](#15-naming-conventions-of-variables)    
