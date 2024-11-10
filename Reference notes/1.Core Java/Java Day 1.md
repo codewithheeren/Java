@@ -1,6 +1,5 @@
 ## OOPS Day 1
-<span style="color:blue">some *blue* text</span>.
- @author Heeren
+@author Heeren
 
  **Topics Covered**
 --------------
@@ -114,6 +113,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 - Java SE 17 (September 14, 2021)
 
 🔵 **Java Installation**    
+
 [Download JDK1.8](https://drive.google.com/uc?export=download&id=1IIZAzCiDsJe6nGhAcnJOmVpDnMiu8MqV)
 
 **JDK -> JDK + JRE**
