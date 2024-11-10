@@ -5,7 +5,7 @@
 --------------
 1. [Java Features and Compilation, Execution Architecture of Java Program](#1-java-features-and-compilation-execution-architecture-of-java-program)       
 2. [Types of Class Loaders and Java Development Kit Installation(JDK)](#types-of-class-loaders-and-java-development-kit-installationjdk)       
-3. [Variables and Data Types](#13-variables-and-data-types)        
+3. [Variables and Data Types](#13-variables-and-data-types)      
 6. [OOPs (Object-Oriented Programming)](#16-oops-object-oriented-programming)    
     - [Object](#object)    
     - [Class](#class)    
@@ -114,7 +114,8 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 **JDK -> JDK + JRE**
 
 ---
-## 3. Variables and DataTypes
+## 3. Variables and Data Types
+
  <table>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
@@ -122,6 +123,12 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
         </a></td>
         <th>3.1 Variables and DataTypes</th>
     </tr>
+ </table>
+ 
+🔵 **Variable** 
+A variable is a named storage location in memory that holds a value.
+🔵 **Data Type**
+A data type defines the type of value a variable can store, such as integers, floating-point numbers, or text.
    <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
