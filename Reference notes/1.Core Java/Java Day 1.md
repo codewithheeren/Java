@@ -4,20 +4,11 @@
  **Topics Covered**
 --------------
 1. [Java Features and Compilation, Execution Architecture of Java Program](#1-java-features-and-compilation-execution-architecture-of-java-program)       
-2. [Types of Class Loaders and Java Development Kit Installation(JDK)](#types-of-class-loaders-and-java-development-kit-installationjdk)       
-3. [Variables and Data Types](#13-variables-and-data-types)      
-6. [OOPs (Object-Oriented Programming)](#16-oops-object-oriented-programming)    
-    - [Object](#object)    
-    - [Class](#class)    
-    - [Static Variable](#static-variable)    
-    - [Instance Variable](#instance-variable)    
-    - [Static Method](#static-method)    
-    - [Instance Method](#instance-method)   
-    - [Local Variable](#local-variable)    
-    - [Data Shadowing](#data-shadowing)    
-    - [**this** Keyword](#this-keyword)    
-    - [Data Hiding **Super** keyword](#data-hiding-super-keyword)    
-    
+2. [Types of Class Loaders and Java Development Kit Installation (JDK)](#2-types-of-class-loaders-and-java-development-kit-installation-jdk)       
+3. [Variables and Data Types](#3-variables-and-data-types)
+4. [First Java Program](#4-first-java-program)      
+5. [OOPS Fundamentals](#5-oops-fundamentals)
+6. [Data Shadowing and Data Hiding](#6-data-shadowing-and-data-hiding)  
 --------------
 
 ## 1. Java Features and Compilation, Execution Architecture of Java Program
@@ -27,7 +18,7 @@
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>1.1 Platform independent language</th>
+        <th align="left">1.1 Platform independent language</th>
     </tr>
  </table> 
  
@@ -46,13 +37,13 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>1.2 Secure language</th>
+        <th align="left">1.2 Secure language</th>
     </tr>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>1.3 Robust language</th>
+        <th align="left">1.3 Robust language</th>
     </tr>
   </table>
   
@@ -64,30 +55,30 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>1.4 Multithreaded language</th>
+        <th align="left">1.4 Multithreaded language</th>
     </tr>
    <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>1.5 Object oriented language</th>
+        <th align="left">1.5 Object oriented language</th>
     </tr>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>1.6 Open source language</th>
+        <th align="left">1.6 Open source language</th>
     </tr>
 </table>
 
 ---
-## 2. Types of Class Loaders and Java Development Kit Installation(JDK)
+## 2. Types of Class Loaders and Java Development Kit Installation (JDK)
 <table>
 <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>2. Types of Class Loaders and Java Development Kit</th>
+        <th align="left">2. Types of Class Loaders and Java Development Kit</th>
     </tr>
 </table>
 
@@ -121,50 +112,54 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>3.1 Variables and DataTypes</th>
+        <th align="left">3.1 Variables and DataTypes</th>
     </tr>
  </table>
  
 🔵 **Variable** 
-A variable is a named storage location in memory that holds a value.
+A variable is a named storage location in memory that holds a value.   
 🔵 **Data Type**
-A data type defines the type of value a variable can store, such as integers, floating-point numbers, or text.
+A data type defines the type of value a variable can store, such as integers, floating-point numbers, or text.       
+  <table>
    <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>3.2 Characteristics of Variables</th>
+        <th align="left">3.2 Characteristics of Variables</th>
     </tr>
 </table>
-   
-🔵 **Characteristics of Variables**
-- Must not start from a number.
-- No two variables with the same name are allowed in the same function.
-- Variable must be declared before its first use.
-- Variable names must not be a keyword.
-- Space is not allowed.
-- Same type variables can be declared using a comma.
-- Variable name must be meaningful and must not contain any operator.
+
+- Must not start from a number.     
+- No two variables with the same name are allowed in the same function.   
+- Variable must be declared before its first use.   
+- Variable names must not be a keyword.    
+- Space is not allowed.   
+- Same type variables can be declared using a comma.    
+- Variable name must be meaningful and must not contain any operator.   
 
 <table>
    <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th>3.3 Classification of Data Types</th>
+        <th align="left">3.3 Classification of Data Types</th>
     </tr>
 </table>
 
 ![image](https://github.com/codewithheeren/Java/assets/87074236/36f43577-4fcc-400a-b6f2-1e9d7d8957f7)
 
 ---
-
-**Hello World Java Program - Conventions **
-- Class Name Convention: First letter capital (camel case for variables and methods, capitals for final variables)
-
-- File Should Contain One Class Only
-
-**File Name: DemoOfJava.java**
+## 4. First Java Program
+<table>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">4. First Java Program</th>
+    </tr>
+ </table>
+ 
+**DemoOfJava.java**
 ```java
 class DemoOfJava {
     public static void main(String[] args) {
@@ -172,29 +167,48 @@ class DemoOfJava {
     }
 }
 ```
+🔵 **Conventions**
+- First letter of class name for each word must be capital (camel case for variables and methods, capitals for final variables).
+- One java file should contain one class only.
 ---
-
-**OOPS (Object Oriented Programming)**
+## 5. OOPS Fundamentals
+<table>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">5. OOPS fundamentals</th>
+    </tr>
+ </table>
+ 
 - Object
 - Class
 - Class Members
-- Methods
-- Variables / Class Data Members
+    - Methods
+    - Variables / Class Data Members
 - Classification of Data Members and Methods
-- Static and Instance
+🔵 **5.2 Static and Instance**
 - Static Variables
 - Instance Variables
-
----
-
-**Local Variable**     
+- Static Method
+- Instance Method
+🔵 **5.3 Local Variable**     
 A local variable in Java is a variable declared inside a method, constructor, or block. It is only accessible within that scope and is created when the method, constructor, or block is executed, and destroyed once it finishes. Local variables are stored in the stack memory.
-
 ---
+## 6. Data Shadowing and Data Hiding
+<table>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">6. Data Shadowing and Data Hiding</th>
+    </tr>
+ </table>
+ 
+🔵 **Data Shadowing**    
+If method's local variable and class level variable having same name then inside the method local priority will goes to method's local variable. That is known as data shadowing.In this case 'this' Keyword is use to access class level variable. 
 
-**Data Shadowing and Data Hiding**    
-If method's local variable and class level variable having same name then inside the method local priority will goes to method's local variable. That is known as data shadowing.In this case 'this' Keyword is use to access class level variable.    
-    
+🔵 **Data Hiding**   
 In case of Inheritance if parent class data member and child class data memeber having same name then from child class priority will goes to child class data member, that is known as data hiding.  In this case 'super' keyword is use to access parent class variable.
 
 ---
