@@ -5,7 +5,7 @@
  **Topics Covered**
 --------------
 1. [Java Features and Compilation, Execution Architecture of Java Program](#1-java-features-and-compilation-execution-architecture-of-java-program)       
-2. [Java Development Kit (JDK) and Types of Class Loaders](#12-java-development-kit-jdk-and-types-of-class-loaders)      
+2. [Types of Class Loaders and Java Development Kit (JDK)](#types-of-class-loaders-and-java-development-kit-jdk)         
 3. [Variables and Data Types](#13-variables-and-data-types)    
 4. [Classification of Data Types](#14-classification-of-data-types)    
 5. [Naming Conventions of Variables](#15-naming-conventions-of-variables)    
@@ -30,62 +30,77 @@
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <td>1.1 Platform independent language</td>
+        <th>1.1 Platform independent language</th>
+    </tr>
+ </table> 
+ 
+🔵 **Plateform Dependency With C Language Program**  
+
+![c prgram](https://github.com/codewithheeren/Java/assets/87074236/450da9f3-99c5-4cd6-bf8c-dab36ad42986)      
+
+
+🔵 **Plateform Independency with Java Program Execution**
+
+Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
+
+![image](https://github.com/user-attachments/assets/989499d5-d72a-4c95-9e4e-7d0c1e611218)
+ <table>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th>1.2 Secure language</th>
     </tr>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <td>1.2 Secure language</td>
+        <th>1.3 Robust language</th>
     </tr>
+  </table>
+  
+  🔵 **Compilation And Execution Architecture of A Java Program**
+  ![image](https://github.com/codewithheeren/Java/assets/87074236/759457a2-bd58-4fa3-9fe4-09d68f969826)
+  
+  <table>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <td>1.3 Robust language</td>
-    </tr>
-    <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <td>1.4 Multithreaded language</td>
+        <th>1.4 Multithreaded language</th>
     </tr>
    <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <td>1.4 Object oriented language</td>
+        <th>1.5 Object oriented language</th>
     </tr>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <td>1.5 Open source language</td>
+        <th>1.6 Open source language</th>
     </tr>
 </table>
 
 ---
+## Types of Class Loaders and Java Development Kit (JDK)
+<table>
+<tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th>2. Types of Class Loaders and Java Development Kit</th>
+    </tr>
+</table>
 
-**C Program**
+🔵 **Types of Class Loaders**
 
-
-![c prgram](https://github.com/codewithheeren/Java/assets/87074236/450da9f3-99c5-4cd6-bf8c-dab36ad42986)      
-
-
----
-
-**Java Program**
-
-Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
-
-![image](https://github.com/user-attachments/assets/989499d5-d72a-4c95-9e4e-7d0c1e611218)
-
-
----
-```diff
-- 1.2 Java Development Kit (JDK) and Types of Class Loaders 
-```
-**JDK Vestions and Components**
+1. Bootstrap class loader - loads all the JAR files (placed inside **rt.jar**)
+2. Extension class loader
+3. Application class loader
+   
+🔵 **JDK Vesions and Components**
 - Java SE 7 (July 28, 2011)
 - Java SE 8 (March 18, 2014)
 - Java SE 9 (September 21, 2017)
@@ -98,15 +113,10 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 - Java SE 16 (March 16, 2021)
 - Java SE 17 (September 14, 2021)
 
+🔵 **Java Installation**    
+[Download JDK1.8](https://drive.google.com/uc?export=download&id=1IIZAzCiDsJe6nGhAcnJOmVpDnMiu8MqV)
+
 **JDK -> JDK + JRE**
-
-**Types of Class Loaders**
-
-1. Bootstrap class loader - loads all the JAR files (placed inside **rt.jar**)
-2. Extension class loader
-3. Application class loader
-
-![image](https://github.com/codewithheeren/Java/assets/87074236/759457a2-bd58-4fa3-9fe4-09d68f969826)
 
 ---
 
