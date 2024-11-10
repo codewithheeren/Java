@@ -186,12 +186,12 @@ class DemoOfJava {
 - Class Members
     - Methods
     - Variables / Class Data Members
-- Classification of Data Members and Methods
+- Classification of Data Members and Methods     
 🔵 **5.2 Static and Instance**
 - Static Variables
 - Instance Variables
 - Static Method
-- Instance Method
+- Instance Method     
 🔵 **5.3 Local Variable**     
 A local variable in Java is a variable declared inside a method, constructor, or block. It is only accessible within that scope and is created when the method, constructor, or block is executed, and destroyed once it finishes. Local variables are stored in the stack memory.
 ---
