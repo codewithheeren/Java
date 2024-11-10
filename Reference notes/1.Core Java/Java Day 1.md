@@ -5,9 +5,7 @@
 --------------
 1. [Java Features and Compilation, Execution Architecture of Java Program](#1-java-features-and-compilation-execution-architecture-of-java-program)       
 2. [Types of Class Loaders and Java Development Kit Installation(JDK)](#types-of-class-loaders-and-java-development-kit-installationjdk)       
-3. [Variables and Data Types](#13-variables-and-data-types)    
-4. [Classification of Data Types](#14-classification-of-data-types)    
-5. [Naming Conventions of Variables](#15-naming-conventions-of-variables)    
+3. [Variables and Data Types](#13-variables-and-data-types)        
 6. [OOPs (Object-Oriented Programming)](#16-oops-object-oriented-programming)    
     - [Object](#object)    
     - [Class](#class)    
@@ -83,7 +81,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 </table>
 
 ---
-## Types of Class Loaders and Java Development Kit Installation(JDK)
+## 2. Types of Class Loaders and Java Development Kit Installation(JDK)
 <table>
 <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
@@ -99,18 +97,15 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 2. Extension class loader
 3. Application class loader
    
-🔵 **JDK Vesions and Components**
-- Java SE 7 (July 28, 2011)
-- Java SE 8 (March 18, 2014)
-- Java SE 9 (September 21, 2017)
-- Java SE 10 (March 20, 2018)
-- Java SE 11 (September 25, 2018)
-- Java SE 12 (March 19, 2019)
-- Java SE 13 (September 17, 2019)
-- Java SE 14 (March 17, 2020)
-- Java SE 15 (September 15, 2020)
-- Java SE 16 (March 16, 2021)
-- Java SE 17 (September 14, 2021)
+🔵 **JDK Major Vesions**
+- JDK 1.5 (Java 5) Release Date: September 30, 2004
+- JDK 1.6 (Java 6) Release Date: December 11, 2006
+- JDK 1.7 (Java 7) Release Date: July 28, 2011
+- JDK 1.8 (Java 8) Release Date: March 18, 2014
+- JDK 9 Release Date: September 21, 2017
+- JDK 10 Release Date: March 20, 2018
+- JDK 11 (LTS) Release Date: September 25, 2018
+- JDK 17 (LTS) Release Date: September 14, 2021
 
 🔵 **Java Installation**    
 
@@ -119,9 +114,23 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 **JDK -> JDK + JRE**
 
 ---
-
-**Variables and DataTypes**   
-**characteristics of Variables**
+## 3. Variables and DataTypes
+ <table>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th>3.1 Variables and DataTypes</th>
+    </tr>
+   <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th>3.2 Characteristics of Variables</th>
+    </tr>
+</table>
+   
+🔵 **Characteristics of Variables**
 - Must not start from a number.
 - No two variables with the same name are allowed in the same function.
 - Variable must be declared before its first use.
@@ -129,8 +138,15 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 - Space is not allowed.
 - Same type variables can be declared using a comma.
 - Variable name must be meaningful and must not contain any operator.
----
-**Classification of Data Types**
+
+<table>
+   <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th>3.3 Classification of Data Types</th>
+    </tr>
+</table>
 
 ![image](https://github.com/codewithheeren/Java/assets/87074236/36f43577-4fcc-400a-b6f2-1e9d7d8957f7)
 
