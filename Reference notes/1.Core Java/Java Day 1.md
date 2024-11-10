@@ -181,12 +181,14 @@ class DemoOfJava {
     </tr>
  </table>
  
+🔵 **5.1 Object, Class and Class Members**
 - Object
 - Class
 - Class Members
     - Methods
-    - Variables / Class Data Members
-- Classification of Data Members and Methods     
+    - Variables / Data Members
+- Classification of Data Members and Methods
+    
 🔵 **5.2 Static and Instance**
 - Static Variables
 - Instance Variables
