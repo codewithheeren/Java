@@ -25,8 +25,18 @@
 --------------
 
  ## 1.1 Features of Java 
+<table>
+    <tr>
+        <td><a href="https://www.youtube.com/watch?v=example1" style="text-decoration: none;">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <td style="vertical-align: middle;">A. Platform independent language</td>
+    </tr>
+</table>
 
- <a href="https://www.youtube.com/watch?v=example1"><img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20"></a>   A. Platform independent language   
+<a href="https://www.youtube.com/watch?v=example1">
+    <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20" style="margin-top: 50px">
+</a>    A. Platform independent language   
 B. Secure language    
 C. Robust language    
 D. Multithreaded language    
