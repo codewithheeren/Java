@@ -15,7 +15,7 @@
  
 <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=SUnAsQykPfw&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=1">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.1 Platform independent language</th>
@@ -34,13 +34,13 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 ![image](https://github.com/user-attachments/assets/989499d5-d72a-4c95-9e4e-7d0c1e611218)
  <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=1xjKbfvh01o&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=2">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.2 Secure language</th>
     </tr>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=1xjKbfvh01o&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=2">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.3 Robust language</th>
@@ -52,19 +52,19 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
   
   <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=GB7Hiem95zc&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=3">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.4 Multithreaded language</th>
     </tr>
    <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=GB7Hiem95zc&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=3">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.5 Object oriented language</th>
     </tr>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=kNukMHUg9Ew&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=4">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.6 Open source language</th>
@@ -109,7 +109,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 
  <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=WkClbsavfro&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=5">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3.1 Variables and DataTypes</th>
