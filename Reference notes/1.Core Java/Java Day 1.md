@@ -159,6 +159,10 @@ A data type defines the type of value a variable can store, such as integers, fl
 
 **JDK -> JDK + JRE**
 
+🔵 **STS Installation**    
+
+[Download STS](https://drive.google.com/uc?export=download&id=1IIZAzCiDsJe6nGhAcnJOmVpDnMiu8MqV)
+
 ---
 ## 5. First Java Program
 <table>
