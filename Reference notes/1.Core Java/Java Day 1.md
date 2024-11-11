@@ -4,11 +4,12 @@
  **Topics Covered**
 --------------
 1. [Java Features and Compilation, Execution Architecture of Java Program](#1-java-features-and-compilation-execution-architecture-of-java-program)       
-2. [Types of Class Loaders and Java Development Kit Installation (JDK)](#2-types-of-class-loaders-and-java-development-kit-installation-jdk)       
+2. [Types of Class Loaders](#2-types-of-class-loaders)       
 3. [Variables and Data Types](#3-variables-and-data-types)
-4. [First Java Program](#4-first-java-program)      
-5. [OOPS Fundamentals](#5-oops-fundamentals)
-6. [Data Shadowing and Data Hiding](#6-data-shadowing-and-data-hiding)  
+4. [IDE and JDK Installation](#4-ide-and-jdk-installation)
+5. [First Java Program](#4-first-java-program)      
+6. [OOPS Fundamentals](#5-oops-fundamentals)
+7. [Data Shadowing and Data Hiding](#6-data-shadowing-and-data-hiding)  
 --------------
 
 ## 1. Java Features and Compilation, Execution Architecture of Java Program
@@ -72,7 +73,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 </table>
 
 ---
-## 2. Types of Class Loaders and Java Development Kit Installation (JDK)
+## 2. Types of Class Loaders
 <table>
 <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
@@ -87,23 +88,6 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 1. Bootstrap class loader - loads all the JAR files (placed inside **rt.jar**)
 2. Extension class loader
 3. Application class loader
-   
-🔵 **JDK Major Vesions**
-- JDK 1.5 (Java 5) Release Date: September 30, 2004
-- JDK 1.6 (Java 6) Release Date: December 11, 2006
-- JDK 1.7 (Java 7) Release Date: July 28, 2011
-- JDK 1.8 (Java 8) Release Date: March 18, 2014
-- JDK 9 Release Date: September 21, 2017
-- JDK 10 Release Date: March 20, 2018
-- JDK 11 (LTS) Release Date: September 25, 2018
-- JDK 17 (LTS) Release Date: September 14, 2021
-
-🔵 **Java Installation**    
-
-[Download JDK1.8](https://drive.google.com/uc?export=download&id=1IIZAzCiDsJe6nGhAcnJOmVpDnMiu8MqV)
-
-**JDK -> JDK + JRE**
-
 ---
 ## 3. Variables and Data Types
 
@@ -149,7 +133,34 @@ A data type defines the type of value a variable can store, such as integers, fl
 ![image](https://github.com/codewithheeren/Java/assets/87074236/36f43577-4fcc-400a-b6f2-1e9d7d8957f7)
 
 ---
-## 4. First Java Program
+## 4. IDE and JDK Installation  
+<table>
+<tr>
+        <td><a href="https://www.youtube.com/watch?v=example1">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">4. Java Environment Setup</th>
+    </tr>
+</table>
+
+🔵 **JDK (Java Development Kit) Major Vesions**      
+- JDK 1.5 (Java 5) Release Date: September 30, 2004  
+- JDK 1.6 (Java 6) Release Date: December 11, 2006  
+- JDK 1.7 (Java 7) Release Date: July 28, 2011  
+- JDK 1.8 (Java 8) Release Date: March 18, 2014  
+- JDK 9 Release Date: September 21, 2017   
+- JDK 10 Release Date: March 20, 2018   
+- JDK 11 (LTS) Release Date: September 25, 2018   
+- JDK 17 (LTS) Release Date: September 14, 2021   
+
+🔵 **Java Installation**    
+
+[Download JDK1.8](https://drive.google.com/uc?export=download&id=1IIZAzCiDsJe6nGhAcnJOmVpDnMiu8MqV)
+
+**JDK -> JDK + JRE**
+
+---
+## 5. First Java Program
 <table>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
@@ -171,7 +182,7 @@ class DemoOfJava {
 - First letter of class name for each word must be capital (camel case for variables and methods, capitals for final variables).
 - One java file should contain one class only.
 ---
-## 5. OOPS Fundamentals
+## 6. OOPS Fundamentals
 <table>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
@@ -181,7 +192,7 @@ class DemoOfJava {
     </tr>
  </table>
  
-🔵 **5.1 Object, Class and Class Members**
+🔵 **6.1 Object, Class and Class Members**
 - Object
 - Class
 - Class Members
@@ -189,15 +200,15 @@ class DemoOfJava {
     - Variables / Data Members
 - Classification of Data Members and Methods
     
-🔵 **5.2 Static and Instance**
+🔵 **6.2 Static and Instance**
 - Static Variables
 - Instance Variables
 - Static Method
 - Instance Method     
-🔵 **5.3 Local Variable**     
+🔵 **6.3 Local Variable**     
 A local variable in Java is a variable declared inside a method, constructor, or block. It is only accessible within that scope and is created when the method, constructor, or block is executed, and destroyed once it finishes. Local variables are stored in the stack memory.
 ---
-## 6. Data Shadowing and Data Hiding
+## 7. Data Shadowing and Data Hiding
 <table>
     <tr>
         <td><a href="https://www.youtube.com/watch?v=example1">
