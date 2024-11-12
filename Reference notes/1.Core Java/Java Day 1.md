@@ -7,9 +7,9 @@
 2. [Types of Class Loaders](#2-types-of-class-loaders)       
 3. [Variables and Data Types](#3-variables-and-data-types)
 4. [IDE and JDK Installation](#4-ide-and-jdk-installation)
-5. [First Java Program](#4-first-java-program)      
-6. [OOPS Fundamentals](#5-oops-fundamentals)
-7. [Data Shadowing and Data Hiding](#6-data-shadowing-and-data-hiding)  
+5. [First Java Program](#5-first-java-program)      
+6. [OOPS Fundamentals](#6-oops-fundamentals)
+7. [Data Shadowing and Data Hiding](#7-data-shadowing-and-data-hiding)  
 --------------
 
 ## 1. Java Features and Compilation, Execution Architecture of Java Program
