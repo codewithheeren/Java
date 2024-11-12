@@ -76,7 +76,7 @@ Java Program -> **javac Compiler** -> Byte Code ->** JRE **-> Machine Code
 ## 2. Types of Class Loaders
 <table>
 <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=Do4C_r9_RCA&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=5">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2. Types of Class Loaders and Java Development Kit</th>
