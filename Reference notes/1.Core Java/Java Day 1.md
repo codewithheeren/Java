@@ -106,7 +106,7 @@ A variable is a named storage location in memory that holds a value.
 A data type defines the type of value a variable can store, such as integers, floating-point numbers, or text.       
   <table>
    <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=gIq1wx6Kmas">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3.2 Characteristics of Variables</th>
