@@ -190,20 +190,19 @@ class DemoOfJava {
 ## 6. OOPS Fundamentals
 <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://www.youtube.com/watch?v=StggVcH3cFk">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">5. OOPS fundamentals</th>
+        <th align="left">6.1 Object, Class and Class Members</th>
     </tr>
  </table>
  
-🔵 **6.1 Object, Class and Class Members**
-- Object
-- Class
-- Class Members
-    - Methods
-    - Variables / Data Members
-- Classification of Data Members and Methods
+- Object  
+- Class   
+- Class Members   
+    - Methods   
+    - Variables / Data Members   
+- Classification of Data Members and Methods   
     
 🔵 **6.2 Static and Instance**   
 - Static Variables   
