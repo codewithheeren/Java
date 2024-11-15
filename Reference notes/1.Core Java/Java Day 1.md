@@ -206,7 +206,7 @@ class DemoOfJava {
     
 <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=makaC46KurI&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=12"  onclick="return ! window.open(this.href);">
+        <td><a href="https://youtu.be/makaC46KurI"  >
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6.2 Static And Instance Variables</th>
@@ -229,7 +229,7 @@ class DemoOfJava {
   
 <table>
     <tr>
-        <td><a href="">
+        <td><a href="https://youtu.be/dcd4JpsoHxI">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6.4 Local Variable</th>
