@@ -242,10 +242,10 @@ A local variable in Java is a variable declared inside a method, constructor, or
 ## 7. Data Shadowing and Data Hiding
 <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=example1">
+        <td><a href="https://youtu.be/1UXBX1xcOmI">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">6. Data Shadowing and Data Hiding</th>
+        <th align="left">7. Data Shadowing and Data Hiding</th>
     </tr>
  </table>
  
