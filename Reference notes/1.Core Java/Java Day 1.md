@@ -206,7 +206,7 @@ class DemoOfJava {
     
 <table>
     <tr>
-        <td><a href="https://www.youtube.com/watch?v=makaC46KurI&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=12">
+        <td><a href="https://www.youtube.com/watch?v=makaC46KurI&list=PLI8XC2Oz_l1qMnpB-6Kc3Ck0RuCqDKCCQ&index=12" target="_blank">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6.2 Static And Instance Variables</th>
@@ -223,10 +223,19 @@ class DemoOfJava {
         <th align="left">6.3 Static And Instance Methods</th>
     </tr>
  </table> 
+ 
 - Static Method   
 - Instance Method   
   
-🔵 **6.3 Local Variable**   
+<table>
+    <tr>
+        <td><a href="">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">6.4 Local Variable</th>
+    </tr>
+ </table>  
+  
 A local variable in Java is a variable declared inside a method, constructor, or block. It is only accessible within that scope and is created when the method, constructor, or block is executed, and destroyed once it finishes. Local variables are stored in the stack memory.
 
 ---
