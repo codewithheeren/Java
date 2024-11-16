@@ -16,13 +16,21 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1.1 Compile-time Polymorphism</th>
+        <th align="left">1.1 Polymorphism</th>
     </tr>
 </table>
 
-🔵 **Compile-time Polymorphism**
+🔵 **Compile-time Polymorphism**   
+🔵 **Runtime Polymorphism**   
+<table>
+    <tr>
+        <td><a href="#">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">1.2 Method Overloading</th>
+    </tr>
+</table>
 
-- Method Overloading
   - By Changing Number of Parameters
   - By Changing Data Type of Parameters
   - By Changing Sequence of Parameters
@@ -32,17 +40,26 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1.2 Runtime Polymorphism</th>
+        <th align="left">1.3 Type Promotion</th>
     </tr>
 </table>
 
-🔵 **Runtime Polymorphism**
-
-- Method Overriding
-
-**Type Promotion**
-
 ![promotion](https://github.com/codewithheeren/Java/assets/87074236/6d408c52-9d14-4bc6-8a55-c95889cd504d)
+   
+<table>
+    <tr>
+        <td><a href="#">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">1.4 Method Overriding</th>
+    </tr>
+</table>
+
+  - With Same Signature in Parent and Child Class     
+  - By Changing Return Type Or Covariant Type Method Overriding      
+  - By Changing Access Modifiers      
+  - Method Hiding      
+  - By Changing Throw Exception Obect Type 
 
 ---
 
@@ -53,17 +70,15 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2.1 Inheritance</th>
+        <th align="left">2. Inheritance</th>
     </tr>
 </table>
 
-🔵 **Inheritance**
-
-- Single Inheritance
-- Multilevel Inheritance
-- Multiple Inheritance (not supported in Java classes)
-- Hybrid Inheritance
-- Hierarchical Inheritance
+- Single Inheritance  
+- Multilevel Inheritance   
+- Multiple Inheritance (not supported in Java classes)   
+- Hybrid Inheritance   
+- Hierarchical Inheritance  
 
 ![Inheritance in Java](https://github.com/codewithheeren/Java/assets/87074236/3a7e2996-eb79-4ecd-b929-1867c3d25926)
 
@@ -78,9 +93,12 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">3.1 Association</th>
+        <th align="left">3 Association</th>
     </tr>
 </table>
+
+🔵 **Aggregation**   
+🔵 **Composition**
 
 ---
 
@@ -91,7 +109,7 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">4.1 Access Modifiers</th>
+        <th align="left">4 Access Modifiers</th>
     </tr>
 </table>
 
