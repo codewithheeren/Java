@@ -256,7 +256,8 @@ If method's local variable and class level variable having same name then inside
 In case of Inheritance if parent class data member and child class data memeber having same name then from child class priority will goes to child class data member, that is known as data hiding.  In this case 'super' keyword is use to access parent class variable.
 
 ---
-**Assignment -**   
+🔵 **Assignment -**  
+
 **Task 1:** Implement a class with a static variable to count the number of instances and then Create multiple instances of this class and print the count.
 
 **Task 2:** Develop a Java class to represent a library, with a static data member to store the total number of books in the library and an instance data member to store the book's title. Implement a static method to update the total count when a new book is added.
