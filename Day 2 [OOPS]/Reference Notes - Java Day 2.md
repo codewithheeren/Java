@@ -94,12 +94,21 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">3 Association</th>
+        <th align="left">3.1 Association</th>
     </tr>
 </table>
 
+<table>
+    <tr>
+        <td><a href="#">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">3.2 Aggregation Vs Composition</th>
+    </tr>
+</table>
 🔵 **Aggregation**   
 🔵 **Composition**
+![image](https://github.com/user-attachments/assets/8230b924-0c24-4574-998f-f3ea7b677847)
 
 ---
 
