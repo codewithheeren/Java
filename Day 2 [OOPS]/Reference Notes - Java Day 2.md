@@ -98,6 +98,8 @@
     </tr>
 </table>
 
+Assosiation is the second way to access one class proeperties and functionalities in to another class.
+
 <table>
     <tr>
         <td><a href="#">
