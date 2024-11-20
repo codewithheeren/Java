@@ -106,8 +106,10 @@
         <th align="left">3.2 Aggregation Vs Composition</th>
     </tr>
 </table>
+
 🔵 **Aggregation**   
 🔵 **Composition**
+
 ![image](https://github.com/user-attachments/assets/8230b924-0c24-4574-998f-f3ea7b677847)
 
 ---
