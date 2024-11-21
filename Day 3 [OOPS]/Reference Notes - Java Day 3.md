@@ -2,10 +2,6 @@
 **Topics Covered**
 --------------
 1. [Constructor](#1-constructor)
-    - [New keyword](#11-new-keyword)
-    - [Default Constructor](#default-constructor)
-    - [Non Parameterize Constructor](#non-parameterize-constructor)
-    - [Parameterize Constructor](#parameterize-constructor)
 2. [Types of Constructor](#2-types-of-constructor)
 3. [Instance block](#3-instance-block)
 4. [Constructor chaining](#4-constructor-chaining)
@@ -27,7 +23,7 @@
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1. Constructor</th>
+        <th align="left">1.1 Constructor</th>
     </tr>
 </table>
 
@@ -36,7 +32,7 @@ Constructor is a special member function of the class.
 - We do not define return type for constructor.
 - Constructor can not explicitly call.
 
-### 1.1 New keyword
+### 1.2 New keyword
 
 <table>
     <tr>
@@ -51,27 +47,44 @@ The new keyword in Java is used to create an instance of a class. When **new** i
 - It allocates memory at runtime in the heap area.
 - **new** invokes the class constructor to initialize the newly created object.
 
-### 1.2 Default Constructor
+## 2 Types of Constructor
 
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1.2 Default Constructor</th>
+        <th align="left">2.1 Types of Constructor</th>
+    </tr>
+</table>
+
+Constructor overloading refers to having multiple constructors within a class, each with a different set of parameters.
+
+- Default Constructor (No-Arg Constructor)
+- Parameterized Constructor
+
+
+### 2.1 Default Constructor
+
+<table>
+    <tr>
+        <td><a href="#">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">2.2 Default Constructor</th>
     </tr>
 </table>
 
 A constructor with no arguments provided explicitly.
 
-### 1.3 Non Parameterize Constructor
+### 2.3 Non Parameterize Constructor
 
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1.3 Non Parameterize Constructor</th>
+        <th align="left">2.3 Non Parameterize Constructor</th>
     </tr>
 </table>
 
@@ -90,22 +103,7 @@ A constructor without any parameters.
 
 A constructor that accepts parameters to initialize the object.
 
-## 2. Types of Constructor
-
-<table>
-    <tr>
-        <td><a href="#">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">2. Types of Constructor</th>
-    </tr>
-</table>
-
-Constructor overloading refers to having multiple constructors within a class, each with a different set of parameters.
-
-- Default Constructor (No-Arg Constructor)
-- Parameterized Constructor
-
+---
 ## 3. Instance block
 
 <table>
