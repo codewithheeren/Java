@@ -20,10 +20,10 @@
 
 <table>
     <tr>
-        <td><a href="#">
+        <td><a href="https://youtu.be/Tb5FfNaStgI">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1.1 Constructor</th>
+        <th align="left">1.1 Constructor  And Object creation using 'new' Keyword</th>
     </tr>
 </table>
 
@@ -32,18 +32,9 @@ Constructor is a special member function of the class.
 - We do not define return type for constructor.
 - Constructor can not explicitly call.
 
-### 1.2 New keyword
+🔵 **New keyword**  
 
-<table>
-    <tr>
-        <td><a href="#">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">1.1 New keyword</th>
-    </tr>
-</table>
-
-The new keyword in Java is used to create an instance of a class. When **new** is used:
+The new keyword in Java is used to create an instance of a class. When **new** is used:   
 - It allocates memory at runtime in the heap area.
 - **new** invokes the class constructor to initialize the newly created object.
 
