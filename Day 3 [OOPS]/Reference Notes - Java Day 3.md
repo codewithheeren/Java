@@ -54,7 +54,7 @@ A constructor with no arguments provided explicitly.
 🔵 **Non Parameterize Constructor**   
 A constructor without any parameters.    
 
-🔵 **1.4 Parameterize Constructor**    
+🔵 **Parameterize Constructor**    
 A constructor that accepts parameters to initialize the object.   
 
 ---
