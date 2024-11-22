@@ -2,18 +2,17 @@
 **Topics Covered**
 --------------
 1. [Constructor](#1-constructor)
-2. [Types of Constructor](#2-types-of-constructor)
-3. [Instance block](#3-instance-block)
-4. [Constructor chaining](#4-constructor-chaining)
+2. [Instance block / Init block](#3-instance-block)
+3. [Constructor chaining](#4-constructor-chaining)
     - [Constructor chaining in same class](#constructor-chaining-in-same-class)
     - [Constructor chaining in parent class](#constructor-chaining-in-parent-class)
-5. [Constructor never become the part of inheritance](#5-constructor-never-become-the-part-of-inheritance)
-6. [Anonymous object](#6-anonymous-object)
-7. [Static block](#7-static-block)
-8. [final keyword](#8-final-keyword)
-9. [Call by value and call by reference](#9-call-by-value-and-call-by-reference)
-10. [Packages, default package, import, and package keyword](#10-packages-default-package-import-and-package-keyword)
-11. [static Import](#11-static-import)
+4. [Constructor never become the part of inheritance](#5-constructor-never-become-the-part-of-inheritance)
+5. [Anonymous object](#6-anonymous-object)
+6. [Static block](#7-static-block)
+7. [final keyword](#8-final-keyword)
+8. [Call by value and call by reference](#9-call-by-value-and-call-by-reference)
+9. [Packages, default package, import, and package keyword](#10-packages-default-package-import-and-package-keyword)
+10. [static Import](#11-static-import)
 --------------
 
 ## 1. Constructor
@@ -38,64 +37,28 @@ The new keyword in Java is used to create an instance of a class. When **new** i
 - It allocates memory at runtime in the heap area.
 - **new** invokes the class constructor to initialize the newly created object.
 
-## 2 Types of Constructor
-
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2.1 Types of Constructor</th>
+        <th align="left">1.2 Constructor classification and object initialization</th>
     </tr>
 </table>
 
 Constructor overloading refers to having multiple constructors within a class, each with a different set of parameters.
 
-- Default Constructor (No-Arg Constructor)
-- Parameterized Constructor
+🔵 **Default Constructor**   
+A constructor with no arguments provided explicitly.   
 
+🔵 **Non Parameterize Constructor**   
+A constructor without any parameters.    
 
-### 2.1 Default Constructor
-
-<table>
-    <tr>
-        <td><a href="#">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">2.2 Default Constructor</th>
-    </tr>
-</table>
-
-A constructor with no arguments provided explicitly.
-
-### 2.3 Non Parameterize Constructor
-
-<table>
-    <tr>
-        <td><a href="#">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">2.3 Non Parameterize Constructor</th>
-    </tr>
-</table>
-
-A constructor without any parameters.
-
-### 1.4 Parameterize Constructor
-
-<table>
-    <tr>
-        <td><a href="#">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">1.4 Parameterize Constructor</th>
-    </tr>
-</table>
-
-A constructor that accepts parameters to initialize the object.
+🔵 **1.4 Parameterize Constructor**    
+A constructor that accepts parameters to initialize the object.   
 
 ---
-## 3. Instance block
+## 2. Instance block / Init block
 
 <table>
     <tr>
@@ -108,20 +71,21 @@ A constructor that accepts parameters to initialize the object.
 
 Instance blocks are name-less block in Java that possess common logic for all constructors.
 
-## 4. Constructor chaining
+---
+## 3. Constructor chaining
 
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">4. Constructor chaining</th>
+        <th align="left">3. Constructor chaining</th>
     </tr>
 </table>
 
 Constructor chaining refers to one constructor calling another constructor within the same class or in a superclass.
 
-### 4.1 Constructor chaining in same class
+### 3.1 Constructor chaining in same class
 
 <table>
     <tr>
@@ -132,7 +96,7 @@ Constructor chaining refers to one constructor calling another constructor withi
     </tr>
 </table>
 
-### 4.2 Constructor chaining in parent class
+### 3.2 Constructor chaining in parent class
 
 <table>
     <tr>
@@ -143,7 +107,7 @@ Constructor chaining refers to one constructor calling another constructor withi
     </tr>
 </table>
 
-## 5. Constructor never become the part of inheritance
+## 4. Constructor never become the part of inheritance
 
 <table>
     <tr>
