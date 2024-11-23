@@ -2,13 +2,13 @@
 **Topics Covered**
 --------------
 1. [Constructor](#1-constructor)
-2. [Instance block / Init block](#3-instance-block)
-3. [Constructor chaining](#4-constructor-chaining)
-4. [Anonymous object](#6-anonymous-object)
-5. [Static block](#7-static-block)
-6. [final keyword](#8-final-keyword)
-7. [Call by value and call by reference](#9-call-by-value-and-call-by-reference)
-8. [Packages, default package, import, and package keyword](#10-packages-default-package-import-and-package-keyword)
+2. [Instance block / Init block](#2-instance-block--init-block)
+3. [Constructor chaining](#3-constructor-chaining)
+4. [Anonymous object](#4-anonymous-object)
+5. [Static block](#5-static-block)
+6. [final keyword](#6-final-keyword)
+7. [Call by value and call by reference](#7-call-by-value-and-call-by-reference)
+8. [Packages, default package, import, and package keyword](#8-packages-default-package-import-and-package-keyword)
 --------------
 
 ## 1. Constructor
