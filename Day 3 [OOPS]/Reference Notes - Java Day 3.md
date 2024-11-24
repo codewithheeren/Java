@@ -28,6 +28,8 @@ Constructor is a special member function of the class.
 - Constructor can not explicitly call.
 
 🔵 **New keyword**  
+![Capture2](https://github.com/user-attachments/assets/697fada5-5349-4ffd-bdaf-b96001fdee39)
+
 
 The new keyword in Java is used to create an instance of a class. When **new** is used:   
 - It allocates memory at runtime in the heap area.
