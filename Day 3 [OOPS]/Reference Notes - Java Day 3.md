@@ -56,14 +56,14 @@ A constructor without any parameters.
 A constructor that accepts parameters to initialize the object.   
 
 ---
-## 2. Instance block / Init block
+## 2. Instance block / Init block And Constructor Overloading
 
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2. Instance block</th>
+        <th align="left">2. Instance Block And Constructor Overloading</th>
     </tr>
 </table>
 
