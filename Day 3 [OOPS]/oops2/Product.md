@@ -12,13 +12,18 @@
 package com.java.oops12;
 
 public class Product {
+	private int id;
 	private String name;
 	private double price;
+	private static int count = 0;
 
 	{
-		price = 10.0; // Initialize price to a minimum value
-		System.out.println(this); // This holds current object reference
-		System.out.println("Price initialized to minimum value: " + price);
+		count++;
+		id = count;
+	}
+
+	public Product() {
+
 	}
 
 	public Product(String name, double price) {
@@ -38,12 +43,23 @@ public class Product {
 		return price;
 	}
 
-	public static void main(String[] args) {
-		Product product1 = new Product("Grocery Item", 25.0);
-		Product product2 = new Product("Gadget");
+	public int getId() {
+		return id;
+	}
 
-		System.out.println(product1.getName() + " Price: " + product1.getPrice());
-		System.out.println(product2.getName() + " Price: " + product2.getPrice());
+	public static int getCount() {
+		return count;
+	}
+
+	public static void main(String[] args) {
+		Product p1 = new Product("laptop", 900);
+		Product p2 = new Product("mobile");
+		Product p3 = new Product();
+
+		System.out.println("Total objects created: " + Product.getCount());
+		System.out.println(p1.getName() + " id: " + p1.getId());
+		System.out.println(p2.getName() + " id: " + p2.getId());
+		System.out.println(p3.getName() + " id: " + p3.getId());
 	}
 }
 
