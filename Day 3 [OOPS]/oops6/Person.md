@@ -6,8 +6,8 @@
 /**
  * final key word  : blank final static and 
  * instance data memebers
- * final class canï¿½t inherit, 
- * final method canï¿½t override,
+ * final class can’t inherit, 
+ * final method can’t override,
  * final variable cannot be change
  * @author Heeren
  * @version 1.0

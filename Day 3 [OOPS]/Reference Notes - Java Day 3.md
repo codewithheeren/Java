@@ -2,7 +2,7 @@
 **Topics Covered**
 --------------
 1. [Constructor](#1-constructor)
-2. [Instance block / Init block And Constructor Overloading](#2-instance-block--init-block-and-constructor-overloading)
+2. [Instance block / Init block](#2-instance-block--init-block)
 3. [Constructor chaining](#3-constructor-chaining)
 4. [Anonymous object](#4-anonymous-object)
 5. [Static block](#5-static-block)
@@ -28,8 +28,6 @@ Constructor is a special member function of the class.
 - Constructor can not explicitly call.
 
 🔵 **New keyword**  
-![Capture2](https://github.com/user-attachments/assets/697fada5-5349-4ffd-bdaf-b96001fdee39)
-
 
 The new keyword in Java is used to create an instance of a class. When **new** is used:   
 - It allocates memory at runtime in the heap area.
@@ -37,7 +35,7 @@ The new keyword in Java is used to create an instance of a class. When **new** i
 
 <table>
     <tr>
-        <td><a href="https://youtu.be/MHlG7pW8z3s">
+        <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.2 Constructor classification and object initialization</th>
@@ -56,14 +54,14 @@ A constructor without any parameters.
 A constructor that accepts parameters to initialize the object.   
 
 ---
-## 2. Instance block / Init block And Constructor Overloading
+## 2. Instance block / Init block
 
 <table>
     <tr>
-        <td><a href="https://youtu.be/sY0u4sg0NCA">
+        <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2. Instance Block And Constructor Overloading</th>
+        <th align="left">2. Instance block</th>
     </tr>
 </table>
 
