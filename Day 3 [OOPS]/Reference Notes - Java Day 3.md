@@ -35,8 +35,8 @@ The new keyword in Java is used to create an instance of a class. When **new** i
 
 <table>
     <tr>
-        <td><a href="#">
-            <img src="https://www.youtube.com/watch?v=MHlG7pW8z3s" alt="yt" width="20" height="20">
+        <td><a href="https://www.youtube.com/watch?v=MHlG7pW8z3s">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.2 Constructor classification and object initialization</th>
     </tr>
@@ -58,8 +58,8 @@ A constructor that accepts parameters to initialize the object.
 
 <table>
     <tr>
-        <td><a href="#">
-            <img src="https://www.youtube.com/watch?v=sY0u4sg0NCA" alt="yt" width="20" height="20">
+        <td><a href="https://www.youtube.com/watch?v=sY0u4sg0NCA">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2. Instance block</th>
     </tr>
