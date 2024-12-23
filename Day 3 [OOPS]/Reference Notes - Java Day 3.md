@@ -2,7 +2,7 @@
 **Topics Covered**
 --------------
 1. [Constructor](#1-constructor)
-2. [Instance block / Init block](#2-instance-block--init-block)
+2. [Instance block / Init block And Constructor Overloading](#2-instance-block--init-block-and-Constructor-Overloading)
 3. [Constructor chaining](#3-constructor-chaining)
 4. [Anonymous object](#4-anonymous-object)
 5. [Static block](#5-static-block)
@@ -54,7 +54,7 @@ A constructor without any parameters.
 A constructor that accepts parameters to initialize the object.   
 
 ---
-## 2. Instance block / Init block
+## 2. Instance block / Init block And Constructor Overloading
 
 <table>
     <tr>
@@ -63,8 +63,12 @@ A constructor that accepts parameters to initialize the object.
         </a></td>
         <th align="left">2. Instance block</th>
     </tr>
-</table>
+</table>   
 
+🔵 **Constructor Overloading**
+More then one costructors in same class with different paramaters is known as constructor overloading.  
+
+🔵 **Instance block**
 Instance blocks are name-less block in Java that possess common logic for all constructors.
 
 ---
