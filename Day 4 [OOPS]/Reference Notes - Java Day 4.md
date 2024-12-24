@@ -18,7 +18,7 @@
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1.1 Abstraction</th>
     </tr>
@@ -31,7 +31,7 @@ Abstraction is the process of showing functionality while hiding the implementat
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2.1 Interface</th>
     </tr>
@@ -52,7 +52,7 @@ Abstraction is the process of showing functionality while hiding the implementat
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3.1 Abstract Class</th>
     </tr>
@@ -69,7 +69,7 @@ Abstraction is the process of showing functionality while hiding the implementat
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.1 Abstract Class vs Interface</th>
     </tr>
@@ -97,7 +97,7 @@ Abstraction is the process of showing functionality while hiding the implementat
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">5.1 Marker Interface</th>
     </tr>
@@ -110,7 +110,7 @@ Marker interface is an interface that has no methods or fields. It is used to ma
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6.1 Encapsulation</th>
     </tr>
@@ -123,7 +123,7 @@ Encapsulation is the process of wrapping code and data together into a single un
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">7.1 Type Casting</th>
     </tr>
@@ -163,7 +163,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">8.1 Equality vs equals method</th>
     </tr>
