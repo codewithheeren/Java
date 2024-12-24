@@ -160,15 +160,39 @@ Java supports call by value where a copy of the value is passed, and modificatio
     </tr>
 </table>
 
-🔵 **package**    
-🔵 **import**    
-   
-Packages in Java are used to group related classes and interfaces together, providing a namespace for managing class and interface names.   
-
+🔵 **package**  
+Packages in Java are used to group related classes and interfaces together, providing a namespace for managing class and interface names.     
+🔵 **import**     
+import keyword is use to import one package into another package.    
 🔵 **import static**  
 Static import in Java allows members (fields and methods) defined in a class to be used in Java code without specifying the class.   
-
 🔵 **Advantage of Static Import**
 Requires less coding if you frequently access static members of a class.
 
 ---
+## 9. Assignment      
+**Task 1: Develop Secure Online Shopping System, implement following requirements-**       
+🔵 Classes and Constructors: Create Product and ShoppingCart classes. Product should have properties like ID, name, and price with parameterized constructors.      
+🔵 Anonymous Object: Use anonymous objects to add products to the shopping cart.      
+🔵 final Keyword: Make Product properties final to ensure immutability.      
+
+**Task 2: Develop Banking System with Immutable Transactions, implement following requirements-**           
+🔵 Classes and Constructors: Create BankAccount and Transaction classes. BankAccount should include properties like account number, holder name, and balance and Transaction can include transactionID, amount, timestamp.     
+🔵 Constructor Chaining: Implement constructor chaining within BankAccount.    
+🔵 Instance Block: Use an instance block to print a message upon account creation.     
+🔵 final Keyword: Make Transaction properties final and ensure the class is immutable.     
+
+**Task 3: School System with Inheritance and Constructor Chaining, implement following requirements-**       
+🔵 Classes and Constructors: Create a base class Person and a derived class Student.     
+🔵 Constructor Chaining: Use constructor chaining to initialize Person and Student properties.     
+🔵 Instance Block: Add an instance block in Student to print a message upon student creation.      
+
+**Task 4. Build a Configurable Application with Static Imports, implement following requirements-**    
+🔵 Configuration Loader: Create a ConfigLoader class with a static block to load settings from a properties file.    
+🔵 Static Import: Use static import in another class AppSettings to access configuration settings without class name.  
+
+**Task 5: Build an Inventory Management System with Call by Reference Simulation, implement following requirements-**    
+🔵 Classes and Constructors: Create Item class with properties like item ID and quantity.       
+🔵 Call by Value and Call by Reference: Implement a method swapItems to swap properties of Item objects simulating call by reference.     
+
+
