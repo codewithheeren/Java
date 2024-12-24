@@ -25,7 +25,7 @@
     </tr>
 </table>
 
-🔵 **Abstraction**
+🔵 **Abstraction**    
 Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.
 
 🔵 **Interface**
@@ -101,7 +101,7 @@ Abstraction is the process of showing functionality while hiding the implementat
     </tr>
 </table>
 
-🔵 **Marker interface**
+🔵 **Marker interface**    
 Marker interface is an interface that has no methods or fields. It is used to mark a class as having some property or behavior.
 
 🔵 **Inner Interface**    
@@ -141,7 +141,7 @@ Type casting refers to assigning one data type to another type. Java supports wi
 
 Wrapper classes are datatype supported classes, use to represent values in form of objects, when we convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing).
 
-🔵 **Boxing, Unboxing And AutoBoxing**
+🔵 **Boxing, Unboxing And AutoBoxing**    
 **Usecase 1:**  
 `int x = 10;`   
 `Integer integer = new Integer(x); //Boxing`  
@@ -204,7 +204,8 @@ Wrapper classes are datatype supported classes, use to represent values in form 
         </a></td>
         <th align="left">7.ToString method</th>
     </tr>
-</table>
+</table>    
+
 ```java
 class Abc{
 int property=10 ;
