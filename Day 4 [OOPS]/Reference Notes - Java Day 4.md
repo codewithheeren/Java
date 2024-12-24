@@ -2,16 +2,14 @@
 
 **Topics Covered**
 --------------
-1. [Abstraction](#1-abstraction)
-2. [Interface](#2-interface)
-3. [Abstract Class](#3-abstract-class-and-abstract-method)
-4. [Abstract Class vs Interface](#4-abstract-class-vs-interface)
-5. [Marker Interface](#5-marker-interface)
-6. [Encapsulation](#6-encapsulation)
-7. [Type Casting](#7-type-casting)
-8. [Object class](#8-object-class)
-9. [Equality vs equals method](#9-equality-vs-equals-method)
-10. [ToString method](#10-tostring-method)
+1. [Abstraction And Interfaces](#1-abstraction-and-interfaces)
+2. [Abstract Class And Difference b/w Abstract Class and Interface](#2-abstract-class-and-difference-bw-abstract-class-and-interface)
+3. [Marker Interface And Inner Interface](#3-marker-interface-and-inner-interface)
+4. [Encapsulation](#4-encapsulation)
+5. [Type Casting](#5-type-casting)
+6. [Object class](#6-object-class)
+7. [Equality vs equals method](#7-equality-vs-equals-method)
+8. [ToString method](#8-tostring-method)
 --------------
   
 ## 1. Abstraction And Interfaces
