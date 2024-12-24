@@ -9,8 +9,9 @@
 5. [Marker Interface](#5-marker-interface)
 6. [Encapsulation](#6-encapsulation)
 7. [Type Casting](#7-type-casting)
-8. [Equality vs equals method](#8-equality-vs-equals-method)
-9. [Object class](#9-object-class)
+8. [Object class](#8-object-class)
+9. [Equality vs equals method](#9-equality-vs-equals-method)
+10. [ToString method](#10-tostring-method)
 --------------
   
 ## 1. Abstraction
@@ -158,11 +159,14 @@ Type casting refers to assigning one data type to another type. Java supports wi
 Wrapper classes are datatype supported classes, use to represent values in form of objects, when we convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing).
 
 **Usecase 1:**  
-`int x = 10; Integer integer = new Integer(x); //Boxing`  
+`int x = 10;`   
+`Integer integer = new Integer(x); //Boxing`  
 **Usecase 2:**  
-`Integer integer = 10; //AutoBoxing Integer integer = x; //AutoBoxing`  
+`Integer integer = 10; //AutoBoxing`     
+`Integer integer = x; //AutoBoxing`  
 **Usecase 3:**  
-`Integer integer = new Integer(10); int x=integer; //unboxing`  
+`Integer integer = new Integer(10);`     
+`int x=integer; //unboxing`  
 **Usecase 4:**  
 `if(x<integer) { //unboxing }`
 
@@ -172,15 +176,32 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 - **Downcasting**: Storing a parent object in a child type reference variable, which requires explicit casting.
 
 **Usecase 1:**  
-`Parent parent = new Child(); //upcasting Parent parent = new Child(); parent.setAge(10); Child child = (Child) parent; //downcasting`
+`Parent parent = new Child(); //upcasting`     
+`Parent parent = new Child();`      
+`parent.setAge(10);`      
+`Child child = (Child) parent; //downcasting`
 
 **Usecase 2:**  
-`Parent parent = new Parent(); Child child = (Child) parent; // class cast exception`
+`Parent parent = new Parent();`      
+`Child child = (Child) parent; // class cast exception`
 
 **Usecase 3:**  
 `Abc abc = new Xyz(); // doesn’t have any relation then class cast exception`
 
-## 8. Equality vs equals method
+## 8. Object class
+  - Tostring
+  - Equals
+  - Hashcode
+  - Clone
+  - Tostring
+  - getClass
+  - Wait
+  - Notify
+  - Notifyall
+  - Finalize
+
+
+## 9. Equality vs equals method
 
 <table>
     <tr>
@@ -192,7 +213,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 </table>
 
 
-**ToString method**
+## 10.ToString method
 ```java
 class Abc{
 int property=10 ;
