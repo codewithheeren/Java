@@ -14,32 +14,21 @@
 10. [ToString method](#10-tostring-method)
 --------------
   
-## 1. Abstraction
+## 1. Abstraction And Interfaces
 
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">1.1 Abstraction</th>
+        <th align="left">1. Abstraction And Interfaces </th>
     </tr>
 </table>
 
+🔵 **Abstraction**
 Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.
 
-## 2. Interface
-
-<table>
-    <tr>
-        <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">2.1 Interface</th>
-    </tr>
-</table>
-
-![interface](https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525)
-
+🔵 **Interface**
 - Blueprint of a class.
 - Methods defined in interfaces are by default public and abstract.
 - Interface data members are by default public, static, and final.
@@ -47,40 +36,31 @@ Abstraction is the process of showing functionality while hiding the implementat
 - No constructor can be defined in an interface.
 - When a class implements an interface, it needs to override all methods.
 - Java supports multiple inheritance through interfaces (a class can implement multiple interfaces).
+  
+🔵 **Abstract Method**   
+- Method without a body.     
+- Defined using the `abstract` keyword.     
+- Cannot be defined inside a concrete or normal class.     
+- Used in interfaces and abstract classes.  
 
-## 3. Abstract Class and Abstract Method
+## 2. Abstract Class And Difference b/w Abstract Class and Interface  
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">3. Abstract Class and Abstract Method</th>
+        <th align="left">2. Abstract Class And Abstract Class vs Interface</th>
     </tr>
 </table>
 
-**Abstract Class**
+🔵 **Abstract Class**
 - Class with the `abstract` keyword.
 - Contains at least one abstract method.
 - Cannot be instantiated (objects cannot be created).
 - May contain non-abstract methods.
 - Can have static and non-static variables.
-
-**Abstract Method** 
-- Method without a body.    
-- Defined using the `abstract` keyword.    
-- Cannot be defined inside a concrete or normal class.    
-- Used in interfaces and abstract classes.   
-
-## 4. Abstract Class vs Interface
-
-<table>
-    <tr>
-        <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">4.1 Abstract Class vs Interface</th>
-    </tr>
-</table>
+  
+🔵 **Abstract Class vs Interface**
 
 **Abstract Class:**
 
@@ -99,7 +79,7 @@ Abstraction is the process of showing functionality while hiding the implementat
 - Cannot implement abstract classes.
 - Java 8 allows defining default and static methods in interfaces.
 
-**Keywords in Different Cases of Inheritance**
+🔵 **Keywords in Different Cases of Inheritance**
 - `interface` to `interface`: `extends`   
 - `interface` to `class`: `implements`     
 - `Class` to `Class`: `extends`    
@@ -108,56 +88,60 @@ Abstraction is the process of showing functionality while hiding the implementat
 
 **Note:**   
 - A class can extend another class and implement interfaces simultaneously.    
-- When implementing multiple interfaces, extend the class before implementing the interfaces.    
+- When implementing multiple interfaces, extend the class before implementing the interfaces.     
 
-**Inner Interface**    
-- Declaration of an inner interface occurs in the body of another interface or class.    
-- If declared in another class, it must be `static` but can have any access modifier.   
-- If declared in another interface, it must be `static` and `public`.    
-
-## 5. Marker Interface
+## 3. Marker Interface And Inner Interface
 
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">5.1 Marker Interface</th>
+        <th align="left">3. Marker Interface And Inner Interface</th>
     </tr>
 </table>
 
+🔵 **Marker interface**
 Marker interface is an interface that has no methods or fields. It is used to mark a class as having some property or behavior.
 
-## 6. Encapsulation
+🔵 **Inner Interface**    
+- Declaration of an inner interface occurs in the body of another interface or class.    
+- If declared in another class, it must be `static` but can have any access modifier.   
+- If declared in another interface, it must be `static` and `public`.
+     
+## 4. Encapsulation
 
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">6.1 Encapsulation</th>
+        <th align="left">4. Encapsulation</th>
     </tr>
 </table>
 
 Encapsulation is the process of wrapping code and data together into a single unit. It provides control over data by restricting direct access to some of its components, allowing only setter or getter methods.
 
-## 7. Type Casting
+## 5. Type Casting
 
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">7.1 Type Casting</th>
+        <th align="left">5. Type Casting</th>
     </tr>
 </table>
 
+🔵 **Implicit And Explicit Type Casting**
+
 Type casting refers to assigning one data type to another type. Java supports widening and narrowing casting, as well as auto boxing and unboxing through wrapper classes.
 
-### Wrapper Classes
+🔵 **Wrapper Classes**
 
 Wrapper classes are datatype supported classes, use to represent values in form of objects, when we convert primitive data types into objects (boxing) and objects back to primitive data types (unboxing).
 
+🔵 **Boxing, Unboxing And AutoBoxing**
 **Usecase 1:**  
 `int x = 10;`   
 `Integer integer = new Integer(x); //Boxing`  
@@ -170,7 +154,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 **Usecase 4:**  
 `if(x<integer) { //unboxing }`
 
-### Upcasting and Downcasting
+🔵 **Upcasting and Downcasting**
 
 - **Upcasting**: Storing a child object in a parent type reference variable.
 - **Downcasting**: Storing a parent object in a child type reference variable, which requires explicit casting.
@@ -188,7 +172,17 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 **Usecase 3:**  
 `Abc abc = new Xyz(); // doesn’t have any relation then class cast exception`
 
-## 8. Object class
+## 6. Object class
+
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">6. Object Class and Equality vs equals method</th>
+    </tr>
+</table>
+
   - Tostring
   - Equals
   - Hashcode
@@ -200,20 +194,17 @@ Wrapper classes are datatype supported classes, use to represent values in form 
   - Notifyall
   - Finalize
 
+🔵**Equality vs equals method**
 
-## 9. Equality vs equals method
-
+## 7.ToString method
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">8.1 Equality vs equals method</th>
+        <th align="left">7.ToString method</th>
     </tr>
 </table>
-
-
-## 10.ToString method
 ```java
 class Abc{
 int property=10 ;
