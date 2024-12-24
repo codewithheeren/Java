@@ -4,7 +4,7 @@
 --------------
 1. [Abstraction](#1-abstraction)
 2. [Interface](#2-interface)
-3. [Abstract Class](#3-abstract-class)
+3. [Abstract Class](#3-abstract-class-and-abstract-method)
 4. [Abstract Class vs Interface](#4-abstract-class-vs-interface)
 5. [Marker Interface](#5-marker-interface)
 6. [Encapsulation](#6-encapsulation)
@@ -47,22 +47,28 @@ Abstraction is the process of showing functionality while hiding the implementat
 - When a class implements an interface, it needs to override all methods.
 - Java supports multiple inheritance through interfaces (a class can implement multiple interfaces).
 
-## 3. Abstract Class
-
+## 3. Abstract Class and Abstract Method
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">3.1 Abstract Class</th>
+        <th align="left">3. Abstract Class and Abstract Method</th>
     </tr>
 </table>
 
+**Abstract Class**
 - Class with the `abstract` keyword.
 - Contains at least one abstract method.
 - Cannot be instantiated (objects cannot be created).
 - May contain non-abstract methods.
 - Can have static and non-static variables.
+
+**Abstract Method** 
+- Method without a body.    
+- Defined using the `abstract` keyword.    
+- Cannot be defined inside a concrete or normal class.    
+- Used in interfaces and abstract classes.   
 
 ## 4. Abstract Class vs Interface
 
@@ -91,6 +97,22 @@ Abstraction is the process of showing functionality while hiding the implementat
 - Can only have static and final variables.
 - Cannot implement abstract classes.
 - Java 8 allows defining default and static methods in interfaces.
+
+**Keywords in Different Cases of Inheritance**
+- `interface` to `interface`: `extends`   
+- `interface` to `class`: `implements`     
+- `Class` to `Class`: `extends`    
+- `Class` to `Interface`: Not possible    
+- `Abstract Class` to `Class`: `extends`    
+
+**Note:**   
+- A class can extend another class and implement interfaces simultaneously.    
+- When implementing multiple interfaces, extend the class before implementing the interfaces.    
+
+**Inner Interface**    
+- Declaration of an inner interface occurs in the body of another interface or class.    
+- If declared in another class, it must be `static` but can have any access modifier.   
+- If declared in another interface, it must be `static` and `public`.    
 
 ## 5. Marker Interface
 
