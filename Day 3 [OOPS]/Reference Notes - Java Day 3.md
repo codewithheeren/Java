@@ -8,7 +8,8 @@
 5. [Static block](#5-static-block)
 6. [final keyword](#6-final-keyword)
 7. [Call by value and call by reference](#7-call-by-value-and-call-by-reference)
-8. [Packages, default package, import, and package keyword](#8-packages-default-package-import-and-package-keyword)
+8. [Packages, default package, import, and package keyword](#8-packages-default-package-import-and-static-Import)
+9. [Assignment](#9-assignment)
 --------------
 
 ## 1. Constructor
