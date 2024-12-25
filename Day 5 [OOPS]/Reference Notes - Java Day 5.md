@@ -66,5 +66,8 @@ When a program containing a local inner class is compiled, the compiler generate
 - It is always represented by its parent (class or interface) name. 
 - An anonymous class is created and instantiated in the same step and does not contain any explicit constructor due to its lack of a name.
 
-
+🔵 **Inner Interface**    
+- Declaration of an inner interface occurs in the body of another interface or class.    
+- If declared in another class, it must be `static` but can have any access modifier.   
+- If declared in another interface, it must be `static` and `public`.
 
