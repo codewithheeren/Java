@@ -126,7 +126,7 @@ A static block in Java is used to initialize static data members dynamically:
 
 <table>
     <tr>
-        <td><a href="#">
+        <td><a href="https://youtu.be/euZJVGamX8M">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6. final keyword</th>
