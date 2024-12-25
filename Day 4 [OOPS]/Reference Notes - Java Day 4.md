@@ -4,7 +4,7 @@
 --------------
 1. [Abstraction And Interfaces](#1-abstraction-and-interfaces)
 2. [Abstract Class And Difference b/w Abstract Class and Interface](#2-abstract-class-and-difference-bw-abstract-class-and-interface)
-3. [Marker Interface And Inner Interface](#3-marker-interface-and-inner-interface)
+3. [Marker Interface](#3-marker-interface)
 4. [Encapsulation](#4-encapsulation)
 5. [Type Casting](#5-type-casting)
 6. [Object class](#6-object-class)
