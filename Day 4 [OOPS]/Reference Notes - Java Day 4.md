@@ -24,7 +24,7 @@
 </table>
 
 🔵 **Abstraction**    
-Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.
+Abstraction is the process of showing functionality while hiding the implementation. It can be achieved in Java using interfaces or abstract classes.abstraction is use to achive generalization.
 
 ![interface](https://github.com/codewithheeren/Java/assets/87074236/47c765b2-26ff-47c4-91d0-d7d267522525)  
 
