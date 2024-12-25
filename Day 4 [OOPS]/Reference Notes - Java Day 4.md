@@ -90,24 +90,19 @@ Abstraction is the process of showing functionality while hiding the implementat
 - A class can extend another class and implement interfaces simultaneously.    
 - When implementing multiple interfaces, extend the class before implementing the interfaces.     
 
-## 3. Marker Interface And Inner Interface
+## 3. Marker Interface 
 
 <table>
     <tr>
         <td><a href="#">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">3. Marker Interface And Inner Interface</th>
+        <th align="left">3. Marker Interface</th>
     </tr>
 </table>
 
 🔵 **Marker interface**    
 Marker interface is an interface that has no methods or fields. It is used to mark a class as having some property or behavior.
-
-🔵 **Inner Interface**    
-- Declaration of an inner interface occurs in the body of another interface or class.    
-- If declared in another class, it must be `static` but can have any access modifier.   
-- If declared in another interface, it must be `static` and `public`.
      
 ## 4. Encapsulation
 
