@@ -155,8 +155,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 - **Downcasting**: Storing a parent object in a child type reference variable, which requires explicit casting.
 
 **Usecase 1:**  
-`Parent parent = new Child(); //upcasting`     
-`Parent parent = new Child();`      
+`Parent parent = new Child(); //upcasting`         
 `parent.setAge(10);`      
 `Child child = (Child) parent; //downcasting`
 
