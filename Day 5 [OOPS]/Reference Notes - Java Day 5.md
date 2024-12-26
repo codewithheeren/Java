@@ -23,7 +23,7 @@
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://img.youtube.com/vi/link-to-instanceof-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1. instanceof Operator</th>
     </tr>
@@ -46,7 +46,7 @@ System.out.println(parent instanceof Child); // true
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-shallow-cloning-video">
-             <img src="https://img.youtube.com/vi/link-to-shallow-cloning-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2.1 Shallow Cloning</th>
     </tr>
@@ -59,7 +59,7 @@ Shallow cloning creates a new object but copies the references of the original o
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-deep-cloning-video">
-             <img src="https://img.youtube.com/vi/link-to-deep-cloning-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2.2 Deep Cloning</th>
     </tr>
@@ -74,7 +74,7 @@ Deep cloning creates a new object and also creates new copies of the objects ref
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-custom-immutable-video">
-             <img src="https://img.youtube.com/vi/link-to-custom-immutable-video/0.jpg" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3.1 Custom Immutable</th>
     </tr>
@@ -87,7 +87,7 @@ An immutable class is a class whose instances cannot be modified once created.
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-immutability-break-video">
-             <img src="https://img.youtube.com/vi/link-to-immutability-break-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3.2 Scenario where Immutability of Class can Break</th>
     </tr>
@@ -100,7 +100,7 @@ Certain conditions and improper handling can cause the immutability of a class t
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-protecting-immutability-video">
-             <img src="https://img.youtube.com/vi/link-to-protecting-immutability-video/0.jpg" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3.3 Protecting Immutability of Immutable Class</th>
     </tr>
@@ -115,7 +115,7 @@ Proper techniques and practices can help ensure the immutability of a class.
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-static-nested-class-video">
-             <img src="https://img.youtube.com/vi/link-to-static-nested-class-video/0.jpg" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.1 Static Nested Class</th>
     </tr>
@@ -128,7 +128,7 @@ A static nested class is defined within another class but cannot access the non-
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instance-nested-class-video">
-             <img src="https://img.youtube.com/vi/link-to-instance-nested-class-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.2 Instance Nested Class</th>
     </tr>
@@ -141,7 +141,7 @@ An instance nested class, also known as an inner class, can access both static a
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-local-inner-class-video">
-             <img src="https://img.youtube.com/vi/link-to-local-inner-class-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.3 Local Inner Class</th>
     </tr>
@@ -154,7 +154,7 @@ A local inner class is defined within a block such as a method or a loop and can
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-anonymous-class-video">
-             <img src="https://img.youtube.com/vi/link-to-anonymous-class-video/0.jpg" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.4 Anonymous Class</th>
     </tr>
