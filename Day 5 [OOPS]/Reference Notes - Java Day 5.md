@@ -66,45 +66,28 @@ Shallow cloning creates a new object but copies the references of the original o
 Deep cloning creates a new object and also creates new copies of the objects referenced by the original object's fields.
 
 ## 3. Immutable Class
-
-### 3.1 Custom Immutable
-
+An immutable class is a class whose instances cannot be modified once created.
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-custom-immutable-video">
             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">3.1 Custom Immutable</th>
+        <th align="left">3. Immutable Class</th>
     </tr>
 </table>
 
-An immutable class is a class whose instances cannot be modified once created.
+🔵 **Custom Immutable Class Creation**
+Following rules need to follow in order to create custom immutable class -       
+ * Emmutable class implementation.    
+ * Rules to Create immutable class.        
+ * Class must be final.     
+ * Class data members must be private and final.    
+ * Do not define any setter method in that class.   
+ * Data members must initialize using constructor only.    
 
-### 3.2 Scenario where Immutability of Class can Break
+🔵**Scenario where Immutability of Class can Break**   
+🔵**Protecting Immutability of Immutable Class**   
 
-<table>
-    <tr>
-        <td><a href="https://youtu.be/link-to-immutability-break-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">3.2 Scenario where Immutability of Class can Break</th>
-    </tr>
-</table>
-
-Certain conditions and improper handling can cause the immutability of a class to break.
-
-### 3.3 Protecting Immutability of Immutable Class
-
-<table>
-    <tr>
-        <td><a href="https://youtu.be/link-to-protecting-immutability-video">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">3.3 Protecting Immutability of Immutable Class</th>
-    </tr>
-</table>
-
-Proper techniques and practices can help ensure the immutability of a class.
 
 ## 4. Nested Class
 A nested class, also known as an inner class, is a class declared inside another class or interface. Inner classes are used to logically group classes and interfaces in one place for improved readability and maintainability. They can access all members of the outer class, including private data members and methods.
@@ -123,7 +106,7 @@ A nested class, also known as an inner class, is a class declared inside another
 - It can access static data members of the outer class, including private.
 - Static nested class cannot access non-static (instance) data members of outer class .
 
-🔵 **What Happens at Compile Time?**
+🔵 **What Happens with nested class at Compile Time?**
 
 When a program containing a local inner class is compiled, the compiler generates two .class files:
 
