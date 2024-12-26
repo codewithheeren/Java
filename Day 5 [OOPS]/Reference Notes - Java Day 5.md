@@ -3,19 +3,22 @@
 
 **Topics Covered**
 --------------
+**Topics Covered**
+--------------
 1. [instanceof Operator](#1-instanceof-operator)
 2. [Cloning](#2-cloning)
-    - [Shallow Cloning](#21-shallow-cloning)
-    - [Deep Cloning](#22-deep-cloning)
+    - Shallow Cloning
+    - Deep Cloning
 3. [Immutable Class](#3-immutable-class)
-    - [Custom Immutable](#31-custom-immutable)
-    - [Scenario where Immutability of Class can Break](#32-scenario-where-immutability-of-class-can-break)
-    - [Protecting Immutability of Immutable Class](#33-protecting-immutability-of-immutable-class)
+    - Custom Immutable
+    - Scenario where Immutability of Class can Break
+    - Protecting Immutability of Immutable Class
 4. [Nested Class](#4-nested-class)
-    - [Static Nested Class](#41-static-nested-class)
-    - [Instance Nested Class](#42-instance-nested-class)
-    - [Local Inner Class](#43-local-inner-class)
-    - [Anonymous Class](#44-anonymous-class)
+    - Static Nested Class
+    - Instance Nested Class
+    - Local Inner Class
+    - Anonymous Class
+    - Inner Interface
 --------------
 
 ## 1. instanceof Operator
