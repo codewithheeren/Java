@@ -1,4 +1,5 @@
-## OOPS - Object Class Implementations 
+## OOPS - Define custom behaviour in equals method
+ * @author Heeren
 
 ### ObjectImpl3.java
 
