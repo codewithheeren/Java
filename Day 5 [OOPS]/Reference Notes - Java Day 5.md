@@ -35,10 +35,10 @@
 🔵 The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.    
 
 `Child child = new Child();`     
-`sysout(child instance of Child) ->   true`     
+`sysout(child instanceof Child) ->   true`     
    
 `Parent parent = new Child();`    
-`sysout(parent instance of Child) ->   true`   
+`sysout(parent instanceof Child) ->   true`   
 
 ## 2. Cloning
 
