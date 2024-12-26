@@ -77,9 +77,7 @@ An immutable class is a class whose instances cannot be modified once created.
 </table>
 
 🔵 **Custom Immutable Class Creation**
-Following rules need to follow in order to create custom immutable class -       
- * Emmutable class implementation.    
- * Rules to Create immutable class.        
+Following rules need to follow in order to create custom immutable class -              
  * Class must be final.     
  * Class data members must be private and final.    
  * Do not define any setter method in that class.   
