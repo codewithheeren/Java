@@ -47,20 +47,21 @@
         <td><a href="https://youtu.be/link-to-shallow-cloning-video">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2.1 Shallow Cloning</th>
+        <th align="left">2.1 Cloning</th>
     </tr>
 </table>
 
-🔵 Shallow cloning creates a new object but copies the references of the original object's fields, not the actual objects.
 
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-deep-cloning-video">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2.2 Deep Cloning</th>
+        <th align="left">2.2 Shallow Cloning And Deep Cloning</th>
     </tr>
 </table>
+
+🔵 Shallow cloning creates a new object but copies the references of the original object's fields, not the actual objects.
 
 🔵 Deep cloning creates a new object and also creates new copies of the objects referenced by the original object's fields.
 
