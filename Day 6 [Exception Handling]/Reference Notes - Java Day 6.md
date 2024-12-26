@@ -27,11 +27,6 @@
 ---
 
 ## 1. What is Exception
-
-- **Exception** is an event that disrupts the normal flow of a program.
-- An exception is an abnormal condition.
-- If a program gets abnormally terminated due to some abnormal condition, then that abnormal condition is known as an exception.
-
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
@@ -41,82 +36,42 @@
     </tr>
 </table>
 
----
+🔵 what is Abnormal Termination of a program ?         
+🔵**Exception**     
+- is an event that disrupts the normal flow of a program.
+- An exception is an abnormal condition.
+- If a program gets abnormally terminated due to some abnormal condition, then that abnormal condition is known as an exception.
 
-## 2. Exception Handling
+🔵**Exception Handling**    
 
-- **Exception Handling** is a mechanism used to handle exceptions. It allows defining an alternative path for program execution so that in case an exception occurs, the program does not abnormally terminate.
+Exception Handling is a mechanism used to handle exceptions. It allows defining an alternative path for program execution so that in case an exception occurs, the program does not abnormally terminate.
 
+🔵 **Error**     
+Error refers to an abnormal condition that we cannot handle. When such an error occurs, the program gets abnormally terminated.
+
+## 2. Classification of Exception
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">Exception Handling</th>
+        <th align="left">Checked and Unchecked Exceptions</th>
     </tr>
 </table>
 
----
+**Checked Exception / Compile Time Exception**
 
-## 3. Error
+- Known as compile time exception
+- Any exception that occurs due to access to some resource outside of JRE environment or outside resource can’t be accessed or not available, then it is a checked exception
+- Checked exception needs to be handled using try-catch block
 
-- **Error** refers to an abnormal condition that we cannot handle. When such an error occurs, the program gets abnormally terminated.
+**Unchecked Exception / Runtime Exception**
 
-<table>
-    <tr>
-        <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">Error</th>
-    </tr>
-</table>
+- Known as runtime exception
+- Childs of RuntimeException class
+- Code fail, not compatible, not complete or break in the programs, then it is an unchecked exception
 
----
-
-## 4. Classification of Exception
-
-### Checked Exception / Compile Time Exception
-
-- Known as a compile-time exception.
-- These exceptions occur due to access to resources outside of the JRE environment or inaccessible resources.
-- Checked exceptions need to be handled using a try-catch block.
-
-<table>
-    <tr>
-        <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">Checked Exception</th>
-    </tr>
-</table>
-
-### Unchecked Exception / Runtime Exception
-
-- Known as runtime exception.
-- These exceptions are child classes of `RuntimeException`.
-- These exceptions occur when the program fails or breaks unexpectedly due to incompatible code.
-
-<table>
-    <tr>
-        <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">Unchecked Exception</th>
-    </tr>
-</table>
-
----
-
-## 5. Exception Hierarchy
-
-- **Exception Hierarchy**:
-  - Throwable
-    - Error
-    - Exception
-      - RuntimeException
-      - IOException
-      - SQLException
-      - etc.
+## 3. Exception Hierarchy
 
 <table>
     <tr>
@@ -127,14 +82,9 @@
     </tr>
 </table>
 
----
+![exceptions](https://github.com/codewithheeren/Java/assets/87074236/c76209f0-8896-4e2a-939b-ce2e66e206e8) 
 
-## 6. Try with Multiple Catch
-
-- The `try` block is used to enclose code that might throw an exception.
-- If an exception occurs at a particular statement in the try block, the rest of the block code will not execute.
-- Multiple `catch` blocks can be used to handle different types of exceptions.
-
+## 4. Try with Multiple Catch
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
@@ -143,8 +93,9 @@
         <th align="left">Try with Multiple Catch</th>
     </tr>
 </table>
-
----
+- The `try` block is used to enclose code that might throw an exception.
+- If an exception occurs at a particular statement in the try block, the rest of the block code will not execute.
+- Multiple `catch` blocks can be used to handle different types of exceptions.
 
 ## 7. Nested Try-Catch
 
