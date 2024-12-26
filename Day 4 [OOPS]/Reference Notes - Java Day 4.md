@@ -166,14 +166,14 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 **Usecase 3:**  
 `Abc abc = new Xyz(); // doesn’t have any relation then class cast exception`
 
-## 6. Object class
+## 6. Object Class and Equality vs equals method
 
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">6. Object Class and Equality vs equals method</th>
+        <th align="left">6.1 Object Class</th>
     </tr>
 </table>
 
@@ -187,7 +187,16 @@ Wrapper classes are datatype supported classes, use to represent values in form 
   - Notifyall
   - Finalize
 
-🔵**Equality vs equals method**
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">6.2 Equality vs equals method</th>
+    </tr>
+</table>
+
+In Java, Use == for reference comparison and equals() for value comparison.
 
 ## 7.ToString method
 <table>
