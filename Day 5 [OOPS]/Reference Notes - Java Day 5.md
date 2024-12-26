@@ -29,7 +29,7 @@
     </tr>
 </table>
 
-The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.    
+🔵 The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.    
 
 `Child child = new Child();`     
 `sysout(child instance of Child) ->   true`     
@@ -38,8 +38,6 @@ The `instanceof` operator is used to check whether an object is an instance of a
 `sysout(parent instance of Child) ->   true`   
 
 ## 2. Cloning
-
-### 2.1 Shallow Cloning
 
 <table>
     <tr>
@@ -50,9 +48,7 @@ The `instanceof` operator is used to check whether an object is an instance of a
     </tr>
 </table>
 
-Shallow cloning creates a new object but copies the references of the original object's fields, not the actual objects.
-
-### 2.2 Deep Cloning
+🔵 Shallow cloning creates a new object but copies the references of the original object's fields, not the actual objects.
 
 <table>
     <tr>
@@ -63,7 +59,7 @@ Shallow cloning creates a new object but copies the references of the original o
     </tr>
 </table>
 
-Deep cloning creates a new object and also creates new copies of the objects referenced by the original object's fields.
+🔵 Deep cloning creates a new object and also creates new copies of the objects referenced by the original object's fields.
 
 ## 3. Immutable Class
 An immutable class is a class whose instances cannot be modified once created.
