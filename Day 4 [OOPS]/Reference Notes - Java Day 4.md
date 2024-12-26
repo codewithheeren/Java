@@ -181,7 +181,6 @@ Wrapper classes are datatype supported classes, use to represent values in form 
   - Equals
   - Hashcode
   - Clone
-  - Tostring
   - getClass
   - Wait
   - Notify
