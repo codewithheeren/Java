@@ -29,15 +29,13 @@
     </tr>
 </table>
 
-The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.
+The `instanceof` operator is used to check whether an object is an instance of a specific class or interface, allowing for type checking and type conversion in Java.    
 
-```java
-Child child = new Child();
-System.out.println(child instanceof Child); // true
-
-Parent parent = new Child();
-System.out.println(parent instanceof Child); // true
-```
+`Child child = new Child();`     
+`sysout(child instance of Child) ->   true`     
+   
+`Parent parent = new Child();`    
+`sysout(parent instance of Child) ->   true`   
 
 ## 2. Cloning
 
@@ -109,6 +107,7 @@ Certain conditions and improper handling can cause the immutability of a class t
 Proper techniques and practices can help ensure the immutability of a class.
 
 ## 4. Nested Class
+A nested class, also known as an inner class, is a class declared inside another class or interface. Inner classes are used to logically group classes and interfaces in one place for improved readability and maintainability. They can access all members of the outer class, including private data members and methods.
 
 <table>
     <tr>
@@ -119,7 +118,17 @@ Proper techniques and practices can help ensure the immutability of a class.
     </tr>
 </table>
 
-A static nested class is defined within another class but cannot access the non-static members of the outer class.
+- A class that is created inside a class, is called a static nested class in Java. It cannot access non-static data members and methods. 
+- It can be accessed by outer class name.
+- It can access static data members of the outer class, including private.
+- Static nested class cannot access non-static (instance) data members of outer class .
+
+🔵 **What Happens at Compile Time?**
+
+When a program containing a local inner class is compiled, the compiler generates two .class files:
+
+- Outer.class
+- Outer$1Inner.class
 
 <table>
     <tr>
@@ -130,7 +139,10 @@ A static nested class is defined within another class but cannot access the non-
     </tr>
 </table>
 
-An instance nested class, also known as an inner class, can access both static and non-static members of the outer class.
+- An instance nested class can access both static and non-static (instance) members of the outer class.    
+- It can only have instance data member inside it.     
+- Instance nested class only access by using inner class object reference.     
+- Data Shadowing in Inner Class.    
 
 <table>
     <tr>
@@ -141,7 +153,10 @@ An instance nested class, also known as an inner class, can access both static a
     </tr>
 </table>
 
-A local inner class is defined within a block such as a method or a loop and can access the local variables of that block.
+- Local inner classes are defined inside a block, which can be a method body, a for loop, or an if clause. 
+- Accessing within the Instance method: Can access all data members.    
+- Defined in a static method: Can access all static members.    
+- Can not modify local variable of method, because by default that will treat as final variable.    
 
 <table>
     <tr>
