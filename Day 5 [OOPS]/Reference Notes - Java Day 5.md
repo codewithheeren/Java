@@ -110,8 +110,6 @@ Proper techniques and practices can help ensure the immutability of a class.
 
 ## 4. Nested Class
 
-### 4.1 Static Nested Class
-
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-static-nested-class-video">
@@ -122,8 +120,6 @@ Proper techniques and practices can help ensure the immutability of a class.
 </table>
 
 A static nested class is defined within another class but cannot access the non-static members of the outer class.
-
-### 4.2 Instance Nested Class
 
 <table>
     <tr>
@@ -136,8 +132,6 @@ A static nested class is defined within another class but cannot access the non-
 
 An instance nested class, also known as an inner class, can access both static and non-static members of the outer class.
 
-### 4.3 Local Inner Class
-
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-local-inner-class-video">
@@ -149,8 +143,6 @@ An instance nested class, also known as an inner class, can access both static a
 
 A local inner class is defined within a block such as a method or a loop and can access the local variables of that block.
 
-### 4.4 Anonymous Class
-
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-anonymous-class-video">
@@ -160,4 +152,19 @@ A local inner class is defined within a block such as a method or a loop and can
     </tr>
 </table>
 
-An anonymous class is a class without a name and is defined and instantiated in a single expression.
+- An anonymous inner class is a class without a name, known as an anonymous class. 
+- It is always represented by its parent (class or interface) name. 
+- An anonymous class is created and instantiated in the same step and does not contain any explicit constructor due to its lack of a name.
+
+<table>
+    <tr>
+        <td><a href="https://youtu.be/link-to-anonymous-class-video">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">4.5 Inner Interface</th>
+    </tr>
+</table>
+
+- Declaration of an inner interface occurs in the body of another interface or class.       
+- If declared in another class, it must be `static` but can have any access modifier.        
+- If declared in another interface, it must be `static` and `public`.        
