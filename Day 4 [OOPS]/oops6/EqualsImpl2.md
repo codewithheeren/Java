@@ -1,4 +1,4 @@
-## OOPS - Equals method Implementations 
+## OOPS - Equals method behavious in wrapper classes 
 
 ### ObjectImpl2.java
 
