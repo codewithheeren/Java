@@ -1,14 +1,14 @@
 ## OOPS - Object Class Implementations 
 
-### ObjectImpl2.java
+### ObjectImpl3.java
 
 ```java
 /**
- * Object Class : equals method implementation
+ * Object Class : Override equals method
  * @author Heeren
  * @version 1.0
  */
-package com.java.oops19;
+package com.codewithheeren.java.oops6;
 
 class Student {
 
@@ -28,7 +28,7 @@ class Student {
 	}
 }
 
-public class ObjectImpl2 {
+public class ObjectImpl3 {
 	public static void main(String[] args) {
 		Student demo1 = new Student("John", 21);
 		Student demo2 = new Student("Tom", 33);

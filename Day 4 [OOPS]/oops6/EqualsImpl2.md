@@ -1,16 +1,16 @@
-## OOPS - Object Class Implementations 
+## OOPS - Equals method Implementations 
 
-### ObjectImpl3.java
+### ObjectImpl2.java
 
 ```java
 /**
- * Object Class : Every wrapper class override equals method
+ * Object Class : equals method behavious in string class
  * @author Heeren
  * @version 1.0
  */
-package com.java.oops19;
+package com.codewithheeren.java.oops6;
 
-public class ObjectImpl3 {
+public class ObjectImpl2 {
 	public static void main(String[] args) {
 		String s1 = new String("Hello");
 		String s2 = new String("Hello");
