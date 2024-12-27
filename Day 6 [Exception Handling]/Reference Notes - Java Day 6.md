@@ -168,9 +168,6 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 - Even if the program is terminated abruptly with `System.exit()`, the `finally` block will not execute.
 
 ## 6. Method Overriding in case of Exceptions
-
-- In method overriding, the subclass can override the exception handling mechanism of the parent class. However, the overriding method cannot throw more exceptions than the method it overrides.
-
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
@@ -180,11 +177,9 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
     </tr>
 </table>
 
----
+- In method overriding, the subclass can override the exception handling mechanism of the parent class. However, the overriding method cannot throw more exceptions than the method it overrides.
 
 ## 7. Exception Propagation
-
-Exception propagation is the process where an exception is thrown by one method and passed to the calling method. This continues until the exception is caught or it reaches the main method.    
 
 <table>
     <tr>
@@ -194,3 +189,5 @@ Exception propagation is the process where an exception is thrown by one method 
         <th align="left">Exception Propagation</th>
     </tr>
 </table>
+
+Exception propagation is the process where an exception is thrown by one method and passed to the calling method. This continues until the exception is caught or it reaches the main method.  
