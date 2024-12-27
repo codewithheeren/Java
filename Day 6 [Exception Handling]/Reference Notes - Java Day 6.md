@@ -2,9 +2,9 @@
 
 ## Topics Covered
 1. [What is Exception](#1-what-is-Exception)
-2. [Checked and Unchecked Exceptions](#2-checked-and-unchecked-exceptions)
+2. [Classification of Exception](#2-classification-of-Exception)
 3. [Exception Hierarchy](#3-exception-hierarchy)
-4. [Try Catch Block](#4-try-catch-block)
+4. [Try Catch Blocks](#4-try-catch-blocks)
 5. [Finally Block](#5-finally-block)
 6. [Method Overriding in case of Exceptions](#6-method-overriding-in-case-of-exceptions)
 7. [Exception Propagation](#7-exception-propagation)
