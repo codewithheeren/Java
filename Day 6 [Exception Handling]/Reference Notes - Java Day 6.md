@@ -1,17 +1,15 @@
 # Exception Handling
 
 ## Topics Covered
-1. [What is Exception](#what-is-exception)
-2. [Checked and Unchecked Exceptions](#checked-and-unchecked-exceptions)
-3. [Exception Hierarchy](#exception-hierarchy)
-4. [Try Catch Block](#try-catch-block)
-5. [Finally Block](#finally-block)
-6. [Method Overriding in case of Exceptions](#method-overriding-in-case-of-exceptions)
-7. [Exception Propagation](#exception-propagation)
-8. [TryWithResource](#trywithresource)
-9. [Custom Exceptions](#custom-exceptions)
-
-
+1. [What is Exception]((#1-what-is-exception)
+2. [Checked and Unchecked Exceptions](#2-checked-and-unchecked-exceptions)
+3. [Exception Hierarchy](#3-exception-hierarchy)
+4. [Try Catch Block](#4-try-catch-block)
+5. [Finally Block](#5-finally-block)
+6. [Method Overriding in case of Exceptions](#6-method-overriding-in-case-of-exceptions)
+7. [Exception Propagation](#7-exception-propagation)
+8. [TryWithResource](#8-trywithresource)
+9. [Custom Exceptions](#9-custom-exceptions)
 
 ---
 
