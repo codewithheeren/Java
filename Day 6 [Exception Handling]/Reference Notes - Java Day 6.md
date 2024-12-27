@@ -97,29 +97,29 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 
 - When a variable is accessed which is not pointing to any object and refers to nothing or null.
 - EG.-
-`String str = null;`
+`String str = null;`    
 `System.out.println(str.length());` 
 
 🔵**Number Format Exception**
 
 - When an attempt is made to convert a string with improper format into a numeric value    
 - EG.-    
-`String invalidNumber = "abc";`   
+`String invalidNumber = "abc";`      
 `int num = Integer.parseInt(invalidNumber);`   
 
 🔵**Array Index Out of Bounds Exception**
 - If a program tries to access an array index that is negative, greater than, or equal to the length of the array.    
 - EG.-     
-`int[] numbers = {1, 2, 3};`    
+`int[] numbers = {1, 2, 3};`      
 `int outOfBounds = numbers[5];`    
 
 🔵**Arithmetic Exception**
 
 - When an attempt is made to divide two numbers and the number in the denominator is zero.    
 - EG.-     
-`int dividend = 10;`  
-`int divisor = 0;`
-`int result = dividend / divisor;`   
+`int dividend = 10;`   
+`int divisor = 0;`     
+`int result = dividend / divisor;`     
 
 ## 4.Try Catch Blocks
 <table>
