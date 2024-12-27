@@ -1,4 +1,4 @@
-# Exception Handling
+## Day 6 [Exception Handling]
 
 ## Topics Covered
 1. [What is Exception](#1-what-is-Exception)
