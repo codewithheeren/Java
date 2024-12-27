@@ -93,19 +93,18 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
   - Parent not throw any exception, child throw exception ---- work
   - Parent throw exception, child not throw exception -- work
 
-### Null Pointer Exception
+🔵**Null Pointer Exception**
 
 - When a variable is accessed which is not pointing to any object and refers to nothing or null
 
-### Number Format Exception
+🔵**Number Format Exception**
 
 - When an attempt is made to convert a string with improper format into a numeric value
 
-### Array Index Out of Bounds Exception
-
+🔵**Array Index Out of Bounds Exception**
 - If a program tries to access an array index that is negative, greater than, or equal to the length of the array
 
-### Arithmetic Exception
+🔵**Arithmetic Exception**
 
 - When an attempt is made to divide two numbers and the number in the denominator is zero
 
