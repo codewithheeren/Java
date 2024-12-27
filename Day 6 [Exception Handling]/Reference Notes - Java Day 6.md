@@ -99,7 +99,7 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 `int divisor = 0;`     
 `int result = dividend / divisor;`
 
-🔵**Difference between classnotfound exception and no class definition not found error**
+🔵**Difference between classnotfound exception and no class definition not found error**     
 **ClassNotFoundException:**   
 Occurs when the programmer tries to dynamically load a class using Class.forName(), ClassLoader.loadClass(), or similar methods, but the class is not found in the classpath.
 
