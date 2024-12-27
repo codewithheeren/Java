@@ -1,7 +1,7 @@
 # Exception Handling
 
 ## Topics Covered
-1. [What is Exception]((#1-what-is-exception)
+1. [What is Exception]((#1-what-is-Exception)
 2. [Checked and Unchecked Exceptions](#2-checked-and-unchecked-exceptions)
 3. [Exception Hierarchy](#3-exception-hierarchy)
 4. [Try Catch Block](#4-try-catch-block)
