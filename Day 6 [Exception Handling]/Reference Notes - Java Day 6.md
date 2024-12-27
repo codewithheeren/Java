@@ -153,15 +153,6 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 
 - Nested `try-catch` blocks are used when one block might cause one error, and the entire block itself may cause another error.
 
-<table>
-    <tr>
-        <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">Nested Try-Catch</th>
-    </tr>
-</table>
-
 ## 5. Finally Block
 
 - The `finally` block always executes whether an exception is handled or not.
