@@ -3,8 +3,6 @@
 
 **Topics Covered**
 --------------
-**Topics Covered**
---------------
 1. [instanceof Operator](#1-instanceof-operator)
 2. [Cloning](#2-cloning)
     - Shallow Cloning
