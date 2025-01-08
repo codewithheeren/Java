@@ -301,38 +301,10 @@ Abc@hashcode
 3. **Real-Time Requirement:**
    - Create a `Library` class to manage a collection of books and display their details using `toString()`.
 
-**Task 6: Abstract Payment System with Interfaces**   
-**Description:** Design a payment system that uses abstraction and interfaces for handling multiple payment methods.
+**Task 6:**      
+Create a double type variable for account balance. Explicitly cast it to int when displaying rounded-off values. Implement this in a BankAccount class with a displayBalance() method.   
 
-1. **Abstract Class:**
-   - Create an abstract class `Payment` with properties like `amount` and a method `processPayment()`.
-
-2. **Interfaces:**
-   - Create an interface `Refundable` with methods like `refund()`.
-   - Create another interface `FraudCheck` with methods like `performFraudCheck()`.
-
-3. **Implementation:**
-   - Implement payment types like `CreditCardPayment`, `PayPalPayment`, and `BankTransfer` by extending `Payment` and implementing the interfaces.
-
-4. **Real-Time Requirement:**
-   - Add fraud checks for payments and allow refunds for eligible payment methods.
-
-**Task 7: Type Casting and Dynamic Dispatch in a Vehicle Management System**    
-**Description:** Build a vehicle management system using dynamic method dispatch and runtime type casting.
-
-1. **Abstract Class:**
-   - Create an abstract class `Vehicle` with properties like `make`, `model`, and a method `getVehicleType()`.
-
-2. **Concrete Classes:**
-   - Extend `Vehicle` with subclasses `Car`, `Bike`, and `Truck`.
-   - Add specific methods like `getCargoCapacity()` in `Truck` and `getMileage()` in `Car`.
-
-3. **Type Casting:**
-   - Store different vehicle types in a `List<Vehicle>` and use type casting to access subclass-specific methods.
-
-4. **Real-Time Requirement:**
-   - Add functionality to display detailed vehicle information based on the type at runtime.
-
----
+**Task 7:**    
+Create an ArrayList to store item prices using boxing. Retrieve the prices from the list, unbox them, and calculate the total cost in a ShoppingCart class.
 
 
