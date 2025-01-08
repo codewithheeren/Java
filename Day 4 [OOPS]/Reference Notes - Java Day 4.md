@@ -222,5 +222,129 @@ Abc abc = new Abc(); //1000 →   2000  → reference id
 
 Abc@hashcode
 ```
+---
+## 8.Assignment
+
+## Task 1: Employee Management System with Abstract Classes and Interfaces
+**Description:** Design an Employee Management System that utilizes abstract classes and interfaces for real-time features like salary calculation and role-based behavior.
+
+1. **Abstract Class:**
+   - Create an abstract class `Employee` with properties like `name`, `ID`, and methods like `calculateSalary()`.
+   - Add an abstract method `performDuties()` for role-specific behavior.
+
+2. **Interface:**
+   - Implement an interface `Benefits` with methods like `getBonus()` and `getInsuranceDetails()`.
+
+3. **Implementation:**
+   - Create concrete classes `Manager`, `Developer`, and `Intern` that extend `Employee` and implement `Benefits`.
+
+4. **Encapsulation:**
+   - Use private properties with appropriate getter and setter methods.
+
+5. **Real-Time Requirement:**
+   - Each role should have different salary calculation logic and unique duties.
+   - Provide an option to display benefits for employees based on their roles.
+
+---
+
+## Task 2: Banking System with Marker Interface
+**Description:** Develop a banking system with a marker interface for VIP customer identification.
+
+1. **Encapsulation:**
+   - Create a `BankAccount` class with encapsulated properties like `accountNumber`, `balance`, and `holderName`.
+
+2. **Marker Interface:**
+   - Define a marker interface `VIPCustomer`.
+   - Add a method `isVIP()` to check if the customer implements `VIPCustomer`.
+
+3. **Implementation:**
+   - Create classes `RegularCustomer` and `PremiumCustomer` extending `BankAccount`.
+   - Use the marker interface for `PremiumCustomer` and provide additional privileges for VIPs (e.g., higher withdrawal limits).
+
+4. **Real-Time Requirement:**
+   - Implement functionality where VIP customers get exclusive benefits like personalized account management.
+
+---
+
+## Task 3: E-Commerce System with Encapsulation and Type Casting
+**Description:** Build an E-Commerce system where products are stored in a collection, and runtime type casting is used to process different product types.
+
+1. **Encapsulation:**
+   - Create a `Product` class with properties like `productName`, `price`, and `category`.
+   - Use encapsulated getters and setters.
+
+2. **Type Casting:**
+   - Create subclasses `Electronics`, `Clothing`, and `Books`.
+   - Store all product types in a `List<Product>` and use type casting to access subclass-specific methods like `getWarranty()` for electronics.
+
+3. **Real-Time Requirement:**
+   - Add a method to calculate the discount for each product based on its category using type-specific logic.
+
+---
+
+## Task 4: Equality vs. `equals()` in Real-Time Systems
+**Description:** Implement a real-time contact management application to demonstrate the difference between `==` and `equals()`.
+
+1. **Object Class:**
+   - Create a `Contact` class with properties like `name`, `phoneNumber`, and `email`.
+
+2. **Overriding `equals()` and `hashCode()`:**
+   - Override `equals()` to compare `Contact` objects based on `phoneNumber`.
+   - Override `hashCode()` to maintain consistency.
+
+3. **Real-Time Requirement:**
+   - Store `Contact` objects in a `HashSet` and demonstrate how overriding `equals()` and `hashCode()` affects duplicate handling.
+
+---
+
+## Task 5: Custom `toString()` Implementation in a Library Management System
+**Description:** Create a library management system with a meaningful `toString()` implementation for displaying book details.
+
+1. **Object Class:**
+   - Create a `Book` class with properties like `title`, `author`, `ISBN`, and `price`.
+
+2. **Custom `toString()`:**
+   - Override the `toString()` method to display book details in a readable format.
+
+3. **Real-Time Requirement:**
+   - Create a `Library` class to manage a collection of books and display their details using `toString()`.
+
+---
+
+## Task 6: Abstract Payment System with Interfaces
+**Description:** Design a payment system that uses abstraction and interfaces for handling multiple payment methods.
+
+1. **Abstract Class:**
+   - Create an abstract class `Payment` with properties like `amount` and a method `processPayment()`.
+
+2. **Interfaces:**
+   - Create an interface `Refundable` with methods like `refund()`.
+   - Create another interface `FraudCheck` with methods like `performFraudCheck()`.
+
+3. **Implementation:**
+   - Implement payment types like `CreditCardPayment`, `PayPalPayment`, and `BankTransfer` by extending `Payment` and implementing the interfaces.
+
+4. **Real-Time Requirement:**
+   - Add fraud checks for payments and allow refunds for eligible payment methods.
+
+---
+
+## Task 7: Type Casting and Dynamic Dispatch in a Vehicle Management System
+**Description:** Build a vehicle management system using dynamic method dispatch and runtime type casting.
+
+1. **Abstract Class:**
+   - Create an abstract class `Vehicle` with properties like `make`, `model`, and a method `getVehicleType()`.
+
+2. **Concrete Classes:**
+   - Extend `Vehicle` with subclasses `Car`, `Bike`, and `Truck`.
+   - Add specific methods like `getCargoCapacity()` in `Truck` and `getMileage()` in `Car`.
+
+3. **Type Casting:**
+   - Store different vehicle types in a `List<Vehicle>` and use type casting to access subclass-specific methods.
+
+4. **Real-Time Requirement:**
+   - Add functionality to display detailed vehicle information based on the type at runtime.
+
+---
 
 
