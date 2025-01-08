@@ -161,4 +161,19 @@ When a program containing a local inner class is compiled, the compiler generate
 
 - Declaration of an inner interface occurs in the body of another interface or class.       
 - If declared in another class, it must be `static` but can have any access modifier.        
-- If declared in another interface, it must be `static` and `public`.        
+- If declared in another interface, it must be `static` and `public`.
+
+---
+## 5.Assignment    
+
+**Task 1:** Using instanceof for Type Validation    
+Create a method validateShape() that takes an object. Use the instanceof operator to check if the object is of type Circle or Rectangle and print the respective shape details.
+
+**Task 2:** Demonstrate Shallow and Deep Cloning    
+Implement a Student class with a Course object as a property. Perform shallow and deep cloning of a Student object and show how changes in the Course object affect (or don’t affect) the cloned objects.
+
+**Task 3:** Calculate Area Using Anonymous Class    
+Write a program where a method calculateArea(Shape shape) accepts an anonymous class implementation of a Shape interface. The Shape interface has a method double area(). Use the anonymous class to pass the implementation of area() for calculating the area of a circle or a rectangle.
+
+
+
