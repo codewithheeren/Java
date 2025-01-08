@@ -225,7 +225,7 @@ Abc@hashcode
 ---
 ## 8.Assignment
 
-## Task 1: Employee Management System with Abstract Classes and Interfaces
+**Task 1: Employee Management System with Abstract Classes and Interfaces**
 **Description:** Design an Employee Management System that utilizes abstract classes and interfaces for real-time features like salary calculation and role-based behavior.
 
 1. **Abstract Class:**
@@ -247,7 +247,7 @@ Abc@hashcode
 
 ---
 
-## Task 2: Banking System with Marker Interface
+**Task 2: Banking System with Marker Interface**
 **Description:** Develop a banking system with a marker interface for VIP customer identification.
 
 1. **Encapsulation:**
@@ -266,7 +266,7 @@ Abc@hashcode
 
 ---
 
-## Task 3: E-Commerce System with Encapsulation and Type Casting
+**Task 3: E-Commerce System with Encapsulation and Type Casting**
 **Description:** Build an E-Commerce system where products are stored in a collection, and runtime type casting is used to process different product types.
 
 1. **Encapsulation:**
@@ -282,7 +282,7 @@ Abc@hashcode
 
 ---
 
-## Task 4: Equality vs. `equals()` in Real-Time Systems
+**Task 4: Equality vs. `equals()` in Real-Time Systems**
 **Description:** Implement a real-time contact management application to demonstrate the difference between `==` and `equals()`.
 
 1. **Object Class:**
@@ -297,7 +297,7 @@ Abc@hashcode
 
 ---
 
-## Task 5: Custom `toString()` Implementation in a Library Management System
+**Task 5: Custom `toString()` Implementation in a Library Management System**
 **Description:** Create a library management system with a meaningful `toString()` implementation for displaying book details.
 
 1. **Object Class:**
@@ -311,7 +311,7 @@ Abc@hashcode
 
 ---
 
-## Task 6: Abstract Payment System with Interfaces
+**Task 6: Abstract Payment System with Interfaces**
 **Description:** Design a payment system that uses abstraction and interfaces for handling multiple payment methods.
 
 1. **Abstract Class:**
@@ -329,7 +329,7 @@ Abc@hashcode
 
 ---
 
-## Task 7: Type Casting and Dynamic Dispatch in a Vehicle Management System
+**Task 7: Type Casting and Dynamic Dispatch in a Vehicle Management System**
 **Description:** Build a vehicle management system using dynamic method dispatch and runtime type casting.
 
 1. **Abstract Class:**
