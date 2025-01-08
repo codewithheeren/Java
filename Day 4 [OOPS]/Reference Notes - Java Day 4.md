@@ -225,7 +225,7 @@ Abc@hashcode
 ---
 ## 8.Assignment
 
-**Task 1: Employee Management System with Abstract Classes and Interfaces**
+**Task 1: Employee Management System with Abstract Classes and Interfaces**     
 **Description:** Design an Employee Management System that utilizes abstract classes and interfaces for real-time features like salary calculation and role-based behavior.
 
 1. **Abstract Class:**
@@ -245,9 +245,7 @@ Abc@hashcode
    - Each role should have different salary calculation logic and unique duties.
    - Provide an option to display benefits for employees based on their roles.
 
----
-
-**Task 2: Banking System with Marker Interface**
+**Task 2: Banking System with Marker Interface**     
 **Description:** Develop a banking system with a marker interface for VIP customer identification.
 
 1. **Encapsulation:**
@@ -264,9 +262,7 @@ Abc@hashcode
 4. **Real-Time Requirement:**
    - Implement functionality where VIP customers get exclusive benefits like personalized account management.
 
----
-
-**Task 3: E-Commerce System with Encapsulation and Type Casting**
+**Task 3: E-Commerce System with Encapsulation and Type Casting**    
 **Description:** Build an E-Commerce system where products are stored in a collection, and runtime type casting is used to process different product types.
 
 1. **Encapsulation:**
@@ -280,9 +276,7 @@ Abc@hashcode
 3. **Real-Time Requirement:**
    - Add a method to calculate the discount for each product based on its category using type-specific logic.
 
----
-
-**Task 4: Equality vs. `equals()` in Real-Time Systems**
+**Task 4: Equality vs. `equals()` in Real-Time Systems**    
 **Description:** Implement a real-time contact management application to demonstrate the difference between `==` and `equals()`.
 
 1. **Object Class:**
@@ -295,9 +289,7 @@ Abc@hashcode
 3. **Real-Time Requirement:**
    - Store `Contact` objects in a `HashSet` and demonstrate how overriding `equals()` and `hashCode()` affects duplicate handling.
 
----
-
-**Task 5: Custom `toString()` Implementation in a Library Management System**
+**Task 5: Custom `toString()` Implementation in a Library Management System**    
 **Description:** Create a library management system with a meaningful `toString()` implementation for displaying book details.
 
 1. **Object Class:**
@@ -309,9 +301,7 @@ Abc@hashcode
 3. **Real-Time Requirement:**
    - Create a `Library` class to manage a collection of books and display their details using `toString()`.
 
----
-
-**Task 6: Abstract Payment System with Interfaces**
+**Task 6: Abstract Payment System with Interfaces**   
 **Description:** Design a payment system that uses abstraction and interfaces for handling multiple payment methods.
 
 1. **Abstract Class:**
@@ -327,9 +317,7 @@ Abc@hashcode
 4. **Real-Time Requirement:**
    - Add fraud checks for payments and allow refunds for eligible payment methods.
 
----
-
-**Task 7: Type Casting and Dynamic Dispatch in a Vehicle Management System**
+**Task 7: Type Casting and Dynamic Dispatch in a Vehicle Management System**    
 **Description:** Build a vehicle management system using dynamic method dispatch and runtime type casting.
 
 1. **Abstract Class:**
