@@ -235,3 +235,14 @@ Exception propagation is the process where an exception is thrown by one method 
 🔵 Custom exceptions are user-defined exceptions in Java, created by extending the Exception or RuntimeException class, to handle specific error scenarios that are not covered by standard exceptions.    
 🔵 They help make code more readable and maintainable by providing clear and meaningful error messages tailored to the application’s needs.
 
+---
+
+## 10.Assignment   
+
+**Task 1:** **Custom Exception for Bank Transactions**        
+Create a BankAccount class with methods withdraw(double amount) and deposit(double amount). Throw a custom exception InsufficientFundsException if the withdrawal amount exceeds the balance. Handle the exception in the main method and display an appropriate error message.
+
+**Task 2:** **Exception Propagation in a Travel Booking System**      
+Write a program to simulate a travel booking system where:     
+A method bookTicket() calls checkAvailability(), which throws a custom exception SeatsNotAvailableException.     
+Show how the exception propagates through the call stack using throws.   
