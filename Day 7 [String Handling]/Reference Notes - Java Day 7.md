@@ -59,7 +59,7 @@
 
 **Note - Do the implementation on all above methods for better understanding**
 
-## 2. Why string is immutable and final in java ? 
+## 2. Why string is immutable and final in java? 
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
