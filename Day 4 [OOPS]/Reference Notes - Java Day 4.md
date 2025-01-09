@@ -198,7 +198,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 
 In Java, Use == for reference comparison and equals() for value comparison.
 
-## 7.ToString method
+## 7. ToString method
 <table>
     <tr>
         <td><a href="#">
@@ -223,7 +223,7 @@ Abc abc = new Abc(); //1000 →   2000  → reference id
 Abc@hashcode
 ```
 ---
-## 8.Assignment
+## 8. Assignment
 
 **Task 1: Employee Management System with Abstract Classes and Interfaces**     
 **Description:** Design an Employee Management System that utilizes abstract classes and interfaces for real-time features like salary calculation and role-based behavior.
