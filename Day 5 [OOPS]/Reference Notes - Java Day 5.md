@@ -17,6 +17,7 @@
     - Local Inner Class
     - Anonymous Class
     - Inner Interface
+5. [Assignment](#5-assignment)
 --------------
 
 ## 1. instanceof Operator
@@ -164,7 +165,7 @@ When a program containing a local inner class is compiled, the compiler generate
 - If declared in another interface, it must be `static` and `public`.
 
 ---
-## 5.Assignment    
+## 5. Assignment    
 
 **Task 1:** Using instanceof for Type Validation    
 Create a method validateShape() that takes an object. Use the instanceof operator to check if the object is of type Circle or Rectangle and print the respective shape details.
