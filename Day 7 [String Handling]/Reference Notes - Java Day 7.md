@@ -5,7 +5,7 @@
 **Topics Covered**
 --------------
 1. [what-is-string-in-java?](#1-what-is-string-in-java?)
-2. [Why string is immutable and final in java ?](#2.-why-string-is-immutable-and-final-in-java-?)
+2. [Why string is immutable and final in java ?](#2-Why-string-is-immutable-and-final-in-java-?)
 3. [Differences between String and String Buffer and String builder](#3-differences-between-string-and-string-buffer-and-string-builder)
 4. [Assignment](#4-assignment)
 --------------
