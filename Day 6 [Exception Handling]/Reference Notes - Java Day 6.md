@@ -250,6 +250,11 @@ Show how the exception propagates through the call stack using throws.
 **Task 3:** **Design and implement a backend task scheduler for executing multiple tasks sequentially.**     
 The scheduler must handle failures gracefully and incorporate retry logic for error-prone tasks. This task focuses on backend concepts such as exception handling, logging, and retry mechanisms to ensure the scheduler's robustness in a real-world application.    
 
+**Task 4: Transaction Rollback in Banking System**
+Simulate a banking transaction where:    
+If any step in the process (e.g., debit, credit) fails, throw a TransactionException.    
+Use exception handling to rollback all completed steps to maintain consistency.    
+Log the failure and provide feedback to the user.     
 
 **Solution Task 3 -**
 
@@ -350,4 +355,106 @@ public class TaskSchedulerDemo {
 }
 
 
+```
+
+**Solution Task 4 -**   
+// Custom exception for transaction failures
+class TransactionException extends Exception {
+    public TransactionException(String message) {
+        super(message);
+    }
+}
+
+// BankAccount class
+class BankAccount {
+    private final String accountNumber;
+    private double balance;
+
+    public BankAccount(String accountNumber, double initialBalance) {
+        this.accountNumber = accountNumber;
+        this.balance = initialBalance;
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void debit(double amount) throws TransactionException {
+        if (amount <= 0) {
+            throw new TransactionException("Debit amount must be positive.");
+        }
+        if (balance < amount) {
+            throw new TransactionException("Insufficient funds for debit.");
+        }
+        balance -= amount;
+        System.out.println("Debited: " + amount + ", New Balance: " + balance);
+    }
+
+    public void credit(double amount) throws TransactionException {
+        if (amount <= 0) {
+            throw new TransactionException("Credit amount must be positive.");
+        }
+        balance += amount;
+        System.out.println("Credited: " + amount + ", New Balance: " + balance);
+    }
+
+    public void rollbackDebit(double amount) {
+        balance += amount;
+        System.out.println("Rolled back debit of: " + amount + ", Restored Balance: " + balance);
+    }
+
+    public void rollbackCredit(double amount) {
+        balance -= amount;
+        System.out.println("Rolled back credit of: " + amount + ", Restored Balance: " + balance);
+    }
+}
+
+// TransactionProcessor class
+class TransactionProcessor {
+    public static void processTransaction(BankAccount sender, BankAccount receiver, double amount) {
+        System.out.println("Starting transaction: Transfer " + amount + " from " + sender.getAccountNumber() + " to " + receiver.getAccountNumber());
+
+        try {
+            // Step 1: Debit sender account
+            sender.debit(amount);
+
+            // Simulate failure after debit (for testing consistency)
+            if (amount > 1000) {
+                throw new TransactionException("Simulated failure: Amount exceeds limit.");
+            }
+
+            // Step 2: Credit receiver account
+            receiver.credit(amount);
+
+            System.out.println("Transaction completed successfully.");
+        } catch (TransactionException e) {
+            System.err.println("Transaction failed: " + e.getMessage());
+
+            // Rollback changes to maintain consistency
+            System.out.println("Initiating rollback...");
+            sender.rollbackDebit(amount); // Rollback sender's debit
+            // No need to rollback receiver's credit since it wasn't completed
+        }
+    }
+}
+
+// Main class to test the simulation
+public class BankingTransactionSimulation {
+    public static void main(String[] args) {
+        BankAccount sender = new BankAccount("S12345", 2000);
+        BankAccount receiver = new BankAccount("R67890", 1000);
+
+        // Test a successful transaction
+        TransactionProcessor.processTransaction(sender, receiver, 500);
+
+        System.out.println("-------------------------");
+
+        // Test a failed transaction
+        TransactionProcessor.processTransaction(sender, receiver, 1500);
+    }
+}
 ```
