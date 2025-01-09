@@ -7,9 +7,9 @@
 3. [Marker Interface](#3-marker-interface)
 4. [Encapsulation](#4-encapsulation)
 5. [Type Casting](#5-type-casting)
-6. [Object class](#6-object-class)
-7. [Equality vs equals method](#7-equality-vs-equals-method)
-8. [ToString method](#8-tostring-method)
+6. [Object Class and Equality vs equals method](#6-object-class-and-equality-vs-equals-method)
+7. [ToString method](#7-tostring-method)
+8. [Assignment](#8-assignment)
 --------------
   
 ## 1. Abstraction And Interfaces
