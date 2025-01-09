@@ -250,11 +250,11 @@ Show how the exception propagates through the call stack using throws.
 **Task 3:** **Design and implement a backend task scheduler for executing multiple tasks sequentially.**     
 The scheduler must handle failures gracefully and incorporate retry logic for error-prone tasks. This task focuses on backend concepts such as exception handling, logging, and retry mechanisms to ensure the scheduler's robustness in a real-world application.    
 
-**Task 4: Transaction Rollback in Banking System**
-Simulate a banking transaction where:    
-If any step in the process (e.g., debit, credit) fails, throw a TransactionException.    
-Use exception handling to rollback all completed steps to maintain consistency.    
-Log the failure and provide feedback to the user.     
+**Task 4: Transaction Rollback in Banking System**    
+Simulate a banking transaction where:       
+If any step in the process (e.g., debit, credit) fails, throw a TransactionException.      
+Use exception handling to rollback all completed steps to maintain consistency.       
+Log the failure and provide feedback to the user.        
 
 **Solution Task 3 -**
 
@@ -357,7 +357,9 @@ public class TaskSchedulerDemo {
 
 ```
 
-**Solution Task 4 -**   
+**Solution Task 4 -**     
+
+```java
 // Custom exception for transaction failures
 class TransactionException extends Exception {
     public TransactionException(String message) {
@@ -365,7 +367,6 @@ class TransactionException extends Exception {
     }
 }
 
-// BankAccount class
 class BankAccount {
     private final String accountNumber;
     private double balance;
@@ -413,7 +414,6 @@ class BankAccount {
     }
 }
 
-// TransactionProcessor class
 class TransactionProcessor {
     public static void processTransaction(BankAccount sender, BankAccount receiver, double amount) {
         System.out.println("Starting transaction: Transfer " + amount + " from " + sender.getAccountNumber() + " to " + receiver.getAccountNumber());
@@ -442,7 +442,6 @@ class TransactionProcessor {
     }
 }
 
-// Main class to test the simulation
 public class BankingTransactionSimulation {
     public static void main(String[] args) {
         BankAccount sender = new BankAccount("S12345", 2000);
