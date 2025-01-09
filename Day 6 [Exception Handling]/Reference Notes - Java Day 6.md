@@ -10,6 +10,7 @@
 7. [Exception Propagation](#7-exception-propagation)
 8. [TryWithResource](#8-trywithresource)
 9. [Custom Exceptions](#9-custom-exceptions)
+10. [Assignment](#10-assignment)
 
 ---
 
@@ -237,7 +238,7 @@ Exception propagation is the process where an exception is thrown by one method 
 
 ---
 
-## 10.Assignment   
+## 10. Assignment   
 
 **Task 1:** **Custom Exception for Bank Transactions**        
 Create a BankAccount class with methods withdraw(double amount) and deposit(double amount). Throw a custom exception InsufficientFundsException if the withdrawal amount exceeds the balance. Handle the exception in the main method and display an appropriate error message.
