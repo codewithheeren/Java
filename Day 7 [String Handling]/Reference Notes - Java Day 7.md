@@ -4,23 +4,19 @@
 
 **Topics Covered**
 --------------
-1. [what-is-string-in-java?](#1-what-is-string-in-java?)
-2. [Why string is immutable and final in java ?](#2-Why-string-is-immutable-and-final-in-java-?)
+1. [What is String in Java?](#1-what-is-string-in-java)
+   - String literal and string object
+   - String comparison 
+   - Plus Operator and concat method
+   - Why string not prefer to store secure information like password
+2. [Why String is Immutable and Final in Java?](#2-why-string-is-immutable-and-final-in-java)
 3. [Differences between String and String Buffer and String builder](#3-differences-between-string-and-string-buffer-and-string-builder)
+   - String buffer 
+   - String builder
+   - Difference between string and string buffer
+   - Difference between string buffer and string builder
 4. [Assignment](#4-assignment)
---------------
-### String Handling
-- String
-- String literal and string object
-- Immutability of String 
-- String buffer 
-- String builder
-- Difference between string and string buffer
-- Difference between string buffer and string builder
-- Methods of string 
-- String comparison 
-- Plus Operator and concat method
-- Why string not prefer to store secure information like password
+   - Methods of string 
 --------------
 
 ## 1. What is String in java?
