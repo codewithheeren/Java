@@ -245,4 +245,109 @@ Create a BankAccount class with methods withdraw(double amount) and deposit(doub
 **Task 2:** **Exception Propagation in a Travel Booking System**      
 Write a program to simulate a travel booking system where:     
 A method bookTicket() calls checkAvailability(), which throws a custom exception SeatsNotAvailableException.     
-Show how the exception propagates through the call stack using throws.   
+Show how the exception propagates through the call stack using throws. 
+
+**Task 3:** **Design and implement a backend task scheduler for executing multiple tasks sequentially.**     
+The scheduler must handle failures gracefully and incorporate retry logic for error-prone tasks. This task focuses on backend concepts such as exception handling, logging, and retry mechanisms to ensure the scheduler's robustness in a real-world application.    
+
+
+**Solution Task 3 -**
+
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+// Custom exception to simulate task failures
+class TaskExecutionException extends Exception {
+    public TaskExecutionException(String message) {
+        super(message);
+    }
+}
+
+// Task class representing individual tasks
+class Task {
+    private final String taskName;
+    private final boolean fail; // Indicates if the task should fail (for simulation)
+
+    public Task(String taskName, boolean fail) {
+        this.taskName = taskName;
+        this.fail = fail;
+    }
+
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public void execute() throws TaskExecutionException {
+        if (fail) {
+            throw new TaskExecutionException("Simulated failure for task: " + taskName);
+        }
+        System.out.println("Task executed successfully: " + taskName);
+    }
+}
+
+// Scheduler class to manage tasks
+class TaskScheduler {
+    private final List<Task> tasks;
+
+    public TaskScheduler() {
+        tasks = new ArrayList<>();
+    }
+
+    public void addTask(Task task) {
+        tasks.add(task);
+    }
+
+    public void executeAllTasks() {
+        for (Task task : tasks) {
+            System.out.println("Starting task: " + task.getTaskName());
+            int retries = 3;
+            boolean success = false;
+
+            for (int attempt = 1; attempt <= retries; attempt++) {
+                try {
+                    task.execute();
+                    success = true;
+                    break; // Exit the retry loop on success
+                } catch (TaskExecutionException e) {
+                    System.err.println("Attempt " + attempt + " failed for task: " + task.getTaskName());
+                    System.err.println("Error: " + e.getMessage());
+                    if (attempt < retries) {
+                        try {
+                            Thread.sleep(1000); // Delay between retries
+                        } catch (InterruptedException ie) {
+                            Thread.currentThread().interrupt(); // Restore interrupted status
+                        }
+                    }
+                }
+            }
+
+            if (!success) {
+                System.err.println("Task FAILED after " + retries + " attempts: " + task.getTaskName());
+            } else {
+                System.out.println("Task completed successfully: " + task.getTaskName());
+            }
+
+            System.out.println("--------------------------");
+        }
+    }
+}
+
+// Main class to test the scheduler
+public class TaskSchedulerDemo {
+    public static void main(String[] args) {
+        TaskScheduler scheduler = new TaskScheduler();
+
+        // Add tasks to the scheduler
+        scheduler.addTask(new Task("Task 1", false)); // Success
+        scheduler.addTask(new Task("Task 2", true));  // Fails
+        scheduler.addTask(new Task("Task 3", true));  // Fails
+        scheduler.addTask(new Task("Task 4", false)); // Success
+
+        // Execute all tasks
+        scheduler.executeAllTasks();
+    }
+}
+
+
+```
