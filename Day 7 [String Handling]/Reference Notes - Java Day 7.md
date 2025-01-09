@@ -9,6 +9,7 @@
    - String comparison 
    - Plus Operator and concat method
    - Why string not prefer to store secure information like password
+   - Useful Methods of string class
 2. [Why String is Immutable and Final in Java?](#2-why-string-is-immutable-and-final-in-java)
 3. [Differences between String and String Buffer and String builder](#3-differences-between-string-and-string-buffer-and-string-builder)
    - String buffer 
