@@ -79,13 +79,13 @@
 
 - Implementing the `Runnable` interface is often preferred as it separates the thread's behavior from the class hierarchy, allowing for better design flexibility.
 
-## 2. Thread Life Cycle and Thread Priority
+## 2. Thread Life Cycle, Thread Priority and Thread Scheduler
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">Thread Life Cycle and Thread Priority</th>
+        <th align="left">2. Thread Life Cycle, Thread Priority and Thread Scheduler</th>
     </tr>
 </table>
 
@@ -114,21 +114,30 @@
 - By default, every thread has normal priority.
 - Priority must be set before calling the `start()` method.
 - The main thread also has a default normal priority.
+
+🔵 **What is Thread Scheduler in Java?**
+
+- The thread scheduler is responsible for determining which threads should run, pause, or resume execution based on thread priorities and states.
   
 🔵 **Can We Run the Same Thread Twice?**
 
 - No, a thread cannot be started (run) more than once. Attempting to start a thread that has already been started will result in a `java.lang.IllegalThreadStateException`.
 
-## 2. Join And Yield Methods
+## 2. Multithrading Methods : start(), run(), join() And yield()
 <table>
     <tr>
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">2. Join And Yield Methods</th>
+        <th align="left">2. Multithrading Methods : start(), run(), join() And yield()</th>
     </tr>
 </table>
 
+🔵 **What is the Difference Between start() and run() Method Call?**
+
+- `start()`: Used to start a new thread and execute its `run()` method asynchronously.
+- `run()`: Defines the entry point for the thread's execution. It's called when `start()` is invoked or can be called directly, but this runs synchronously in the current thread.
+  
 🔵 **What is the Use of Join Method?**
 
 - The `join()` method is used to wait for a thread to complete its execution before proceeding with the current thread.
@@ -138,29 +147,6 @@
 
 - The `yield()` method allows the currently executing thread to pause temporarily and give a chance to other waiting threads of the same priority to execute.
 - If no waiting threads or all waiting threads have lower priority, the same thread continues execution.
-
-## 3. Deadlock
-<table>
-    <tr>
-        <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
-        </a></td>
-        <th align="left">3. Deadlock</th>
-    </tr>
-</table>
-
-🔵 **What is Deadlock?**
-
-- Deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by some other process, resulting in a circular waiting condition.
-
-🔵 **What is Thread Scheduler in Java?**
-
-- The thread scheduler is responsible for determining which threads should run, pause, or resume execution based on thread priorities and states.
-
-🔵 **What is the Difference Between start() and run() Method Call?**
-
-- `start()`: Used to start a new thread and execute its `run()` method asynchronously.
-- `run()`: Defines the entry point for the thread's execution. It's called when `start()` is invoked or can be called directly, but this runs synchronously in the current thread.
 
 🔵 **Can We Overload `run()` Method?**
 
@@ -177,6 +163,20 @@
 🔵 **What Happens When We Call run() Method Explicitly?**
 
 - Calling `run()` method explicitly will execute the `run()` method synchronously in the current thread, without starting a new thread.
+
+## 3. Deadlock
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">3. Deadlock</th>
+    </tr>
+</table>
+
+🔵 **What is Deadlock?**
+
+- Deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by some other process, resulting in a circular waiting condition.
 
 ## 4. SINGLETON DESIGN PATTERN
 <table>
@@ -207,7 +207,7 @@
 - Lock is acquired when a synchronized method or block starts executing and released when it completes its execution.
 - Multiple synchronized methods cannot execute concurrently if they are called for the same object lock.
 
-**Method Synchronization**
+🔵 **Instance Method Synchronization**
 
 - **Object Level Lock**:
   - Every object in Java has a unique lock.
@@ -216,17 +216,22 @@
   - Once the thread acquires the lock, it can execute any synchronized method on that object.
   - Lock is released automatically after method execution completes.
 
-- **Static Synchronization (Class Level Lock)**:
+🔵 **Static Synchronization (Class Level Lock)**:
   - Every class in Java has a unique lock (class level lock).
   - If a thread wants to execute a static synchronized method, it requires the class level lock of that class.
   - Thread acquiring the class level lock cannot execute any other static synchronized method of that class until it releases the lock after method execution.
 
-**Synchronized Block vs Method**
-- **Synchronized Method**
- - Allows only one thread to access the method at a time.
- - Ensures data consistency but may lead to performance overhead.
+## 6. Synchronized Block and Synchronized methods
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">6. Synchronized Block and Synchronized methods</th>
+    </tr>
+</table>
 
-- **Synchronized block**
+🔵 **Synchronized block**
 - provides better performance and reduces waiting time for other threads.
   - Syntax:
      - `synchronized(this)` (locks on the current instance of the class)
@@ -257,10 +262,15 @@
     —-------------    
    }    
       
-- **Limitations of `synchronized`**:
+🔵 **Limitations of `synchronized`**:
   - `synchronized(x)`: Cannot use primitive types (`x` must be an object reference).
 
-**Can a Thread Acquire Multiple Locks Simultaneously?**
+🔵 **Synchronized Block vs Method**
+- **Synchronized Method**
+ - Allows only one thread to access the method at a time.
+ - Ensures data consistency but may lead to performance overhead.
+
+🔵 **Can a Thread Acquire Multiple Locks Simultaneously?**
 
 - Yes, a thread can acquire multiple locks in nested synchronized blocks.
 
