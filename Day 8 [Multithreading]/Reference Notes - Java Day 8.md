@@ -32,38 +32,33 @@
    - What is Intrinsic Lock or Monitor?
    - Types of Synchronization
 
-7. [Thread Interference and Race Conditions](#5-thread-interference-and-race-conditions)
+7. [Synchronized Block and Synchronized methods](#7-synchronized-block-and-synchronized-methods)
    - What is Thread Interference?
    - Understanding Race Conditions
 
-8. [Deadlock in Multithreading](#6-deadlock-in-multithreading)
+8. [Wait Vs Sleep methods](#8-wait-vs-sleep-methods)
    - What is Deadlock?
    - How to Avoid Deadlock?
 
-9. [wait(), notify(), and notifyAll() Methods](#7-wait-notify-and-notifyall-methods)
+9. [Inter Thread Communication and Wait/Notify](#9-inter-thread-communication-and-waitnotify)
    - wait()
    - notify()
    - notifyAll()
 
-10. [Concurrency API in Java](#8-concurrency-api-in-java)
+10. [Volatile Keyword](#10-volatile-keyword)
    - java.util.concurrent Package
    - Executor Framework
    - Callable and Future Interfaces
 
-11. [Thread Pooling](#9-thread-pooling)
+11. [Executor Framework](#11-executor-framework)
    - What is a Thread Pool?
    - Benefits of Thread Pooling
    - Creating a Thread Pool in Java
 
-11. [Atomic Variables and Locks](#10-atomic-variables-and-locks)
+12. [Runnable Vs Callable](#12-runnable-vs-callable)
     - What are Atomic Variables?
     - ReentrantLock Class
     - ReadWriteLock Interface
-
-12. [Practical Examples and Use Cases](#11-practical-examples-and-use-cases)
-    - Example 1: Banking Application
-    - Example 2: Producer-Consumer Problem
-    - Example 3: Multithreaded Web Server
 ---
 
 ## 1. Introduction To Multithreading
