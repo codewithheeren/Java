@@ -1,49 +1,67 @@
-## OOPS Day 8
+## OOPS Day 8 [Multithreading]
 
  @author Heeren
 
- **Topics Covered**
---------------
-1. [Introduction To Multithreading](#1-introduction-to-multithreading)
-- [What is Process and What is Thread and Their Differences?](#what-is-process-and-what-is-thread-and-their-differences)
-- [What is Multithreading?](#what-is-multithreading)
-- [What is the Advantage of Multithreading?](#what-is-the-advantage-of-multithreading)
-- [How Many Ways Can We Create a Thread?](#how-many-ways-can-we-create-a-thread)
-- [Which Approach is Better?](#which-approach-is-better)
-- [Can We Run the Same Thread Twice?](#can-we-run-the-same-thread-twice)
-- [What is Thread Priority?](#what-is-thread-priority)
-- [What is Thread Life Cycle?](#what-is-thread-life-cycle)
-- [What is the Use of Join Method?](#what-is-the-use-of-join-method)
-- [What is the Use of Yield Method?](#what-is-the-use-of-yield-method)
-- [What is Deadlock?](#what-is-deadlock)
-- [What is Thread Scheduler in Java?](#what-is-thread-scheduler-in-java)
-- [What is the Difference Between start() and run() Method Call?](#what-is-the-difference-between-start-and-run-method-call)
-- [Can We Overload run() Method?](#can-we-overload-run-method)
-- [What Will Happen if We Don’t Override the Thread Class run() Method?](#what-will-happen-if-we-dont-override-the-thread-class-run-method)
-- [Can We Override start() Method of Thread Class?](#can-we-override-start-method-of-thread-class)
-- [What Happens When We Call run() Method Explicitly?](#what-happens-when-we-call-run-method-explicitly)
-- [Singleton Design Pattern](#singleton-design-pattern)
-- [Synchronization](#synchronization)
-- [Method Synchronization](#method-synchronization)
-- [Synchronized Block](#synchronized-block)
-- [Can a Thread Acquire Multiple Locks Simultaneously?](#can-a-thread-acquire-multiple-locks-simultaneously)
-- [Wait() Method](#wait-method)
-- [Difference Between User Thread and Daemon Thread](#difference-between-user-thread-and-daemon-thread)
-- [Calling the run() Method of a Thread Class](#calling-the-run-method-of-a-thread-class)
-- [Ensuring main() is the Last Thread to Finish in Java Program](#ensuring-main-is-the-last-thread-to-finish-in-java-program)
-- [Why Thread sleep() and yield() Methods are Static?](#why-thread-sleep-and-yield-methods-are-static)
-- [Inter Thread Communication](#inter-thread-communication)
-- [wait, notify, and notifyAll Methods](#wait-notify-and-notifyall-methods)
-- [Difference Between wait() and sleep() Method](#difference-between-wait-and-sleep-method)
-- [Difference Between notify() and notifyAll() Methods](#difference-between-notify-and-notifyall-methods)
-- [Volatile Keyword](#volatile-keyword)
-- [Executor Framework](#executor-framework)
-- [Thread Pool](#thread-pool)
-- [Difference between Callable and Runnable Interface](#difference-between-callable-and-runnable-interface)
-- [When Do You Get InterruptedException?](#when-do-you-get-interruptedexception)
----
+## **Topics Covered**
 
-### Multithreading
+1. [Introduction To Multithreading](#1-introduction-to-multithreading)
+   - What is Process and What is Thread and Their Differences?
+   - What is Multithreading?
+   - What is the Advantage of Multithreading?
+   - How Many Ways Can We Create a Thread?
+   - Which Approach is Better?
+   - Can We Run the Same Thread Twice?
+
+2. [Thread Life Cycle, Thread Priority, and Thread Scheduler](#2-thread-life-cycle-thread-priority-and-thread-scheduler)
+   - What is Thread Life Cycle?
+   - What is Thread Priority?
+   - What is Thread Scheduler in Java?
+
+3. [Multithreading Methods: start(), run(), join(), and yield()](#3-multithreading-methods-start-run-join-and-yield)
+   - start()
+   - run()
+   - join()
+   - yield()
+
+4. [Synchronization in Java](#4-synchronization-in-java)
+   - What is Synchronization?
+   - Synchronized Blocks and Methods
+   - What is Intrinsic Lock or Monitor?
+   - Types of Synchronization
+
+5. [Thread Interference and Race Conditions](#5-thread-interference-and-race-conditions)
+   - What is Thread Interference?
+   - Understanding Race Conditions
+
+6. [Deadlock in Multithreading](#6-deadlock-in-multithreading)
+   - What is Deadlock?
+   - How to Avoid Deadlock?
+
+7. [wait(), notify(), and notifyAll() Methods](#7-wait-notify-and-notifyall-methods)
+   - wait()
+   - notify()
+   - notifyAll()
+
+8. [Concurrency API in Java](#8-concurrency-api-in-java)
+   - java.util.concurrent Package
+   - Executor Framework
+   - Callable and Future Interfaces
+
+9. [Thread Pooling](#9-thread-pooling)
+   - What is a Thread Pool?
+   - Benefits of Thread Pooling
+   - Creating a Thread Pool in Java
+
+10. [Atomic Variables and Locks](#10-atomic-variables-and-locks)
+    - What are Atomic Variables?
+    - ReentrantLock Class
+    - ReadWriteLock Interface
+
+11. [Practical Examples and Use Cases](#11-practical-examples-and-use-cases)
+    - Example 1: Banking Application
+    - Example 2: Producer-Consumer Problem
+    - Example 3: Multithreaded Web Server
+---
 
 ## 1. Introduction To Multithreading
 <table>
@@ -123,7 +141,7 @@
 
 - No, a thread cannot be started (run) more than once. Attempting to start a thread that has already been started will result in a `java.lang.IllegalThreadStateException`.
 
-## 2. Multithrading Methods : start(), run(), join() And yield()
+## 3. Multithrading Methods : start(), run(), join() And yield()
 <table>
     <tr>
         <td><a href="#">
@@ -168,7 +186,7 @@
 
 - These methods apply to the current executing thread and are not specific to any thread object. They are common for all threads.
 
-## 3. Deadlock
+## 4. Deadlock
 <table>
     <tr>
         <td><a href="#">
@@ -182,7 +200,7 @@
 
 - Deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource held by some other process, resulting in a circular waiting condition.
 
-## 4. SINGLETON DESIGN PATTERN
+## 5. SINGLETON DESIGN PATTERN
 <table>
     <tr>
         <td><a href="#">
@@ -194,7 +212,7 @@
 
 - Ensures that only one instance of a class is created.
 
-## 5. Synchronization
+## 6. Synchronization
 <table>
     <tr>
         <td><a href="#">
@@ -225,7 +243,7 @@
   - If a thread wants to execute a static synchronized method, it requires the class level lock of that class.
   - Thread acquiring the class level lock cannot execute any other static synchronized method of that class until it releases the lock after method execution.
 
-## 6. Synchronized Block and Synchronized methods
+## 7. Synchronized Block and Synchronized methods
 <table>
     <tr>
         <td><a href="#">
@@ -283,7 +301,7 @@
 
 - Yes, a thread can acquire multiple locks in nested synchronized blocks.
 
-## 7. Wait Vs Sleep methods
+## 8. Wait Vs Sleep methods
 <table>
     <tr>
         <td><a href="#">
@@ -307,7 +325,7 @@ can be used to pause the execution of current thread for specified time in milli
 - `wait()`: Releases the lock and waits until notified.
 - `sleep()`: Pauses the thread's execution for a specified amount of time.
 
-## 8. Inter Thread Communication and Wait/Notify
+## 9. Inter Thread Communication and Wait/Notify
 <table>
     <tr>
         <td><a href="#">
@@ -343,7 +361,7 @@ can be used to pause the execution of current thread for specified time in milli
 
 - Use `Thread.join()` method to wait for all created threads to complete before the main function finishes.
 
-## 9. Volatile Keyword
+## 10. Volatile Keyword
 <table>
     <tr>
         <td><a href="#">
@@ -358,7 +376,7 @@ can be used to pause the execution of current thread for specified time in milli
 - `volatile`: Indicates that a variable's value will be modified by different threads.
 - Ensures visibility and prevents caching of variable value in threads.
 
-## 10. Executor Framework
+## 11. Executor Framework
 <table>
     <tr>
         <td><a href="#">
@@ -383,7 +401,7 @@ can be used to pause the execution of current thread for specified time in milli
 
 - `InterruptedException` is thrown when a thread is waiting, sleeping, or doing I/O operations and gets interrupted by another thread.
 
-## 11. Runnable Vs Callable
+## 12. Runnable Vs Callable
 <table>
     <tr>
         <td><a href="#">
