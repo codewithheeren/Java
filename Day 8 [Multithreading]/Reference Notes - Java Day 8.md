@@ -23,41 +23,44 @@
    - join()
    - yield()
 
-4. [Synchronization in Java](#4-synchronization-in-java)
+4. [Deadlock](#4-Deadlock)
+5. [SINGLETON DESIGN PATTERN](#5-singleton-design-pattern)
+   
+6. [Synchronization](#6-synchronization)
    - What is Synchronization?
    - Synchronized Blocks and Methods
    - What is Intrinsic Lock or Monitor?
    - Types of Synchronization
 
-5. [Thread Interference and Race Conditions](#5-thread-interference-and-race-conditions)
+7. [Thread Interference and Race Conditions](#5-thread-interference-and-race-conditions)
    - What is Thread Interference?
    - Understanding Race Conditions
 
-6. [Deadlock in Multithreading](#6-deadlock-in-multithreading)
+8. [Deadlock in Multithreading](#6-deadlock-in-multithreading)
    - What is Deadlock?
    - How to Avoid Deadlock?
 
-7. [wait(), notify(), and notifyAll() Methods](#7-wait-notify-and-notifyall-methods)
+9. [wait(), notify(), and notifyAll() Methods](#7-wait-notify-and-notifyall-methods)
    - wait()
    - notify()
    - notifyAll()
 
-8. [Concurrency API in Java](#8-concurrency-api-in-java)
+10. [Concurrency API in Java](#8-concurrency-api-in-java)
    - java.util.concurrent Package
    - Executor Framework
    - Callable and Future Interfaces
 
-9. [Thread Pooling](#9-thread-pooling)
+11. [Thread Pooling](#9-thread-pooling)
    - What is a Thread Pool?
    - Benefits of Thread Pooling
    - Creating a Thread Pool in Java
 
-10. [Atomic Variables and Locks](#10-atomic-variables-and-locks)
+11. [Atomic Variables and Locks](#10-atomic-variables-and-locks)
     - What are Atomic Variables?
     - ReentrantLock Class
     - ReadWriteLock Interface
 
-11. [Practical Examples and Use Cases](#11-practical-examples-and-use-cases)
+12. [Practical Examples and Use Cases](#11-practical-examples-and-use-cases)
     - Example 1: Banking Application
     - Example 2: Producer-Consumer Problem
     - Example 3: Multithreaded Web Server
@@ -218,7 +221,7 @@
         <td><a href="#">
              <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
-        <th align="left">5. Synchronization</th>
+        <th align="left">6. Synchronization</th>
     </tr>
 </table>
 
