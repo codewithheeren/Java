@@ -10,40 +10,44 @@
    - What is the Advantage of Multithreading?
    - How Many Ways Can We Create a Thread?
    - Which Approach is Better?
-   - Can We Run the Same Thread Twice?
 
 2. [Thread Life Cycle, Thread Priority, and Thread Scheduler](#2-thread-life-cycle-thread-priority-and-thread-scheduler)
    - What is Thread Life Cycle?
    - What is Thread Priority?
    - What is Thread Scheduler in Java?
+   - Can We Run the Same Thread Twice?
 
 3. [Multithreading Methods: start(), run(), join(), and yield()](#3-multithrading-methods--start-run-join-and-yield)
-   - start()
-   - run()
-   - join()
-   - yield()
+   - What is the Difference Between start() and run() Method Call?
+   - What is the Use of Join Method?
+   - What is the Use of Yield Method?
+   - Can We Overload run() Method?
+   - What Will Happen if We Don’t Override the Thread Class run() Method?
+   - Can We Override start() Method of Thread Class?
+   - What Happens When We Call run() Method Explicitly?
+   - Why Thread sleep() and yield() Methods are Static?
 
 4. [Deadlock](#4-Deadlock)
 5. [SINGLETON DESIGN PATTERN](#5-singleton-design-pattern)
    
 6. [Synchronization](#6-synchronization)
    - What is Synchronization?
-   - Synchronized Blocks and Methods
-   - What is Intrinsic Lock or Monitor?
-   - Types of Synchronization
+   - Object Level Lock
+   - Class Level Lock
 
 7. [Synchronized Block and Synchronized methods](#7-synchronized-block-and-synchronized-methods)
-   - What is Thread Interference?
-   - Understanding Race Conditions
+   - Synchronized Block vs Method
+   - Can a Thread Acquire Multiple Locks Simultaneously?
 
 8. [Wait Vs Sleep methods](#8-wait-vs-sleep-methods)
-   - What is Deadlock?
-   - How to Avoid Deadlock?
+   - Wait()
+   - sleep()
+   - Difference Between wait() and sleep() Method
 
 9. [Inter Thread Communication and Wait/Notify](#9-inter-thread-communication-and-waitnotify)
-   - wait()
-   - notify()
-   - notifyAll()
+   - Wait, Notify, and NotifyAll
+   - Difference Between notify() and notifyAll()
+   - Difference Between User Thread and Daemon Thread
 
 10. [Volatile Keyword](#10-volatile-keyword)
    - java.util.concurrent Package
@@ -52,8 +56,6 @@
 
 11. [Executor Framework](#11-executor-framework)
    - What is a Thread Pool?
-   - Benefits of Thread Pooling
-   - Creating a Thread Pool in Java
 
 12. [Runnable Vs Callable](#12-runnable-vs-callable)
     - What are Atomic Variables?
