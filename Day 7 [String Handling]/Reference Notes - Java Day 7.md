@@ -16,8 +16,7 @@
    - String builder
    - Difference between string and string buffer
    - Difference between string buffer and string builder
-4. [Assignment](#4-assignment)
-   - Methods of string 
+4. [Assignment](#4-assignment)    
 --------------
 
 ## 1. What is String in java?
