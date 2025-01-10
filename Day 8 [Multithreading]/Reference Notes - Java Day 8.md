@@ -4,42 +4,42 @@
 
  **Topics Covered**
 --------------
-- What is Process and What is Thread and Their Differences?
-- What is Multithreading?
-- What is the Advantage of Multithreading?
-- How Many Ways Can We Create a Thread?
-- Which Approach is Better?
-- Can We Run the Same Thread Twice?
-- What is Thread Priority?
-- What is Thread Life Cycle?
-- What is the Use of Join Method?
-- What is the Use of Yield Method?
-- What is Deadlock?
-- What is Thread Scheduler in Java?
-- What is the Difference Between start() and run() Method Call?
-- Can We Overload run() Method?
-- What Will Happen if We Don’t Override the Thread Class run() Method?
-- Can We Override start() Method of Thread Class?
-- What Happens When We Call run() Method Explicitly?
-- SINGLETON DESIGN PATTERN
-- Synchronization
-- Method Synchronization
-- Synchronized Block
-- Can a Thread Acquire Multiple Locks Simultaneously?
-- Wait() Method
-- Difference Between User Thread and Daemon Thread
-- Calling the run() Method of a Thread Class
-- Ensuring main() is the Last Thread to Finish in Java Program
-- Why Thread sleep() and yield() Methods are Static?
-- Inter Thread Communication
-- wait, notify, and notifyAll Methods
-- Difference Between wait() and sleep() Method
-- Difference Between notify() and notifyAll() Methods
-- Volatile Keyword
-- Executor Framework
-- Thread Pool
-- Difference between Callable and Runnable Interface
-- When Do You Get InterruptedException?
+- [What is Process and What is Thread and Their Differences?](#what-is-process-and-what-is-thread-and-their-differences)
+- [What is Multithreading?](#what-is-multithreading)
+- [What is the Advantage of Multithreading?](#what-is-the-advantage-of-multithreading)
+- [How Many Ways Can We Create a Thread?](#how-many-ways-can-we-create-a-thread)
+- [Which Approach is Better?](#which-approach-is-better)
+- [Can We Run the Same Thread Twice?](#can-we-run-the-same-thread-twice)
+- [What is Thread Priority?](#what-is-thread-priority)
+- [What is Thread Life Cycle?](#what-is-thread-life-cycle)
+- [What is the Use of Join Method?](#what-is-the-use-of-join-method)
+- [What is the Use of Yield Method?](#what-is-the-use-of-yield-method)
+- [What is Deadlock?](#what-is-deadlock)
+- [What is Thread Scheduler in Java?](#what-is-thread-scheduler-in-java)
+- [What is the Difference Between start() and run() Method Call?](#what-is-the-difference-between-start-and-run-method-call)
+- [Can We Overload run() Method?](#can-we-overload-run-method)
+- [What Will Happen if We Don’t Override the Thread Class run() Method?](#what-will-happen-if-we-dont-override-the-thread-class-run-method)
+- [Can We Override start() Method of Thread Class?](#can-we-override-start-method-of-thread-class)
+- [What Happens When We Call run() Method Explicitly?](#what-happens-when-we-call-run-method-explicitly)
+- [Singleton Design Pattern](#singleton-design-pattern)
+- [Synchronization](#synchronization)
+- [Method Synchronization](#method-synchronization)
+- [Synchronized Block](#synchronized-block)
+- [Can a Thread Acquire Multiple Locks Simultaneously?](#can-a-thread-acquire-multiple-locks-simultaneously)
+- [Wait() Method](#wait-method)
+- [Difference Between User Thread and Daemon Thread](#difference-between-user-thread-and-daemon-thread)
+- [Calling the run() Method of a Thread Class](#calling-the-run-method-of-a-thread-class)
+- [Ensuring main() is the Last Thread to Finish in Java Program](#ensuring-main-is-the-last-thread-to-finish-in-java-program)
+- [Why Thread sleep() and yield() Methods are Static?](#why-thread-sleep-and-yield-methods-are-static)
+- [Inter Thread Communication](#inter-thread-communication)
+- [wait, notify, and notifyAll Methods](#wait-notify-and-notifyall-methods)
+- [Difference Between wait() and sleep() Method](#difference-between-wait-and-sleep-method)
+- [Difference Between notify() and notifyAll() Methods](#difference-between-notify-and-notifyall-methods)
+- [Volatile Keyword](#volatile-keyword)
+- [Executor Framework](#executor-framework)
+- [Thread Pool](#thread-pool)
+- [Difference between Callable and Runnable Interface](#difference-between-callable-and-runnable-interface)
+- [When Do You Get InterruptedException?](#when-do-you-get-interruptedexception)
 ---
 
 ### Multithreading
