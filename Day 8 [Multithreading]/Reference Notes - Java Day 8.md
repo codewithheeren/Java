@@ -17,7 +17,7 @@
    - What is Thread Priority?
    - What is Thread Scheduler in Java?
 
-3. [3. Multithreading Methods: start(), run(), join(), and yield()](#multithreading-methods-start-run-join-and-yield)
+3. [Multithreading Methods: start(), run(), join(), and yield()](#multithreading-methods-start-run-join-and-yield)
    - start()
    - run()
    - join()
