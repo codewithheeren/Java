@@ -67,7 +67,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Introduction To Multithreading</th>
     </tr>
@@ -101,7 +101,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2. Thread Life Cycle, Thread Priority and Thread Scheduler</th>
     </tr>
@@ -145,7 +145,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2. Multithrading Methods : start(), run(), join() And yield()</th>
     </tr>
@@ -190,7 +190,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3. Deadlock</th>
     </tr>
@@ -204,7 +204,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4. SINGLETON DESIGN PATTERN</th>
     </tr>
@@ -216,7 +216,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6. Synchronization</th>
     </tr>
@@ -247,7 +247,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6. Synchronized Block and Synchronized methods</th>
     </tr>
@@ -305,7 +305,7 @@
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">7. Wait Vs Sleep methods</th>
     </tr>
@@ -329,7 +329,7 @@ can be used to pause the execution of current thread for specified time in milli
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">8. Inter Thread Communication and wait(), notify(), notifyAll()</th>
     </tr>
@@ -365,7 +365,7 @@ can be used to pause the execution of current thread for specified time in milli
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">9. Volatile Keyword</th>
     </tr>
@@ -380,7 +380,7 @@ can be used to pause the execution of current thread for specified time in milli
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">10. Executor Framework</th>
     </tr>
@@ -405,7 +405,7 @@ can be used to pause the execution of current thread for specified time in milli
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">11. Runnable Vs Callable</th>
     </tr>
