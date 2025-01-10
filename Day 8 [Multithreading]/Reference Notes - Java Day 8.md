@@ -164,6 +164,10 @@
 
 - Calling `run()` method explicitly will execute the `run()` method synchronously in the current thread, without starting a new thread.
 
+🔵 **Why Thread `sleep()` and `yield()` Methods are Static?**
+
+- These methods apply to the current executing thread and are not specific to any thread object. They are common for all threads.
+
 ## 3. Deadlock
 <table>
     <tr>
@@ -237,30 +241,35 @@
      - `synchronized(this)` (locks on the current instance of the class)
      - `synchronized(any reference variable)` (locks on the specified object referenced by `any reference variable`)   
   - Examples: 
-    
+
+ ```java   
  USECASE 1  
     Synchronized(this)  //current class object lock   
     {   
      ----   
     }   
+
   USECASE 2    
    Temp temp = new Temp();   
    Synchronized(temp)    
    {   
      —---------   
-   }    
+   }
+   
   USECASE 3    
    Synchronized(Temp.class)    
    {   
    —---------   
-   }   
+   }
+
   USECASE 4   
    int x= 10;   
    Synchronized(x)  //will not work with primitive types    
    {   
     —---------   
     —-------------    
-   }    
+   }
+```
       
 🔵 **Limitations of `synchronized`**:
   - `synchronized(x)`: Cannot use primitive types (`x` must be an object reference).
@@ -274,33 +283,41 @@
 
 - Yes, a thread can acquire multiple locks in nested synchronized blocks.
 
-**Wait() Method**
+## 7. Wait Vs Sleep methods
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">7. Wait Vs Sleep methods</th>
+    </tr>
+</table>
+
+🔵 **Wait() Method**
 
 - Releases the lock of the current thread.
 - When a thread calls `wait()`, it goes into a waiting state and remains there until the same object is notified or `notifyAll()` is called, after which the thread can resume execution.
 
-**Sleep()**   
+🔵 **Sleep()**   
 
 can be used to pause the execution of current thread for specified time in milliseconds.
 
-**Difference Between User Thread and Daemon Thread**
+🔵 **Difference Between `wait()` and `sleep()` Method**
 
-- **User Thread**: Continues to run until the application terminates.
-- **Daemon Thread**: Supports the application's main thread and terminates if all user threads are finished.
+- `wait()`: Releases the lock and waits until notified.
+- `sleep()`: Pauses the thread's execution for a specified amount of time.
 
-**Calling the `run()` Method of a Thread Class**
+## 8. Inter Thread Communication and Wait/Notify
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">8. Inter Thread Communication and wait(), notify(), notifyAll()</th>
+    </tr>
+</table>
 
-- Directly calling `run()` method doesn't create a new thread and executes in the calling thread's stack.
-
-**Ensuring `main()` is the Last Thread to Finish in Java Program**
-
-- Use `Thread.join()` method to wait for all created threads to complete before the main function finishes.
-
-**Why Thread `sleep()` and `yield()` Methods are Static?**
-
-- These methods apply to the current executing thread and are not specific to any thread object. They are common for all threads.
-
-**Inter Thread Communication and Wait/Notify**
+🔵 **Inter Thread Communication and Wait/Notify**
 
 - **Inter Thread Communication**: Mechanism where threads communicate with each other.
 - **Wait, Notify, and NotifyAll**:
@@ -308,22 +325,48 @@ can be used to pause the execution of current thread for specified time in milli
   - `notify()`: Wakes up a single waiting thread.
   - `notifyAll()`: Wakes up all waiting threads.
 
-**Difference Between `wait()` and `sleep()` Method**
-
-- `wait()`: Releases the lock and waits until notified.
-- `sleep()`: Pauses the thread's execution for a specified amount of time.
-
-**Difference Between `notify()` and `notifyAll()`**
+🔵 **Difference Between `notify()` and `notifyAll()`**
 
 - `notify()`: Wakes up a single waiting thread.
 - `notifyAll()`: Wakes up all waiting threads.
+
+🔵 **Difference Between User Thread and Daemon Thread**
+
+- **User Thread**: Continues to run until the application terminates.
+- **Daemon Thread**: Supports the application's main thread and terminates if all user threads are finished.
+
+🔵 **Calling the `run()` Method of a Thread Class**
+
+- Directly calling `run()` method doesn't create a new thread and executes in the calling thread's stack.
+
+🔵 **Ensuring `main()` is the Last Thread to Finish in Java Program**
+
+- Use `Thread.join()` method to wait for all created threads to complete before the main function finishes.
+
+## 9. Volatile Keyword
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">9. Volatile Keyword</th>
+    </tr>
+</table>
 
 **Volatile Keyword**
 
 - `volatile`: Indicates that a variable's value will be modified by different threads.
 - Ensures visibility and prevents caching of variable value in threads.
 
-**Executor Framework**
+## 10. Executor Framework
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">10. Executor Framework</th>
+    </tr>
+</table>
 
 - **Java Concurrency API** provides interfaces for concurrent programming.
 -  Executor Framework in Java provides a higher-level abstraction for managing and controlling the execution of asynchronous tasks using thread pools.
@@ -340,7 +383,16 @@ can be used to pause the execution of current thread for specified time in milli
 
 - `InterruptedException` is thrown when a thread is waiting, sleeping, or doing I/O operations and gets interrupted by another thread.
 
-**Runnable Vs Callable**
+## 11. Runnable Vs Callable
+<table>
+    <tr>
+        <td><a href="#">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+        </a></td>
+        <th align="left">11. Runnable Vs Callable</th>
+    </tr>
+</table> 
+
 - The run() method is used for implementing the Runnable, whereas the call() method is used for implementing the Callable. 
 - The run() method doesn't return anything, whereas the call() method returns a result of completion.
 - The call() method can throw an exception, whereas the run() method cannot.
