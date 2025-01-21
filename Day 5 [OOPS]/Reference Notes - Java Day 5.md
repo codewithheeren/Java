@@ -25,7 +25,7 @@
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">1. instanceof Operator</th>
     </tr>
@@ -44,7 +44,7 @@
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-shallow-cloning-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2.1 Cloning</th>
     </tr>
@@ -54,7 +54,7 @@
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-deep-cloning-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2.2 Shallow Cloning And Deep Cloning</th>
     </tr>
@@ -69,7 +69,7 @@ An immutable class is a class whose instances cannot be modified once created.
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-custom-immutable-video">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3. Immutable Class</th>
     </tr>
@@ -92,7 +92,7 @@ A nested class, also known as an inner class, is a class declared inside another
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-static-nested-class-video">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.1 Static Nested Class</th>
     </tr>
@@ -113,7 +113,7 @@ When a program containing a local inner class is compiled, the compiler generate
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instance-nested-class-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.2 Instance Nested Class</th>
     </tr>
@@ -127,7 +127,7 @@ When a program containing a local inner class is compiled, the compiler generate
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-local-inner-class-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.3 Local Inner Class</th>
     </tr>
@@ -141,7 +141,7 @@ When a program containing a local inner class is compiled, the compiler generate
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-anonymous-class-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.4 Anonymous Class</th>
     </tr>
@@ -154,7 +154,7 @@ When a program containing a local inner class is compiled, the compiler generate
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-anonymous-class-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.5 Inner Interface</th>
     </tr>
