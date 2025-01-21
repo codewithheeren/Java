@@ -18,7 +18,7 @@
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">What is Exception</th>
     </tr>
@@ -41,7 +41,7 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Checked and Unchecked Exceptions</th>
     </tr>
@@ -64,7 +64,7 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Exception Hierarchy</th>
     </tr>
@@ -111,7 +111,7 @@ Occurs when the JVM or a classloader tries to load a class that was available at
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Try Catch block</th>
     </tr>
@@ -143,7 +143,7 @@ Occurs when the JVM or a classloader tries to load a class that was available at
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Finally Block</th>
     </tr>
@@ -176,7 +176,7 @@ Called by the garbage collector before an object is destroyed to perform cleanup
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Method Overriding in case of Exceptions</th>
     </tr>
@@ -200,7 +200,7 @@ Called by the garbage collector before an object is destroyed to perform cleanup
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Exception Propagation</th>
     </tr>
@@ -213,7 +213,7 @@ Exception propagation is the process where an exception is thrown by one method 
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">TryWithResource</th>
     </tr>
@@ -227,7 +227,7 @@ Exception propagation is the process where an exception is thrown by one method 
 <table>
     <tr>
         <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Custom Exceptions</th>
     </tr>
