@@ -46,8 +46,8 @@ Abstraction is the process of showing functionality while hiding the implementat
 ## 2. Abstract Class And Difference b/w Abstract Class and Interface  
 <table>
     <tr>
-        <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/POO4e6neox0">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">2. Abstract Class And Abstract Class vs Interface</th>
     </tr>
