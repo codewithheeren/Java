@@ -95,7 +95,7 @@ Abstraction is the process of showing functionality while hiding the implementat
 <table>
     <tr>
         <td><a href="#">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3. Marker Interface</th>
     </tr>
@@ -122,7 +122,7 @@ Encapsulation is the process of wrapping code and data together into a single un
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">5. Type Casting</th>
     </tr>
@@ -171,7 +171,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6.1 Object Class</th>
     </tr>
@@ -190,7 +190,7 @@ Wrapper classes are datatype supported classes, use to represent values in form 
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">6.2 Equality vs equals method</th>
     </tr>
@@ -202,7 +202,7 @@ In Java, Use == for reference comparison and equals() for value comparison.
 <table>
     <tr>
         <td><a href="#">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">7.ToString method</th>
     </tr>
