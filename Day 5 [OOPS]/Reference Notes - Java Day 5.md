@@ -91,8 +91,8 @@ A nested class, also known as an inner class, is a class declared inside another
 
 <table>
     <tr>
-        <td><a href="https://youtu.be/link-to-static-nested-class-video">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/kSjBPxU5GxY">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.1 Static Nested Class</th>
     </tr>
