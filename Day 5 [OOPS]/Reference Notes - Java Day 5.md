@@ -112,8 +112,8 @@ When a program containing a local inner class is compiled, the compiler generate
 
 <table>
     <tr>
-        <td><a href="https://youtu.be/link-to-instance-nested-class-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/WBT654ObPlg">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.2 Instance Nested Class</th>
     </tr>
