@@ -68,8 +68,8 @@
 An immutable class is a class whose instances cannot be modified once created.
 <table>
     <tr>
-        <td><a href="https://youtu.be/link-to-custom-immutable-video">
-            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/qbQhrM6mca8">
+            <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">3. Immutable Class</th>
     </tr>
