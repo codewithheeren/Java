@@ -153,8 +153,8 @@ When a program containing a local inner class is compiled, the compiler generate
 
 <table>
     <tr>
-        <td><a href="https://youtu.be/link-to-anonymous-class-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/0dsFNR3omy4">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">4.5 Inner Interface</th>
     </tr>
