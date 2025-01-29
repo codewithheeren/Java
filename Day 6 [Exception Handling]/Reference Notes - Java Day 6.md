@@ -40,8 +40,8 @@ Exception Handling is a mechanism used to handle exceptions. It allows defining 
 ## 2. Classification of Exception
 <table>
     <tr>
-        <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/SVu8R-Ai1O0">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Checked and Unchecked Exceptions</th>
     </tr>
