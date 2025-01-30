@@ -1,6 +1,40 @@
 ## Exception Handling 
 
 ### ExceptionHandling12.java
+```java
+/**
+ * UseCase 0 parent method in throwing an Exception which is parent of Child method's exception. 
+ * @author Heeren
+ * @version 1.0
+ */
+package com.codewithheeren.exception;
+import java.io.IOException;
+
+class Superclass {
+    public void readFile() throws Exception {
+        System.out.println("Reading file in superclass");
+        throw new IOException("IO Exception occurred");
+    }
+}
+
+class Subclass extends Superclass {
+    @Override
+    public void readFile() throws ArithmeticException {
+            System.out.println("Reading file in subclass");   
+    }
+}
+
+public class ExceptionHandling12 {
+    public static void main(String[] args) {
+        Superclass obj = new Subclass();
+        try {
+            obj.readFile();
+        }  catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+}
+```
 
 ```java
 /**
