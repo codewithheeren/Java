@@ -182,9 +182,10 @@ Called by the garbage collector before an object is destroyed to perform cleanup
     </tr>
 </table>
 
-- parent method in throwing an Exception which is parent of Child method's exception. 
-- If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
-- If the superclass method declares an exception, subclass overridden method can declare the same, subclass exception or no exception but cannot declare parent exception.
+- parent method in throwing an Exception which is parent of Child method's exception.
+**In case of Compiletime Exception**   
+- If the Parent clas method does not declare an exception then child class overridden method cannot declare the checked/compiletime exception but still it can declare unchecked exception.
+- If the Parent method declares an exception then child class overridden method can declare the same exception or child exception type or no exception but cannot declare parent exception type.
 
 **In case of Runtime Exception**   
 - In runtime exception for method overriding, exception hierarchy do not matter   
