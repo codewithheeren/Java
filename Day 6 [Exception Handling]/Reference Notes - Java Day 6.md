@@ -182,8 +182,7 @@ Called by the garbage collector before an object is destroyed to perform cleanup
     </tr>
 </table>
 
-- There should be a parent to child relationship for exception hierarchy 
-- Ex:
+- parent method in throwing an Exception which is parent of Child method's exception. 
 - If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but it can declare unchecked exception.
 - If the superclass method declares an exception, subclass overridden method can declare the same, subclass exception or no exception but cannot declare parent exception.
 
