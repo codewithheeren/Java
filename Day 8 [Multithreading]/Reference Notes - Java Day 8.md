@@ -111,7 +111,7 @@
 
 - The thread life cycle represents various states a thread can be in, including new, runnable, blocked, waiting, timed waiting, and terminated.
   
-  ![lifecycle](https://github.com/codewithheeren/Java/assets/87074236/2e296a71-1cc2-4d7b-8b61-6e3671dd36e7)
+![image](https://github.com/user-attachments/assets/a00898b9-1400-4a7e-b3d3-17b1fcbbb839)
 
 1. **New**: Thread is created.
 2. **Runnable**: Thread is ready to run but not yet scheduled.
