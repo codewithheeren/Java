@@ -175,8 +175,8 @@ Called by the garbage collector before an object is destroyed to perform cleanup
 ## 6. Method Overriding in case of Exceptions
 <table>
     <tr>
-        <td><a href="https://youtu.be/link-to-instanceof-video">
-             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e4" alt="yt" width="20" height="20">
+        <td><a href="https://youtu.be/llB_PtQ4_48">
+             <img src="https://github.com/user-attachments/assets/393a6073-ba6a-48dd-972b-9e9b8d908e45" alt="yt" width="20" height="20">
         </a></td>
         <th align="left">Method Overriding in case of Exceptions</th>
     </tr>
